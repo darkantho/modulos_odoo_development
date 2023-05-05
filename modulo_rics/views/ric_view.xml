@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--search view -->
+<!--    <record id="ot_search" model="ir.ui.view">-->
+<!--        <field name="name">db.ots.search</field>-->
+<!--        <field name="model">db.ots</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <search string="OT">-->
+<!--                <field name="ot_number"/>-->
+<!--                <field name="area"/>-->
+<!--                <field name="client_name"/>-->
+<!--                <separator/>-->
+<!--                <filter string="OT Vencidas" name="state_ot" domain="[('state_ot','=','vencida')]"/>-->
+<!--                <filter string="OT Finalizadas" name="state_ot" domain="[('state_ot','=','finalizada')]"/>-->
+<!--                <filter string="OT Canceladas" name="state_ot" domain="[('state_ot','=','cancelada')]"/>-->
+<!--                <filter string="OT Abiertas" name="state_ot" domain="[('state_ot','=','progreso')]"/>-->
+<!--                <group expand="1" string="Group By">-->
+<!--                    <filter string="Area" name="area" context="{'group_by':'area'}"/>-->
+<!--                    <filter string="Estado" name="state_ot" context="{'group_by':'state_ot'}"/>-->
+<!--                    <filter string="Avance OT" name="ot_progress_cat" context="{'group_by':'ot_progress_cat'}"/>-->
+<!--                </group>-->
+<!--            </search>-->
+
+
+<!--        </field>-->
+
+<!--    </record>-->
+    <!--tree view-->
+    <!--decoration-danger take color red-->
+    <!--decoration-warning take color yellow-->
+    <record id="tree_view_ric_news" model="ir.ui.view">
+            <field name="name">rics.tree.views</field>
+            <field name="model">rics.inducom</field>
+            <field name="arch" type="xml">
+                <tree  decoration-success="state_of_ric=='C'"
+                       decoration-danger="state_of_ric=='NC'">
+<!--                    <header>-->
+<!--                        <button name="report_excel" type="object" string="Reporte Excel" />-->
+<!--                    </header>-->
+                    <field name="ric_number" string="RIC"  />
+                    <field name="client" string="Cliente"/>
+                    <field name="state_of_ric"  decoration-success="state_of_ric=='C'"
+                                                decoration-danger="state_of_ric=='NC'"
+                                                widget="badget"/>
+
+                </tree>
+            </field>
+    </record>
+<!--form view-->
+    <record id="view_ot_new" model="ir.ui.view">
+            <field name="name">RIC</field>
+            <field name="model">rics.inducom</field>
+            <field name="arch" type="xml">
+                    <form string="orden">
+                        <header>
+                             <button name="action_download_ric" type="object" string="descargar RIC" data-hotkey="d" class="oe_highlight"/>
+<!--                             <button name="action_send_ric" type="object" string="Enviar Notificación" data-hotkey="s" class="oe_highlight"/>-->
+                        </header>
+                        <sheet>
+                            <div class="oe_title">
+                                <h1>
+                                    <field name="ric_number" readonly="1"/>
+                                </h1>
+                            </div>
+                            <group>
+                                    <group>
+
+                                            <field name="ric_number" />
+                                            <field name="created_by" />
+                                            <field name="email" />
+                                            <field name="sol_attachment_selection" widget="radio" options="{'horizontal': true}"/>
+                                            <field name="area" widget="radio" options="{'horizontal': true}"/>
+                                            <field name="sol_attachment" attrs="{'invisible':[('sol_attachment_selection','!=','sol')]}" />
+                                            <field name="client" attrs="{'invisible':[('sol_attachment_selection','!=','ric')]}" />
+                                            <field name="ot_attachment" attrs="{'invisible':[('sol_attachment_selection','!=','ot')]}" />
+                                            <field name="codigo_adjunto"/>
+                                            <field name="date_sol_begin"/>
+                                            <field name="date_ric_end"/>
+                                            <field name="description"/>
+                                            <field name="date_sol_end" invisible="1" force_save="1"/>
+                                            <field name="state_of_ric" invisible="1" force_save="1"/>
+                                            <field name="ric_complete" widget="boolean_toggle"/>
+                                            <field name="list_of_materials">
+                                                    <tree editable="bottom">
+                                                        <field name="cantidad"/>
+                                                        <field name="descripcion"/>
+                                                        <field name="observacion"/>
+                                                    </tree>
+                                                    <form>
+                                                        <field name="cantidad"/>
+                                                        <field name="descripcion"/>
+                                                        <field name="observacion"/>
+                                                    </form>
+                                            </field>
+                                    </group>
+                            </group>
+
+                        </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+    </record>
+
+
+
+    <record id="action_new_ric" model="ir.actions.act_window">
+            <field name="name">Rics</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">rics.inducom</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Generar Rics
+                </p>
+            </field>
+    </record>
+
+    <menuitem id="rics_trabajo"
+                      name="Nuevo RIC"
+                      action="action_new_ric"
+                      parent="Ric_orders_root"
+                      sequence="0"
+    />
+
+<!--    <menuitem id="RIC_new_generator"-->
+<!--              name="Generar RIC"-->
+<!--              action="action_new_ric"-->
+<!--              parent="ordenes_trabajo"-->
+<!--              sequence="1"-->
+<!--    />-->
+
+
+
+</odoo>

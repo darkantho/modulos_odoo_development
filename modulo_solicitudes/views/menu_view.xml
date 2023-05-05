@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <data>
+            <menuitem id="sol_orders_root"
+                name="Solicitudes"
+                sequence="0"
+                web_icon="modulo_solicitudes,static/description/icon.png"
+            />
+    </data>
+
+
+
+</odoo>

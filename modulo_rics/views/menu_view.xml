@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <data>
+            <menuitem id="Ric_orders_root"
+                name="RICS"
+                sequence="0"
+                web_icon="modulo_rics,static/description/icon.png"
+            />
+    </data>
+
+
+
+</odoo>

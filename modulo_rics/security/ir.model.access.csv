@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+modulo_rics.access_rics_inducom,access_rics_inducom,modulo_rics.model_rics_inducom,base.group_user,1,1,1,1
+modulo_rics.access_listado_ric_inducom,access_listado_ric_inducom,modulo_rics.model_listado_ric_inducom,base.group_user,1,1,1,1

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<!--search view -->
+    <record id="sol_search" model="ir.ui.view">
+        <field name="name">sol.search</field>
+        <field name="model">solicitudes.inducom</field>
+        <field name="arch" type="xml">
+            <search string="OT">
+                <field name="sol_number"/>
+                <field name="client_name"/>
+<!--                <separator/>-->
+<!--                <filter string="OT Vencidas" name="state_ot" domain="[('state_ot','=','vencida')]"/>-->
+<!--                <filter string="OT Finalizadas" name="state_ot" domain="[('state_ot','=','finalizada')]"/>-->
+<!--                <filter string="OT Canceladas" name="state_ot" domain="[('state_ot','=','cancelada')]"/>-->
+<!--                <filter string="OT Abiertas" name="state_ot" domain="[('state_ot','=','progreso')]"/>-->
+<!--                <group expand="1" string="Group By">-->
+<!--                    <filter string="Area" name="area" context="{'group_by':'area'}"/>-->
+<!--                    <filter string="Estado" name="state_ot" context="{'group_by':'state_ot'}"/>-->
+<!--                    <filter string="Avance OT" name="ot_progress_cat" context="{'group_by':'ot_progress_cat'}"/>-->
+<!--                </group>-->
+            </search>
+        </field>
+    </record>
+
+
+<!--tree view-->
+     <record id="tree_view_solicitudes" model="ir.ui.view">
+            <field name="name">solicitudes.view.tree</field>
+            <field name="model">solicitudes.inducom</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="sol_number" string="Nº de solicitud"  />
+                    <field name="client_name" string="Cliente"/>
+                    <field name="created_by" string="Vendedor" />
+                    <field name="factura"  string="Factura Nº"/>
+                </tree>
+            </field>
+    </record>
+
+<!--form view-->
+    <record id="view_ot_new" model="ir.ui.view">
+            <field name="name">OT</field>
+            <field name="model">solicitudes.inducom</field>
+            <field name="arch" type="xml">
+                    <form string="orden" create="false">
+                        <header>
+                             <button name="create_ot" type="object" string="Generar Orden de Trabajo"  class="oe_highlight"/>
+                             <button name="download_pdf" type="object" string="Descargar PDF"  class="oe_highlight"/>
+<!--                             <button name="send_mail_temp" type="object" string="enviar alerta"  class="oe_highlight"/>-->
+                        </header>
+                        <sheet>
+                            <div class="oe_title">
+                                <h1>
+                                    <field name="sol_number" readonly="1"/>
+                                </h1>
+<!--                                <h1>-->
+<!--                                    <field name="client_name" readonly="1"/>-->
+<!--                                </h1>-->
+                            </div>
+                            <group>
+                                <group string="Informacion Inicial">
+                                        <field name="sol_number" />
+                                        <field name="fecha_incio" />
+                                        <field name="client_name" />
+                                        <field name="responsable" />
+                                        <field name="informacion_adicional" />
+                                </group>
+
+                                <group string="Datos del cliente">
+                                        <field name="email_client"/>
+                                        <field name="celular"/>
+                                        <field name="telefono"/>
+
+                                </group>
+
+
+                                <group string="Especificaciones del Trabajo">
+                                    <field name="created_by" />
+                                    <field name="email_user"/>
+                                    <field name="area_sol"/>
+                                    <field name="factura"/>
+                                    <field name="fecha_factura" />
+                                    <field name="equipo" />
+                                    <field name="serie"/>
+                                    <field name="modelo"/>
+                                    <field name="trabajo"/>
+                                    <field name="descripcion"/>
+                                </group>
+
+                                <group string="Seccion de evidencias">
+                                    <field name="evidencia1"/>
+                                    <field name="evidencia2"/>
+                                </group>
+                            </group>
+                        </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+    </record>
+
+
+
+    <record id="action_new_sol" model="ir.actions.act_window">
+            <field name="name">solicitudes de trabajo</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">solicitudes.inducom</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    agregar solicitudes de trabajo
+                </p>
+            </field>
+    </record>
+
+    <menuitem id="solicitudes_de_trabajo"
+                      name="Nueva Solicitud"
+                      action="action_new_sol"
+                      parent="sol_orders_root"
+                      sequence="0"
+    />
+
+<!--    <menuitem id="RIC_new_generator"-->
+<!--              name="Generar RIC"-->
+<!--              action="action_new_ric"-->
+<!--              parent="ordenes_trabajo"-->
+<!--              sequence="1"-->
+<!--    />-->
+
+
+
+</odoo>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+   <data>
+
+       <record id="RIC_template_PDF" model="ir.actions.report">
+            <field name="name">RIC PDF</field>
+            <field name="model">rics.inducom</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">modulo_rics.ric_pdf_template</field>
+            <field name="report_file">modulo_rics.ric_pdf_template</field>
+            <field name="print_report_name">object.ric_number</field>
+            <field name="attachment">'orden de trabajo.pdf'</field>
+            <field name="binding_model_id" ref="model_rics_inducom"/>
+            <field name="binding_type">report</field>
+        </record>
+
+   </data>
+
+<!--   <report-->
+<!--        id="report_ot_email"-->
+<!--        string="Orden de trabajo"-->
+<!--        model="db.ots"-->
+<!--        report_type="qweb-pdf"-->
+<!--        name="modulo_operaciones.ot_order_mail"-->
+<!--        file="modulo_operaciones.ot_order_mail"/>-->
+
+</odoo>
+

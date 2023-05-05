@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <!-- Mail template are declared in a NOUPDATE block
+         so users can freely customize/delete them -->
+    <data noupdate="1">
+
+        <record id="sol_mail_template" model="mail.template">
+            <field name="name">sol Template </field>
+            <field name="model_id" ref="modulo_solicitudes.model_solicitudes_inducom"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">ventas1@inducom-ec.com</field>
+            <field name="subject">Nueva solicitud de trabajo No {{object.sol_number}} cliente {{object.client_name.client}}</field>
+            <field name="body_html" type="html">
+                    <div  style="margin: 0px; padding: 0px; ">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            Nueva solicitud de trabajo generada por el vendedor <t t-out="object.created_by"></t>
+                            <br/><br />
+                            Cliente : <t t-out="object.client_name.client"></t>
+                            <br/><br/>
+                            Area: <t t-out="object.get_area(object.area_sol)"></t>
+                            <br/><br/>
+                            Trabajo: <t t-out="object.get_type_of_problem(object.trabajo)"></t>
+                            <br/><br/>
+                            Descripcion: <t t-out="object.descripcion"></t>
+                            <br/><br/>
+                        </p>
+                    </div>
+            </field>
+        </record>
+
+    </data>
+</odoo>

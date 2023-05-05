@@ -1,0 +1,1 @@
+from . import ric_model

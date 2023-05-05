@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="sol_document">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2 class="text-center">
+                            Solicitud de Trabajo del area de <span t-esc="o.get_area(o.area_sol)"/>: <span t-field="o.sol_number"/>  <span t-field="o.client_name.client"/>
+                        </h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <tr>
+                                <td>
+                                    <strong>Fecha:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.fecha_incio"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Cliente:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.client_name.client"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Responsable en recibir (Cliente):</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.responsable"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Informacion adicional (Cliente)</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.informacion_adicional"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Area</strong>
+                                </td>
+
+                                <td>
+                                    <span t-esc="o.get_area(o.area_sol)"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Correo(Cliente)</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.email_client"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Celular(Cliente)</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.celular"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Vendedor</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.created_by"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Factura</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.factura"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Fecha Factura</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.fecha_factura"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Equipo</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.equipo"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Serie</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.serie"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>modelo</strong>
+                                </td>
+
+                                <td>
+                                    <span t-field="o.modelo"/>
+                                </td>
+                            </tr>
+
+
+                            <tr>
+                                <td>
+                                    <strong>Motivo de la Solicitud</strong>
+                                </td>
+
+                                <td>
+                                    <span t-esc="o.get_type_of_problem(o.trabajo)"/>
+                                </td>
+                            </tr>
+
+                        </table>
+
+                        <p style="page-break-after:always !important;">
+
+                            <h2 class="text-center pt-4">Descripcion del Trabajo</h2>
+                            <table class="table table-condensed" style="border: 3px solid black !important;">
+                                <tr>
+                                    <span t-field="o.descripcion"/>
+                                </tr>
+                            </table>
+
+                        </p>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+
+<!--    <template id="ot_order_mail">-->
+<!--        <t t-call="web.html_container">-->
+<!--            <t t-foreach="docs" t-as="o">-->
+<!--                <t t-call="web.external_layout">-->
+<!--                    <div class="page">-->
+<!--                        <h1 class="text-center">-->
+<!--                            Orden de Trabajo : <span t-field="o.ot_number"/>-->
+<!--                        </h1>-->
+<!--                        <table class="table table-condensed" style="border: 3px solid black !important;">-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Fecha:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.ot_begin"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Cliente:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.client_name"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--&lt;!&ndash;                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <strong>Responsable de la OT:</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span t-field="o.to"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </tr>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <strong>Correo:</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span t-field="o.email_to"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </tr>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <strong>Area Encargada de la OT:</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span t-field="o.Area"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </tr>&ndash;&gt;-->
+
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Fecha de entrega de la OT:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.ot_end"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+
+<!--                        </table>-->
+<!--                        <![CDATA[&nbsp;]]>-->
+<!--                        <h2 class="text-center">Lista de materiales</h2>-->
+<!--                        <table class="table table-condensed" style="border: 3px solid black !important;">-->
+<!--                            <thead>-->
+<!--                                <tr>-->
+<!--                                    <th>Item</th>-->
+<!--                                    <th>Cantidad</th>-->
+<!--                                    <th>Estado Inicial</th>-->
+<!--                                </tr>-->
+<!--                            </thead>-->
+<!--                            <tbody>-->
+<!--                                <tr t-foreach="o.bom_ids" t-as="move">-->
+<!--                                    <td>-->
+<!--                                        <span t-field="move.material_id"/>-->
+<!--                                    </td>-->
+
+<!--                                    <td>-->
+<!--                                        <span t-field="move.cantidad"/>-->
+<!--                                    </td>-->
+
+<!--                                    <td>-->
+<!--                                        <span t-field="move.estado"/>-->
+<!--                                    </td>-->
+
+<!--                                </tr>-->
+<!--                            </tbody>-->
+<!--                        </table>-->
+
+<!--                    </div>-->
+<!--                </t>-->
+<!--            </t>-->
+<!--        </t>-->
+<!--    </template>-->
+
+</odoo>

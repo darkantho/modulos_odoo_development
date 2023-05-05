@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+   <data>
+        <record id="sol_template_PDF" model="ir.actions.report">
+            <field name="name">solicitudes de trabajo</field>
+            <field name="model">solicitudes.inducom</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">modulo_solicitudes.sol_document</field>
+            <field name="report_file">modulo_solicitudes.sol_document</field>
+            <field name="print_report_name">object.sol_number</field>
+            <field name="attachment">'orden de trabajo.pdf'</field>
+            <field name="binding_model_id" ref="model_solicitudes_inducom"/>
+            <field name="binding_type">report</field>
+        </record>
+   </data>
+
+<!--   <report-->
+<!--        id="report_ot_email"-->
+<!--        string="Orden de trabajo"-->
+<!--        model="db.ots"-->
+<!--        report_type="qweb-pdf"-->
+<!--        name="modulo_operaciones.ot_order_mail"-->
+<!--        file="modulo_peraciones.ot_order_mail"/>-->
+
+</odoo>
+

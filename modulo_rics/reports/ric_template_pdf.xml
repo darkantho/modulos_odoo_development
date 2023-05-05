@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="ric_pdf_template">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2 class="text-center">
+                            <span t-field="o.ric_number"/>:
+                            <div>
+                                    <p t-if="o.client.id >=0 and o.ot_attachment.id==False and o.sol_attachment.id==False">
+                                        <span t-field="o.client"/>
+                                    </p>
+                                    <p t-elif="o.client.id == False and o.ot_attachment.id>=0 and o.sol_attachment.id==False">
+                                        <span t-field="o.ot_attachment"/>
+                                    </p>
+                                    <p t-else="">
+                                        <span t-field="o.sol_attachment"/>
+                                    </p>
+                            </div>
+                        </h2>
+
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+<!--                            <tr>-->
+
+<!--                                <td>-->
+<!--                                    <strong>RIC No:</strong>-->
+<!--                                </td>-->
+
+<!--                                <td>-->
+<!--                                    <span t-field="o.ric_number"/>-->
+<!--                                </td>-->
+
+<!--                            </tr>-->
+
+                            <tr>
+
+                                <td>
+                                    <strong>Solicitante:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.created_by"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Correo:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.email"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div>
+                                        <p t-if="o.client.id >=0 and o.ot_attachment.id==False and o.sol_attachment.id==False">
+                                            <strong>CLIENTE:</strong>
+                                        </p>
+                                        <p t-elif="o.client.id == False and o.ot_attachment.id>=0 and o.sol_attachment.id==False">
+                                            <strong>OT:</strong>
+                                        </p>
+                                        <p t-else="">
+                                            <strong>SOLICITUD:</strong>
+                                        </p>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <p t-if="o.client.id >=0 and o.ot_attachment.id==False and o.sol_attachment.id==False">
+                                            <span t-field="o.client"/>
+                                        </p>
+                                        <p t-elif="o.client.id == False and o.ot_attachment.id>=0 and o.sol_attachment.id==False">
+                                            <span t-field="o.ot_attachment"/>
+                                        </p>
+                                        <p t-else="">
+                                            <span t-field="o.sol_attachment"/>
+                                        </p>
+                                    </div>
+                                </td>
+                            </tr>
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>orden de trabajo:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.orden"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+
+                            <tr>
+                                <td>
+                                    <strong>Fecha de solicitud:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.date_sol_begin"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Fecha de entrega :</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.date_ric_end"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Area Solicitante :</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.area"/>
+                                </td>
+                            </tr>
+
+                        </table>
+                        <![CDATA[&nbsp;]]>
+                        <h2 class="text-center">Detalle del RIC</h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <tr>
+                                <span t-field="o.description"/>
+                            </tr>
+                        </table>
+                        <![CDATA[&nbsp;]]>
+                        <h2 class="text-center">Materiales</h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <thead>
+                                <tr>
+                                    <th>cantidad</th>
+                                    <th>descripcion</th>
+                                    <th>observacion</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach="o.list_of_materials" t-as="list_move">
+                                    <td>
+                                        <span t-field="list_move.cantidad"/>
+                                    </td>
+
+                                    <td>
+                                        <span t-field="list_move.descripcion"/>
+                                    </td>
+
+                                    <td>
+                                        <span t-field="list_move.observacion"/>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+
+
+</odoo>
