@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--tree view-->
+    <!--decoration-danger take color red-->
+    <!--decoration-warning take color yellow-->
+    <record id="tree_view_postventa_new" model="ir.ui.view">
+            <field name="name">postventa.new.view.tree</field>
+            <field name="model">postventa.inducom</field>
+            <field name="arch" type="xml">
+                <tree >
+                    <field name="ruc" string="RUC"/>
+                    <field name="fecha_emision" string="Fecha de Emision"/>
+                    <field name="codigo" string="Codigo Principal"/>
+                </tree>
+            </field>
+    </record>
+<!--form view-->
+    <record id="view_postventa_new" model="ir.ui.view">
+            <field name="name">postventa</field>
+            <field name="model">postventa.inducom</field>
+            <field name="arch" type="xml">
+                    <form string="orden">
+                        <header>
+                             <button name="action_send_postventa" type="object" string="Notificar" data-hotkey="s" class="oe_highlight"/>
+
+                        </header>
+                        <sheet>
+<!--                            <div class="oe_title">-->
+<!--                                <h1>-->
+<!--                                    <field name="ot_number" readonly="1"/>-->
+<!--                                </h1>-->
+<!--                                <h1>-->
+<!--                                    <field name="client_name" readonly="1"/>-->
+<!--                                </h1>-->
+<!--                            </div>-->
+                            <group>
+                                <field name="num_fact"/>
+                                <field name="ruc"/>
+                                <field name="fecha_emision"/>
+                                <field name="cliente"/>
+                                <field name="codigo"/>
+                                <field name="descripcion"/>
+                            </group>
+
+                        </sheet>
+<!--                    <div class="oe_chatter">-->
+<!--                        <field name="message_follower_ids" groups="base.group_user"/>-->
+<!--                        <field name="activity_ids"/>-->
+<!--                        <field name="message_ids"/>-->
+<!--                    </div>-->
+                </form>
+            </field>
+    </record>
+
+
+
+    <record id="postventa_new" model="ir.actions.act_window">
+            <field name="name">Postventa</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">postventa.inducom</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    agregar ordenes de postventa
+                </p>
+            </field>
+    </record>
+
+    <menuitem id="postventa"
+                      name="postventa"
+                      action="postventa_new"
+                      parent="postventa_root"
+                      sequence="0"
+    />
+
+
+
+
+</odoo>

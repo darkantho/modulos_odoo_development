@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--tree view-->
+    <!--decoration-danger take color red-->
+    <!--decoration-warning take color yellow-->
+    <record id="tree_view_proveedores" model="ir.ui.view">
+            <field name="name">proveedores.view.tree</field>
+            <field name="model">proveedores.inducom</field>
+            <field name="arch" type="xml">
+                <tree>
+<!--                    <header>-->
+<!--                        <button name="report_excel" type="object" string="Reporte Excel" />-->
+<!--                    </header>-->
+                    <field name="codigo" string="Codigo"/>
+                    <field name="nombre" string="Nombre"/>
+                    <field name="telefono" string="Telefono"/>
+                    <field name="ci_ruc" string="CI/RUC"/>
+                    <field name="correo" string="Correo"/>
+                </tree>
+            </field>
+    </record>
+<!--form view-->
+    <record id="view_ot_new" model="ir.ui.view">
+            <field name="name">proveedor</field>
+            <field name="model">proveedores.inducom</field>
+            <field name="arch" type="xml">
+                    <form string="Proveedor">
+<!--                        <header>-->
+<!--                             <button name="action_send_ot" type="object" string="enviar notificacion" data-hotkey="s" class="oe_highlight"/>-->
+<!--                             <button name="%(modulo_operaciones.action_new_ric)d" type="action" string="Generar RIC" data-hotkey="g" class="oe_highlight"/>-->
+<!--                        </header>-->
+                        <sheet>
+                            <group>
+                                <field name="codigo"/>
+                                <field name="nombre"/>
+                                <field name="telefono"/>
+                                <field name="ci_ruc"/>
+                                <field name="correo"/>
+                            </group>
+                        </sheet>
+<!--                    <div class="oe_chatter">-->
+<!--                        <field name="message_follower_ids" groups="base.group_user"/>-->
+<!--                        <field name="activity_ids"/>-->
+<!--                        <field name="message_ids"/>-->
+<!--                    </div>-->
+                </form>
+            </field>
+    </record>
+
+
+
+    <record id="action_new_proveedor" model="ir.actions.act_window">
+            <field name="name">proveedores inducom</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">proveedores.inducom</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    agregar proveedores asociados
+                </p>
+            </field>
+    </record>
+
+    <menuitem id="ordenes_trabajo"
+                      name="Nuevo Proveedor"
+                      action="action_new_proveedor"
+                      parent="proveedores_root"
+                      sequence="0"
+    />
+
+</odoo>

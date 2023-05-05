@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--tree view-->
+    <!--decoration-danger take color red-->
+    <!--decoration-warning take color yellow-->
+    <record id="rentabilidades_tree_view" model="ir.ui.view">
+            <field name="name">rentabilidades.news.view.tree</field>
+            <field name="model">rentabilidades.inducom</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="cuadro_rentabilidad_num" string="Cuadro de Rentabilidad"  />
+                    <field name="fecha_requision" string="Fecha de Requisicion"/>
+                    <field name="solicitante" string="Solicitante" />
+                    <field name="pvp" string="PVP"/>
+                    <field name="Rentabilidad" string="Rentabilidad"/>
+                </tree>
+            </field>
+    </record>
+<!--form view-->
+    <record id="view_rentabilidades_new" model="ir.ui.view">
+            <field name="name">Rentabilidades</field>
+            <field name="model">rentabilidades.inducom</field>
+            <field name="arch" type="xml">
+                    <form string="orden">
+                        <header>
+                             <button name="calculo_rent" type="object" string="Actualizar Rentabilidad" data-hotkey="s" class="oe_highlight"/>
+                        </header>
+                        <sheet>
+                            <group>
+
+                                <field name="cuadro_rentabilidad_num"/>
+                                <field name="fecha_requision"/>
+                                <field name="solicitante"/>
+                                <field name="cliente"/>
+                                <field name="pvp"/>
+                                <field name="Rentabilidad"/>
+                                <field name="Rentabilidad_percent"/>
+                                <field name="listado">
+                                    <tree editable="bottom">
+                                        <field name="material_id"/>
+                                        <field name="cantidad"/>
+                                        <field name="producto"/>
+                                        <field name="proveedor"/>
+                                        <field name="orden_compra"/>
+                                        <field name="precio_unitario"/>
+                                        <field name="costo"/>
+                                        <field name="estado"/>
+                                    </tree>
+                                    <form>
+                                        <field name="material_id"/>
+                                        <field name="cantidad"/>
+                                        <field name="producto"/>
+                                        <field name="proveedor"/>
+                                        <field name="orden_compra"/>
+                                        <field name="precio_unitario"/>
+                                        <field name="costo"/>
+                                        <field name="estado"/>
+                                    </form>
+                                </field>
+                            </group>
+                        </sheet>
+<!--                    <div class="oe_chatter">-->
+<!--                        <field name="message_follower_ids" groups="base.group_user"/>-->
+<!--                        <field name="activity_ids"/>-->
+<!--                        <field name="message_ids"/>-->
+<!--                    </div>-->
+                </form>
+            </field>
+    </record>
+
+
+
+    <record id="rentabilidades_action" model="ir.actions.act_window">
+            <field name="name">Rentabilidades</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">rentabilidades.inducom</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    agregar Rentabilidades
+                </p>
+            </field>
+    </record>
+
+    <menuitem id="Rentabilidades_menu"
+                      name="Rentabilidades"
+                      action="rentabilidades_action"
+                      parent="rentabilidades_root"
+                      sequence="0"
+    />
+
+
+
+
+
+</odoo>

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <!-- Mail template are declared in a NOUPDATE block
+         so users can freely customize/delete them -->
+<!--    <data noupdate="1">-->
+    <data>
+
+        <record id="postventa_mail_template" model="mail.template">
+            <field name="name">postventa Template </field>
+            <field name="model_id" ref="modulo_postventa.model_postventa_inducom"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">anthony1320081@gmail.com</field>
+            <field name="subject">Estimado Cliente: {{object.get_client_name()}} ¡Nuevos Beneficios! con un mantenimiento 🛠 </field>
+            <field name="body_html" type="html">
+                <table border="0" cellpadding="0" cellspacing="0" width="590" style="border-collapse: collapse; margin-left: 20px;">
+                    <thead align="center">
+                        <tr>
+                            <th style="background-color: #ffff;" >
+                                <img src="http://www.inducom-ec.com/assets/img/Inducom_Ecuador_2.png"
+                                alt="header"
+                                style="width:200px;margin:20px 0;vertical-align:baseline;"/>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr>
+                            <td valign="top" style="padding: 0px 10px;">
+                                <div style="text-align: center;background-color:#e1e1e1;display:flex;height:200px ">
+                                    <div style="flex:50%">
+                                        <h2 style="color:#040045;">
+                                            <p style="text-align:center;padding: 20px 10px;">
+                                                <h2> ¡Realiza tú mantenimiento <br></br>
+                                                    con nosotros! </h2>
+                                            </p>
+                                        </h2>
+                                        <p style="text-align:center; color:#040045; padding: 0 0 10px 10px;">
+                                                Accede a grandes beneficios<br></br>
+                                        </p>
+                                        <div style="text-align:center; padding: 0 0 10px 10px;">
+                                            <a t-attf-href="https://wa.me/593979101572/?text=Hola%20me%20gustaria%20conocer%20sobre%20los%20repuestos%20para%20mi%20equipo%20mi%20factura%20es%20{{ object.num_fact }}" style="background-color: #ff5e14; text-decoration: none; color: #ffff; padding: 8px 16px 8px 16px; border-radius: 5px; font-size: 17px;"> Conoce más</a>
+                                        </div>
+                                    </div>
+                                    <div style="flex:50%">
+                                        <img src="http://www.inducom-ec.com/assets/img/mantenimiento_mecanico.jpg" alt="portada" style="height:210px;weight:95px;margin:0px 0;padding: 0px 0px 10px 10px;"/>
+                                    </div>
+                                </div>
+                                <div style="font-size: 14px; margin: 0px; padding: 10px 0px 10px 10px; background-color:#150046;color:white; ">
+                                    <t t-out="object.get_client_name()"></t> la política de garantía de Grupo Inducom entrega a los clientes beneficios adicionales
+                                    por cumplir con los estándares de mantenimiento de cada producto.
+                                    <br/><br/>
+                                    <a href="https://www.inducom-ec.com" style="text-decoration: underline;color:white;">Leer la política de garantía ➡ </a>
+                                </div>
+                                <div >
+                                    <h1 style="text-align:center;margin:40px;color:#040045 ">
+                                            ¿Por qué es importante un buen <br></br>
+                                            mantenimiento?
+                                    </h1>
+                                </div>
+                                <div style="background-color:#e1e1e1;height:215px">
+                                    <div style="display:flex;">
+                                        <div style="flex:50%">
+                                            <img src="http://www.inducom-ec.com/assets/img/mantenimiento1.jpg" alt="razon1" style="height:175px;weight:95px;margin:20px 0;padding: 0px 10px 0px 20px;"/>
+                                        </div>
+                                        <div style="flex:50% text-align:center">
+                                            <p style="color:#040045; margin-top:70px;">
+                                                Genera un <mark>menor riesgo</mark> en los equipos <br></br>
+                                                de presentar fallas imprevistas, prolongando su vida útil.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="background-color:#e1e1e1;">
+                                    <div style="display:flex;border-bottom: 3px solid blue; border-top:10px solid white;">
+                                        <div style="flex:50%">
+                                            <img src="http://www.inducom-ec.com/assets/img/trabajando_2.jpg" alt="razon2" style="height:175px;weight:95px;margin:20px 0;padding: 0px 20px 0px 20px;"/>
+                                        </div>
+                                        <div style="flex:50% text-align:center">
+                                            <p style="padding:0px 0px 0px 10px;color:#040045;margin-top:70px;">
+                                                Ahorras <mark>tiempo y dinero</mark> cuando los equipos <br></br>
+                                                estan en optimas condiciones, por lo que se prolonga su vida útil.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div style="background-color:#e1e1e1;">
+                                    <h1 style="text-align:center;padding: 20px 0px 0px 0px;color:#040045 ">
+                                            Realiza tu mantenimiento con nosotros <br></br>
+                                            y obten 3 meses de cobertura adicionales.
+                                    </h1>
+                                    <div style="padding: 10px 8px 20px 8px; text-align: center; font-size:17px; " >
+                                        <a t-attf-href="https://wa.me/593979101572/?text=Hola%20me%20gustaria%20conocer%20sobre%20los%20repuestos%20para%20mi%20equipo%20mi%20factura%20es%20{{ object.num_fact }}" style="background-color: #ff5e14; text-decoration: none; color: #ffff; padding: 8px 16px 8px 16px; border-radius: 5px;"> Agenda tu mantenimiento</a>
+                                    </div>
+                                </div>
+                                <div style="width:570px;height:300px;object-fit: contain;">
+                                    <img src="http://www.inducom-ec.com/assets/img/bomba_de_agua.jpg"
+                                        alt="imagen_final"
+                                        style="width:100%;height:100%;"/>
+                                </div>
+                                <div style="background-color:#150046; text-align:center; color:white;height:100px;">
+                                    <p style="padding: 20px 0;">
+                                        <span>Grupo Inducom </span> <br></br>
+                                        Km 4.5 Via Daule, Guayaquil <br></br>
+                                        Ecuador
+                                    </p>
+
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </field>
+        </record>
+
+
+<!--        <record id="cobranza_mail_template" model="mail.template">-->
+<!--            <field name="name">cobranza Template </field>-->
+<!--            <field name="model_id" ref="modulo_postventa.model_postventa_inducom"/>-->
+<!--            <field name="email_from">botinducom@gmail.com</field>-->
+<!--            <field name="email_to">anthony1320081@gmail.com</field>-->
+<!--            <field name="subject">Estado de Cuenta Inducomicc S.A</field>-->
+<!--            <field name="body_html" type="html">-->
+<!--                <table border="0" cellpadding="0" cellspacing="0" width="590" style="background-color: #19005c; border-collapse: collapse; margin-left: 20px;">-->
+<!--                    <thead>-->
+<!--                        <tr>-->
+<!--                            <th style="background-color: #ffff ;  ">-->
+<!--                                <img src="/modulo_postventa/static/src/img/Inducom_Ecuador_2.png" alt="header" style="width:100px;margin:20px 0;"/>-->
+<!--                            </th>-->
+<!--                        </tr>-->
+<!--                    </thead>-->
+<!--                    <tbody style="color:white;">-->
+<!--                        <tr>-->
+<!--                            <td valign="top" style="padding: 0px 10px;">-->
+<!--                                <div style="text-align: center">-->
+<!--                                    <h2 style="color:white;">Estimado Cliente <t t-out="object.get_client_name()"></t></h2>-->
+<!--                                    <div style="color:white; font-size: 13px;">-->
+<!--                                        <p>-->
+<!--                                            Tiene un saldo Pendiente de-->
+<!--                                        </p>-->
+<!--                                        <div style="background-color: yellow;">-->
+<!--                                            saldo-->
+<!--                                        </div>-->
+<!--                                    </div>-->
+<!--                                    <img src="/modulo_postventa/static/src/img/Inducom_Ecuador.jpg" alt="Congratulations!" style="width:175px;margin:20px 0;"/>-->
+<!--                                </div>-->
+<!--                                <div style="font-size: 13px; margin: 0px; padding: 0px;">-->
+<!--                                    Recuerda que un mantenimiento a tiempo, puede prolongar la vida de tus equipos-->
+<!--                                    generando mayor productividad y manteniendo intacta la garantia de tus equipos.-->
+<!--                                    <br/><br/>-->
+<!--                                    <div style="padding: 16px 8px 16px 8px; text-align: center; " >-->
+<!--                                        <a t-attf-href="https://wa.me/593979101572/?text=Hola%20me%20gustaria%20conocer%20sobre%20los%20repuestos%20para%20mi%20equipo%20mi%20factura%20es%20{{ object.num_fact }}" style="background-color: #ff5e14; text-decoration: none; color: #ffff; padding: 8px 16px 8px 16px; border-radius: 5px;"> Conoce mas</a>-->
+<!--                                    </div>-->
+
+<!--&lt;!&ndash;                                    <t t-if="object.user_id" data-oe-t-group="1" data-oe-t-group-active="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        You will soon be contacted by:&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <table>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            <tbody><tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td width="75">&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <img t-attf-src="/web/image/res.users/{{ object.user_id.id }}/avatar_128" alt="Avatar" style="vertical-align:baseline; width: 64px; height: 64px; object-fit: cover;"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <strong t-out="object.user_id.name or ''" contenteditable="false">Mitchell Admin</strong><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <span>Email: <t t-out="object.user_id.email or ''" contenteditable="false" data-oe-t-inline="true">admin@yourcompany.example.com</t></span><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                    <span>Phone: <t t-out="object.user_id.phone or ''" contenteditable="false" data-oe-t-inline="true">+1 650-123-4567</t></span>&ndash;&gt;-->
+<!--&lt;!&ndash;                                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                            </tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </tbody></table>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <br/><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--                                    Estaremos atentos a tu respuesta.-->
+<!--&lt;!&ndash;                                    <div style="font-size: 11px; color: grey;">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Este es un Servicio de Inducomicc S.A <br></br>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        Porfavor no respondas este mentaje&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-if="'website_url' in object.job_id and hasattr(object.job_id, 'website_url') and object.job_id.website_url" data-oe-t-group="2" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            Discover <a href="/jobs" style="text-decoration:none;color:#717188;">all our jobs</a>.<br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </div>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                    <hr width="97%" style="background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 16px 0px 16px 0px;" contenteditable="false"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <h3 style="color:#9A6C8E;"><strong>What is the next step?</strong></h3>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    We usually <strong>answer applications within a few days</strong>.&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <br/><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    The next step is either a call or a meeting in our offices.&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    Feel free to <strong>contact us if you want a faster&ndash;&gt;-->
+<!--&lt;!&ndash;                                    feedback</strong> or if you don't get news from us&ndash;&gt;-->
+<!--&lt;!&ndash;                                    quickly enough (just reply to this email).&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <br/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                                    <hr width="97%" style="background-color: rgb(204,204,204); border: medium none; clear: both; display: block; font-size: 0px; min-height: 1px; line-height: 0; margin: 17px 0px 16px 0px;" contenteditable="false"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-set="location" t-value="''" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.name" data-oe-t-group="3" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <strong t-out="object.job_id.address_id.name or ''" contenteditable="false">Teksa SpA</strong><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.street" data-oe-t-group="4" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-out="object.job_id.address_id.street or ''" contenteditable="false" data-oe-t-inline="true">Puerto Madero 9710</t><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-set="location" t-value="object.job_id.address_id.street" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.street2" data-oe-t-group="5" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-out="object.job_id.address_id.street2 or ''" contenteditable="false" data-oe-t-inline="true">Of A15, Santiago (RM)</t><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-set="location" t-value="'%s, %s' % (location, object.job_id.address_id.street2)" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.city" data-oe-t-group="6" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-out="object.job_id.address_id.city or ''" contenteditable="false" data-oe-t-inline="true">Pudahuel</t>,&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-set="location" t-value="'%s, %s' % (location, object.job_id.address_id.city)" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.state_id.name" data-oe-t-group="7" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-out="object.job_id.address_id.state_id.name or ''" contenteditable="false" data-oe-t-inline="true">C1</t>,&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-set="location" t-value="'%s, %s' % (location, object.job_id.address_id.state_id.name)" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.zip" data-oe-t-group="8" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-out="object.job_id.address_id.zip or ''" contenteditable="false" data-oe-t-inline="true">98450</t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-set="location" t-value="'%s, %s' % (location, object.job_id.address_id.zip)" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <t t-if="object.job_id.address_id.country_id.name" data-oe-t-group="9" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-out="object.job_id.address_id.country_id.name or ''" contenteditable="false" data-oe-t-inline="true">Argentina</t><br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        <t t-set="location" t-value="'%s, %s' % (location, object.job_id.address_id.country_id.name)" data-oe-t-inline="true"></t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    </t>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <br/>&ndash;&gt;-->
+<!--                                </div>-->
+<!--                            </td>-->
+<!--                        </tr>-->
+<!--                    </tbody>-->
+<!--                    <tfoot>-->
+<!--                        <tr>-->
+<!--                            <th style="background-color: #ff5e14 ; ">-->
+<!--                                <div style="color: white;">-->
+<!--                                    Inducomicc S.A-->
+<!--                                </div>-->
+<!--                                 <div style="font-size: 11px; color: grey;">-->
+<!--                                        Este es un Servicio de Inducomicc S.A <br></br>-->
+<!--                                        Porfavor no respondas este mentaje-->
+<!--&lt;!&ndash;                                        <t t-if="'website_url' in object.job_id and hasattr(object.job_id, 'website_url') and object.job_id.website_url" data-oe-t-group="2" data-oe-t-group-active="true" data-oe-t-inline="true">&ndash;&gt;-->
+<!--&lt;!&ndash;                                            Discover <a href="/jobs" style="text-decoration:none;color:#717188;">all our jobs</a>.<br/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                        </t>&ndash;&gt;-->
+<!--                                    </div>-->
+<!--                            </th>-->
+<!--                        </tr>-->
+<!--                    </tfoot>-->
+<!--                </table>-->
+<!--            </field>-->
+<!--        </record>-->
+
+
+
+    </data>
+</odoo>

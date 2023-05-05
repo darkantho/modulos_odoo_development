@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+modulo_rentabilidades.access_rentabilidades_inducom,access_rentabilidades_inducom,modulo_rentabilidades.model_rentabilidades_inducom,base.group_user,1,1,1,1
+modulo_rentabilidades.access_productos_rentabilidades_inducom,access_productos_rentabilidades_inducom,modulo_rentabilidades.model_productos_rentabilidades_inducom,base.group_user,1,1,1,1

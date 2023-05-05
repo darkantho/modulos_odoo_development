@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+       
+
+         <menuitem id="product_menu_root"
+            name="Productos"
+            web_icon="modulo_clientes,static/description/operaciones.png"
+            sequence="30"/>
+
+    
+       
+    
+
+     
+        
+        
+
+</odoo>

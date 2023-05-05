@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <data>
+            <menuitem id="rentabilidades_root"
+                name="Rentabilidades"
+                sequence="0"
+                web_icon="modulo_rentabilidades,static/description/icon.png"
+            />
+    </data>
+
+
+
+</odoo>
