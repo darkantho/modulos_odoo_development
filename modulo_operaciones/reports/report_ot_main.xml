@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+   <data>
+        <record id="ot_order_template" model="ir.actions.report">
+            <field name="name">orden de trabajo</field>
+            <field name="model">db.ots</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">modulo_operaciones.ot_order</field>
+            <field name="report_file">modulo_operaciones.ot_order</field>
+            <field name="print_report_name">object.ot_number</field>
+            <field name="attachment">'orden de trabajo.pdf'</field>
+            <field name="binding_model_id" ref="model_db_ots"/>
+            <field name="binding_type">report</field>
+        </record>
+
+       <record id="RIC_template_PDF" model="ir.actions.report">
+            <field name="name">RIC PDF</field>
+            <field name="model">ric.inducom.wizard</field>
+            <field name="report_type">qweb-pdf</field>
+            <field name="report_name">modulo_operaciones.ric_order</field>
+            <field name="report_file">modulo_operaciones.ric_order</field>
+            <field name="print_report_name">object.cliente</field>
+            <field name="attachment">'orden de trabajo.pdf'</field>
+            <field name="binding_model_id" ref="model_ric_inducom_wizard"/>
+            <field name="binding_type">report</field>
+        </record>
+
+       <record id="RIC_template_xlsx" model="ir.actions.report">
+            <field name="name">RIC template excel</field>
+            <field name="model">ric.inducom.wizard</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">RIC modulo_operaciones.cliente</field>
+            <field name="report_file">RIC modulo_operaciones.cliente</field>
+            <field name="binding_model_id" ref="model_ric_inducom_wizard"/>
+            <field name="binding_type">report</field>
+        </record>
+
+
+       <record id="resume_ot_template_xlsx" model="ir.actions.report">
+            <field name="name">resume ot template excel</field>
+            <field name="model">db.ots</field>
+            <field name="report_type">xlsx</field>
+            <field name="report_name">modulo_operaciones.resume_ot_template_xlsx</field>
+            <field name="report_file">modulo_operaciones.resume_ot_template_xlsx</field>
+            <field name="binding_model_id" ref="model_db_ots"/>
+            <field name="binding_type">report</field>
+        </record>
+
+
+   </data>
+
+<!--   <report-->
+<!--        id="report_ot_email"-->
+<!--        string="Orden de trabajo"-->
+<!--        model="db.ots"-->
+<!--        report_type="qweb-pdf"-->
+<!--        name="modulo_operaciones.ot_order_mail"-->
+<!--        file="modulo_operaciones.ot_order_mail"/>-->
+
+</odoo>
+

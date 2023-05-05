@@ -1,0 +1,32 @@
+{
+    'name':'Operaciones',
+    'version':'1.0',
+    'summary':'modulo de operacion',
+    'description':"""modulo encargado de generar las OT""",
+    'category':'Productivity',
+    'sequence':-100,
+    'website':'www.inducom-ec.com',
+    'depends':[
+        "web_timeline",
+        "mail",
+        "modulo_productos",
+    ],
+    'data': [
+        "data/ot_sequence.xml",
+        "data/mail_template.xml",
+        "wizard/generar_ric_view.xml",
+        "data/cron_orders_state.xml",
+        "reports/report_ot_main.xml",
+        "reports/main_ot_pdf.xml",
+        "reports/main_ric_pdf.xml",
+        "security/ir.model.access.csv",
+        "views/menu_view.xml",
+        "views/new_ot_view.xml",
+
+    ],
+    'demo':[],
+    'qweb':[],
+    'installable':True,
+    'application':True,
+    'auto_install':False,
+}

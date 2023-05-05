@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+modulo_operaciones.access_db_ots,access_db_ots,modulo_operaciones.model_db_ots,base.group_user,1,1,1,1
+modulo_operaciones.access_materiales_inducom,access_materiales_inducom,modulo_operaciones.model_materiales_inducom,base.group_user,1,1,1,1
+access.ric.inducom.wizard,access_ric_inducom,modulo_operaciones.model_ric_inducom_wizard,base.group_user,1,1,1,1
+access.materiales.ric.inducom.wizard,access_materiales,modulo_operaciones.model_materiales_ric_inducom_wizard,base.group_user,1,1,1,1

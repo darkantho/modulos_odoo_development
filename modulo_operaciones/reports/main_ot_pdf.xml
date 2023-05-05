@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="ot_order">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <h2 class="text-center">
+                            Orden de Trabajo para <span t-field="o.area"/>: <span t-field="o.ot_number"/>  <span t-field="o.client_name"/>
+                        </h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <tr>
+                                <td>
+                                    <strong>Fecha:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.ot_begin"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Cliente:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.client_name"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <strong>Factura/Cotizacion:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.bill"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Servicio Requerido:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.work_type"/>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <strong>Fecha de entrega de la OT:</strong>
+                                </td>
+                                <td>
+                                    <span t-field="o.ot_end"/>
+                                </td>
+                            </tr>
+
+                        </table>
+                        <![CDATA[&nbsp;]]>
+                        <h2 class="text-center">Personal Designado</h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <thead>
+                                <tr>
+                                    <th>Personal</th>
+                                    <th>Correo</th>
+                                    <th>Area</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach="o.to" t-as="list_move">
+                                    <td>
+                                        <span t-field="list_move.name"/>
+                                    </td>
+
+                                    <td>
+                                        <span t-field="list_move.email"/>
+                                    </td>
+
+                                    <td>
+                                        <span t-field="list_move.area"/>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h2 class="text-center">Lista de materiales</h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Cantidad</th>
+                                    <th>Estado Inicial</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr t-foreach="o.bom_ids" t-as="move">
+                                    <td>
+                                        <span t-field="move.material_id"/>
+                                    </td>
+
+                                    <td>
+                                        <span t-field="move.cantidad"/>
+                                    </td>
+
+                                    <td>
+                                        <span t-field="move.estado"/>
+                                    </td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+                         <h2 class="text-center">Descripcion del Trabajo</h2>
+                        <table class="table table-condensed" style="border: 3px solid black !important;">
+                            <tr>
+                                <span t-field="o.other_requeriments"/>
+                            </tr>
+                        </table>
+
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+
+
+<!--    <template id="ot_order_mail">-->
+<!--        <t t-call="web.html_container">-->
+<!--            <t t-foreach="docs" t-as="o">-->
+<!--                <t t-call="web.external_layout">-->
+<!--                    <div class="page">-->
+<!--                        <h1 class="text-center">-->
+<!--                            Orden de Trabajo : <span t-field="o.ot_number"/>-->
+<!--                        </h1>-->
+<!--                        <table class="table table-condensed" style="border: 3px solid black !important;">-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Fecha:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.ot_begin"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Cliente:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.client_name"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+<!--&lt;!&ndash;                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <strong>Responsable de la OT:</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span t-field="o.to"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </tr>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <strong>Correo:</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span t-field="o.email_to"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </tr>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                            <tr>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <strong>Area Encargada de la OT:</strong>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                <td>&ndash;&gt;-->
+<!--&lt;!&ndash;                                    <span t-field="o.Area"/>&ndash;&gt;-->
+<!--&lt;!&ndash;                                </td>&ndash;&gt;-->
+<!--&lt;!&ndash;                            </tr>&ndash;&gt;-->
+
+<!--                            <tr>-->
+<!--                                <td>-->
+<!--                                    <strong>Fecha de entrega de la OT:</strong>-->
+<!--                                </td>-->
+<!--                                <td>-->
+<!--                                    <span t-field="o.ot_end"/>-->
+<!--                                </td>-->
+<!--                            </tr>-->
+
+<!--                        </table>-->
+<!--                        <![CDATA[&nbsp;]]>-->
+<!--                        <h2 class="text-center">Lista de materiales</h2>-->
+<!--                        <table class="table table-condensed" style="border: 3px solid black !important;">-->
+<!--                            <thead>-->
+<!--                                <tr>-->
+<!--                                    <th>Item</th>-->
+<!--                                    <th>Cantidad</th>-->
+<!--                                    <th>Estado Inicial</th>-->
+<!--                                </tr>-->
+<!--                            </thead>-->
+<!--                            <tbody>-->
+<!--                                <tr t-foreach="o.bom_ids" t-as="move">-->
+<!--                                    <td>-->
+<!--                                        <span t-field="move.material_id"/>-->
+<!--                                    </td>-->
+
+<!--                                    <td>-->
+<!--                                        <span t-field="move.cantidad"/>-->
+<!--                                    </td>-->
+
+<!--                                    <td>-->
+<!--                                        <span t-field="move.estado"/>-->
+<!--                                    </td>-->
+
+<!--                                </tr>-->
+<!--                            </tbody>-->
+<!--                        </table>-->
+
+<!--                    </div>-->
+<!--                </t>-->
+<!--            </t>-->
+<!--        </t>-->
+<!--    </template>-->
+
+</odoo>

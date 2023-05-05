@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <!-- Mail template are declared in a NOUPDATE block
+         so users can freely customize/delete them -->
+    <data noupdate="1">
+        <!--Email template -->
+        <record id="marcaciones_mail_template" model="mail.template">
+            <field name="name">marcacion </field>
+            <field name="model_id" ref="modulo_marcaciones_inducom.model_marcaciones_inducom"/>
+            <field name="email_from">{{object.email}}</field>
+            <field name="email_to">bi@inducom-ec.com</field>
+            <field name="subject">confirmación de Marcación de {{object._get_values_tags()}} de {{object.name}}</field>
+            <field name="body_html" type="html">
+                    <div style="margin: 0px; padding: 0px;">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            se confirma la marcacion de <t t-out="object.name"></t>
+                            <br /><br />
+                            con fecha y hora <t t-out="object._get_date()"></t>
+                            <br /><br />
+                            el motivo de la marcacion es <t t-out="object._get_values_tags()"></t>
+                        </p>
+                    </div>
+            </field>
+        </record>
+    </data>
+</odoo>

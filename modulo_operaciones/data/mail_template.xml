@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <!-- Mail template are declared in a NOUPDATE block
+         so users can freely customize/delete them -->
+    <data noupdate="1">
+
+        <record id="ot_mail_template" model="mail.template">
+            <field name="name">OT Template </field>
+            <field name="model_id" ref="modulo_operaciones.model_db_ots"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">{{object._get_email_to()}}</field>
+            <field name="subject">Nueva Orden de trabajo No {{object.ot_number}} cliente {{object.get_client_name()}}</field>
+            <field name="body_html" type="html">
+                    <div style="margin: 0px; padding: 0px;">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            Nueva orden de trabajo asignada <t t-out="object.area"></t>
+                            <br /><br />
+                            la fecha de entrega de la OT esta asignada para <t t-out="object.ot_end"></t>
+                            <br /><br />
+                        </p>
+                    </div>
+            </field>
+        </record>
+
+        <record id="RIC_mail_template" model="mail.template">
+            <field name="name">RIC mail template </field>
+            <field name="model_id" ref="modulo_operaciones.model_ric_inducom_wizard"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">anthony1320081@gmail.com</field>
+            <field name="subject">Nueva RIC {{object.cliente}} Para la OT {{object.get_ot_number()}}</field>
+            <field name="body_html" type="html">
+                    <div style="margin: 0px; padding: 0px;">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            Se ha Generado un nuevo RIC
+                            <br /><br />
+                            la fecha de entrega esta asignada para <t t-out="object.fecha2"></t>
+                            <br /><br />
+                        </p>
+                    </div>
+            </field>
+        </record>
+
+        <record id="ot_status_template" model="mail.template">
+            <field name="name">cambio status OT </field>
+            <field name="model_id" ref="modulo_operaciones.model_db_ots"/>
+            <field name="email_from">{{object.email}}</field>
+            <field name="email_to">{{object._get_email_to()}}</field>
+            <field name="subject">Estado de la orden  No {{object.ot_number}}</field>
+            <field name="body_html" type="html">
+                    <div style="margin: 0px; padding: 0px;">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            La orden de trabajo asignada a <t t-out="object.area"></t>
+                            <br /><br />
+                            ha cambia de estado a : <t t-out="object.get_status_ot()"></t>
+                            <br /><br />
+                        </p>
+                    </div>
+            </field>
+        </record>
+
+         <record id="ot_resume_daily" model="mail.template">
+            <field name="name">Resumen Diario de la OT </field>
+            <field name="model_id" ref="modulo_operaciones.model_db_ots"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">{{object.directorio_inducom()}}</field>
+            <field name="subject">Reporte diario de las Ordenes de trabajo</field>
+            <field name="body_html" type="html">
+                    <div style="margin: 0px; padding: 0px;">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            <t t-out="object.count_ot_progress_per_day(2)"></t>
+                            <br /><br />
+                            <t t-out="object.count_ot_final_per_day(2)"></t>
+                            <br /><br />
+                            <t t-out="object.count_ot_final2_per_day(2)"></t>
+                            <br /><br />
+                            <t t-out="object.count_ot_vencidas_per_day(2)"></t>
+                            <br /><br />
+                        </p>
+                    </div>
+            </field>
+        </record>
+
+        <record id="ot_resume_button" model="mail.template">
+            <field name="name">Resumen de las OT </field>
+            <field name="model_id" ref="modulo_operaciones.model_db_ots"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">serviciocliente@inducom-ec.com</field>
+            <field name="subject">Reporte de las Ordenes de trabajo(Excel)</field>
+            <field name="body_html" type="html">
+                    <div style="margin: 0px; padding: 0px;">
+                        <p style="margin: 0px; padding: 0px; font-size: 13px;">
+                            resumen de las OT seleccionadas
+                        </p>
+                    </div>
+            </field>
+        </record>
+
+    </data>
+</odoo>

@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+modulo_marcaciones_inducom.access_marcaciones_inducom,access_marcaciones_inducom,modulo_marcaciones_inducom.model_marcaciones_inducom,base.group_user,1,1,1,1

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <!-- Mail template are declared in a NOUPDATE block
+         so users can freely customize/delete them -->
+<!--    <data noupdate="1">-->
+    <data>
+
+        <record id="cobranza_mail_template" model="mail.template">
+            <field name="name">cobranza Template </field>
+            <field name="model_id" ref="modulo_cobranzas.model_cobranza_inducom"/>
+            <field name="email_from">botinducom@gmail.com</field>
+            <field name="email_to">anthony1320081@gmail.com</field>
+            <field name="subject">Recordatorio de cuenta pendiente Inducomicc S.A</field>
+            <field name="body_html" type="html">
+                <table border="0" cellpadding="0" cellspacing="0" width="590" style="border-collapse: collapse; margin-left: 20px;">
+                    <thead align="center">
+                        <tr>
+                            <th style="background-color: #ffff;" >
+                                <img src="/modulo_postventa/static/src/img/Inducom_Ecuador_2.png" alt="header" style="width:200px;margin:20px 0;vertical-align:baseline;"/>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody >
+                        <tr>
+                            <td valign="top" style="padding: 0px 10px;">
+                                <div style="background-color: #040045; height:120px; border-top: #ff5e14 solid 4px; border-bottom: #ff5e14 solid 4px; display:flex; justify-content:space-around; position:relative; ">
+                                    <h1 style="color:white; margin-top:10px; ">
+                                            Recordatorio de Saldo Pendiente <br></br>
+                                    </h1>
+                                    <div style="position:absolute; background-color:#1f47B1;height:100px;width:100px;border-radius:50px;margin-top:65px;">
+                                        <img src="modulo_cobranzas/static/src/img/Recurso 2icono calendario.png" style="height: 75px;margin: 14px;"/>
+                                    </div>
+                                </div>
+                                <div>
+                                    <p style="color: #040045; padding: 75px 0px 0px 40px; font-size: 16px;font-weight:bold; ">
+                                        Estimado cliente <t t-out="object.get_client_name()"></t>
+                                    </p>
+                                    <p style="color: #040045; padding: 10px 40px 0px 40px; font-size: 12px; text-align:justify; ">
+                                        Le recordamos que su cuenta con Inducomicc S.A aún tiene un saldo pendiente de pago
+                                        de <t t-out="object.saldo"></t>. Sabemos lo importante que es para su negocio contar
+                                        con equipos industriales de calidad, por lo que queremos recordarle la importancia de
+                                        ponerse al dia con sus pagos para asegurar la continuidad del excelente servicio que le
+                                        brindamos.
+                                    </p>
+                                    <p style="color: #040045; padding: 10px 40px 0px 40px; font-size: 12px; text-align:justify; ">
+                                        En Inducomicc S.A nos esforzamos por hacerle más facil el proceso de
+                                        pago, por lo que le ofrecemos varias opciones para que pueda hacer su
+                                        pago de forma segura y cómoda:
+                                    </p>
+                                    <p style="margin:0px 0 12px 0;box-sizing:border-box;color: #040045;padding: 10px 40px 0px 40px;font-size: 12px;text-align:justify;font-weight:bold;">Transferencia Bancaria:<br></br>
+                                        <div style="display:flex; height:116px;align-items:center; background-color:#A4A4A4;margin: 0px 40px 0px 40px;border-radius:10px;">
+                                            <div style="flex:20%;text-align:center">
+                                                <img src="modulo_cobranzas/static/src/img/transferencia-bancaria.png" style="height: 65px;margin: 14px;"/>
+                                            </div>
+                                            <div style="flex:80%">
+
+                                                <p style="color: white; padding: 10px 0px 0px 20px; font-size: 12px; text-align:justify; ">
+                                                    Banco pichincha<br></br>
+                                                    Tipo de CTA: Corriente <br></br>
+                                                    Numero : 3198004 <br></br>
+                                                    Razon : Inducomicc S.A <br></br>
+                                                    Ruc : 0992376538001 <br></br>
+                                                    email : financiero1@inducom-ec.com
+                                               </p>
+
+                                            </div>
+                                        </div>
+                                    </p>
+                                    <p style="margin:0px 0 12px 0;box-sizing:border-box;color: #040045;padding: 10px 40px 0px 40px;font-size: 12px;text-align:justify;font-weight:bold;">Pago en Efectivo:<br></br>
+                                        <div style="display:flex; height:65px; align-items:center; background-color:#A4A4A4;margin: 0px 40px 0px 40px;border-radius:10px;">
+                                            <div style="flex:20%;text-align:center">
+                                                <img src="modulo_cobranzas/static/src/img/dinero.png" style="height: 55px;margin: 14px;"/>
+                                            </div>
+                                            <div style="flex:80%">
+
+                                                <p style="color: white; padding: 10px 15px 0px 20px; font-size: 12px; text-align:justify; ">
+                                                    Guayaquil: Matriz Km 4.5 Via daule Referencia : ingresando por Nacion Parrilla
+                                               </p>
+
+                                            </div>
+                                        </div>
+                                    </p>
+                                </div>
+                                <div>
+                                    <p style="color: #040045; padding: 10px 40px 0px 40px; font-size: 12px; text-align:justify; ">
+                                        Una vez que haya realizado el pago. le agradecemos que nos envié el
+                                        comprobante para actualizar su registro de pago.
+                                    </p>
+                                    <p style="color: #040045; padding: 10px 40px 0px 40px; font-size: 12px; text-align:justify; ">
+                                        Si tiene alguna pregunta o necesita ayuda para hacer el pago, no dude en
+                                        ponerse en contacto con el departamento de crédito y cobranzas
+                                    </p>
+                                    <div style="margin: 10px 40px 10px 40px; text-align:center;padding-top:10px;">
+                                        <a href="" style="background-color:#ff5e14; color:white; font-size:16px; font-weight:bold; padding:10px 50px 10px 50px; border-radius:10px;">Contactanos</a>
+                                    </div>
+                                    <p style="color: #040045; padding: 10px 40px 0px 40px; font-size: 12px; text-align:justify; ">
+                                        Esperamos su pronto pago para poder seguir brindańdole un servicio de calidad.
+                                    </p>
+                                    <p style="color: #040045; padding: 10px 40px 0px 40px; font-size: 12px; text-align:justify; ">
+                                        Atentamente,<br></br>
+                                        Evelyn Vargas<br></br>
+                                        Coordinadora de Creditos y Cobranzas
+                                    </p>
+                                    <p style="color: #040045; font-size: 9px; text-align:center;margin-top:20px; ">
+                                        Le agradecemos por su pago, este correo es automatico, si lo recibió y no presenta ningún pago
+                                        pendiente porfavor ignórelo
+                                    </p>
+                                    <div style="height: 70px; background-color:#040465; text-align:center;">
+                                        <p style="color:white;font-size:16px; padding-top:10px; margin-bottom:2px;">
+                                            Inducomicc S.A Guayaquil,Ecuador Km 4.5 Via Daule
+                                        </p>
+                                        <a href="www.inducom-ec.com" style="font-size:15px;">www.inducom-ec.com</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </field>
+        </record>
+
+
+
+    </data>
+</odoo>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <data>
+            <menuitem id="cobros_root"
+                name="Cobros"
+                sequence="0"
+                web_icon="modulo_cobranzas,static/description/icon.png"
+            />
+    </data>
+
+
+
+</odoo>

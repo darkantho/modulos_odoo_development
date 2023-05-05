@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+       
+
+         <menuitem id="client_menu_root"
+            name="Clientes"
+            web_icon="modulo_clientes,static/description/operaciones.png"
+            sequence="30"/>
+
+    
+       
+    
+
+     
+        
+        
+
+</odoo>

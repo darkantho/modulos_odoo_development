@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<!--kanban view-->
+    <record id="db_ots_view_kanban" model="ir.ui.view">
+            <field name="name">db.ots.view.kanban</field>
+            <field name="model">db.ots</field>
+            <field name="arch" type="xml">
+                <kanban default_group_by="state_ot" >
+                    <templates>
+                        <progressbar field="state_ot" colors='{"finalizada": "success", "progreso": "primary", "vencida": "danger", "cancelada": "warning", "revision" : "info" , "finalizada2":"muted"}'/>
+                        <t t-name="kanban-box">
+                            <div t-attf-class="oe_kanban_global_click" >
+                                <div class="oe_kanban_details" >
+                                    <ul>
+                                        <li>
+                                            <span style="color:blue;font-weight:bold">
+                                                <field name="ot_number"/>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span style="color:black;font-weight:bold">
+                                                Cliente:<field name="client_name"/>
+                                            </span>
+
+                                        </li>
+                                        <li>Cotizacion:<field name="bill"/></li>
+                                        <li>Orden de Compra:<field name="Orden_de_Compra"/></li>
+                                        <li>Fin:<field name="ot_end"/></li>
+                                    </ul>
+                                </div>
+                                <field name="ot_progress" widget="percentpie" style="width:25px;height:25px;cursor:pointer;" />
+                                <field name="ot_progress_opt" widget="percentpie" style="width:25px;height:25px;cursor:pointer;"/>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>
+            </field>
+    </record>
+<!--    grantt view-->
+<!--    <record id="ot_gantt_view" model="ir.ui.view">-->
+<!--        <field name="name">ot.gantt.view</field>-->
+<!--        <field name="model">db.ots</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <gantt date_start="ot_begin"-->
+<!--                   date_stop="ot_end"-->
+<!--                   default_group_by="to">-->
+<!--            </gantt>-->
+<!--        </field>-->
+<!--    </record>-->
+<!--timeline view-->
+<!--    <record id="timeline_ot_news" model="ir.ui.view">-->
+<!--            <field name="model">db.ots</field>-->
+<!--            <field name="type">timeline</field>-->
+<!--            <field name="arch" type="xml">-->
+
+<!--                <timeline   date_start="ot_begin"-->
+<!--                            date_stop="ot_end"-->
+<!--                            string="Ordenes de trabajo"-->
+<!--                            default_group_by="to"-->
+<!--                            event_open_popup="true"-->
+<!--                            colors="#ff0000:state_ot == 'cancelada';#87915e:state_ot=='finalizada'; #2f64cf:state_ot=='revision';#87939a:state_ot=='progreso';">-->
+
+<!--                    <field name="ot_number" />-->
+<!--                    <field name="ot_progress"/>-->
+<!--                    <templates>-->
+<!--                       <t t-name="timeline-item">-->
+<!--                            <div class="o_project_timeline_item">-->
+<!--                                <span t-esc="record.display_name"/>-->
+<!--                                <![CDATA[&nbsp;]]>-->
+<!--                                  Area designada:-->
+<!--                                <span t-esc="record.area"/>-->
+<!--                                <![CDATA[&nbsp;]]>-->
+<!--                                     Avance OT:-->
+<!--                                <span t-esc="record.ot_progress"/>-->
+<!--                                <![CDATA[&nbsp;]]>-->
+<!--                                     Estado:-->
+<!--                                <span t-esc="record.state_ot"/>-->
+
+<!--                            </div>-->
+<!--                        </t>-->
+<!--                    </templates>-->
+<!--                </timeline>-->
+<!--            </field>-->
+<!--    </record>-->
+<!--search view -->
+    <record id="ot_search" model="ir.ui.view">
+        <field name="name">db.ots.search</field>
+        <field name="model">db.ots</field>
+        <field name="arch" type="xml">
+            <search string="OT">
+                <field name="ot_number"/>
+                <field name="area"/>
+                <field name="client_name"/>
+                <separator/>
+                <filter string="OT Vencidas" name="state_ot" domain="[('state_ot','=','vencida')]"/>
+                <filter string="OT Finalizadas" name="state_ot" domain="[('state_ot','=','finalizada')]"/>
+                <filter string="OT Canceladas" name="state_ot" domain="[('state_ot','=','cancelada')]"/>
+                <filter string="OT Abiertas" name="state_ot" domain="[('state_ot','=','progreso')]"/>
+                <group expand="1" string="Group By">
+                    <filter string="Area" name="area" context="{'group_by':'area'}"/>
+                    <filter string="Estado" name="state_ot" context="{'group_by':'state_ot'}"/>
+                    <filter string="Avance OT" name="ot_progress_cat" context="{'group_by':'ot_progress_cat'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+<!--graph view-->
+<!--    <record id="state_ot_graph" model="ir.ui.view">-->
+<!--        <field name="name">grafico resumen</field>-->
+<!--        <field name="model">db.ots</field>-->
+<!--        <field name="arch" type="xml">-->
+<!--            <graph string="Resumen OT" type="pie">-->
+<!--                <field name="state_ot" />-->
+
+<!--            </graph>-->
+<!--        </field>-->
+
+<!--    </record>-->
+<!--calendar view-->
+<!--    <record id="ot_news_view_calendar" model="ir.ui.view">-->
+<!--            <field name="name">ot.news.view.calendar</field>-->
+<!--            <field name="model">db.ots</field>-->
+<!--            <field name="arch" type="xml">-->
+<!--                <calendar string="OT" date_start="ot_begin"  date_stop="ot_end" color="ot_number" date_delay="datediff">-->
+<!--                    <field name="ot_number" />-->
+<!--                    <field name="area"/>-->
+<!--                    <field name="bill"/>-->
+<!--                </calendar>-->
+<!--            </field>-->
+<!--    </record>-->
+    <!--tree view-->
+    <!--decoration-danger take color red-->
+    <!--decoration-warning take color yellow-->
+    <record id="tree_view_ot_news" model="ir.ui.view">
+            <field name="name">ot.news.view.tree</field>
+            <field name="model">db.ots</field>
+            <field name="arch" type="xml">
+                <tree  decoration-success="state_ot=='finalizada'"
+                       decoration-info="state_ot=='revision'"
+                       decoration-warning="state_ot=='cancelada'"
+                       decoration-danger="state_ot=='vencida'"
+                       decoration-primary="state_ot=='progreso'">
+                    <header>
+                        <button name="report_excel" type="object" string="Reporte Excel" />
+                    </header>
+                    <field name="ot_number" string="Orden de trabajo"  />
+                    <field name="client_name" string="Cliente"/>
+                    <field name="ot_progress" string="Progreso de la OT" />
+                    <field name="ot_begin" string="Fecha de inicio" />
+                    <field name="ot_end"  string="Fecha Estimada"/>
+<!--                    <field name="datediff" string="duracion de la OT" />-->
+                    <field name="state_ot"
+                           decoration-success="state_ot=='finalizada'"
+                           decoration-info="state_ot=='revision'"
+                           decoration-danger="state_ot=='vencida'"
+                           decoration-warning="state_ot=='cancelada'"
+                           decoration-muted="state_ot=='finalizada2'"
+                           decoration-primary="state_ot=='progreso'"
+                           widget="badge"/>
+                </tree>
+            </field>
+    </record>
+<!--form view-->
+    <record id="view_ot_new" model="ir.ui.view">
+            <field name="name">OT</field>
+            <field name="model">db.ots</field>
+            <field name="arch" type="xml">
+                    <form string="orden">
+                        <header>
+                             <button name="action_send_ot" type="object" string="enviar notificacion" data-hotkey="s" class="oe_highlight"/>
+                             <button name="%(modulo_operaciones.action_new_ric)d" type="action" string="Generar RIC" data-hotkey="g" class="oe_highlight"/>
+                        </header>
+                        <sheet>
+                            <div class="oe_title">
+                                <h1>
+                                    <field name="ot_number" readonly="1"/>
+                                </h1>
+                                <h1>
+                                    <field name="client_name" readonly="1"/>
+                                </h1>
+                            </div>
+                            <group>
+                                <group string="Informacion Inicial">
+                                        <field name="sol_number" />
+                                        <field name="ot_number" />
+                                        <field name="created_by" />
+                                        <field name="email" />
+                                        <field name="to"  >
+                                                <tree editable="bottom">
+                                                    <field name="name"/>
+                                                    <field name="email"/>
+                                                </tree>
+
+                                        </field>
+                                </group>
+
+                                <group string="Especificaciones del Trabajo">
+                                        <field name="area"/>
+                                        <field name="bill"/>
+                                        <field name="Orden_de_Compra"/>
+                                        <field name="state_ot" />
+                                        <field name="work_type"/>
+                                        <field name="type_work"  force_save="1" />
+                                        <field name="ot_other_service" attrs="{'invisible':[('work_type','!=','otro')]}"/>
+                                        <field name="ot_progress" />
+                                        <field name="datediff" />
+                                </group>
+
+
+                                <group string="Datos del cliente">
+                                    <field name="client_name"/>
+                                    <field name="id_client" />
+                                    <field name="client_type" />
+                                    <field name="vendor_name"/>
+                                    <field name="vendor_email"/>
+                                </group>
+
+                                <group string="fecha de la OT" >
+                                        <field name="ot_begin" />
+                                        <field name="ot_end" force_save="1" />
+                                        <field name="ot_end_2" force_save="1" invisible="1" />
+
+                                </group>
+
+                                <group string="Documentaciòn de soporte">
+                                    <field name="adjunto_1" />
+                                    <field name="adjunto_2" />
+                                    <field name="adjunto_3" />
+                                    <field name="adjunto_4" />
+                                    <field name="adjunto_5" />
+                                </group>
+
+                                <notebook>
+
+                                    <page string="Lista de materiales" name="lista de materiales">
+                                        <field name="bom_ids">
+                                            <tree editable="bottom">
+                                                <field name="material_id"/>
+                                                <field name="cantidad"/>
+                                                <field name="estado"/>
+                                            </tree>
+                                            <form>
+                                                <field name="material_id"/>
+                                                <field name="cantidad"/>
+                                                <field name="estado"/>
+                                            </form>
+                                        </field>
+                                    </page>
+
+                                    <page string="Descripcion del trabajo">
+                                        <field name="other_requeriments" />
+                                    </page>
+
+                                    <page string="Motivo de cancelacion">
+                                        <field name="cancelacion"/>
+                                    </page>
+
+                                </notebook>
+
+                                <group string="Soporte de trabajo Finalizado">
+                                    <field name="imagen_1"  widget="image"/>
+                                    <field name="imagen_2"  widget="image"/>
+                                    <field name="imagen_3"  widget="image"/>
+                                    <field name="imagen_4"  widget="image"/>
+                                    <field name="imagen_5"  widget="image"/>
+                                </group>
+
+                                <group>
+                                    <button name="ensamble" string="Fijar Ensamble"  type="object"/>
+                                    <button name="mantenimiento" string="Fijar Mantenimiento"  type="object"/>
+                                    <button name="postventa" string="Fijar Servicio Tec."  type="object"/>
+                                    <button name="ot_end_button" string="Finalizar OT" data-hotkey="f" type="object"/>
+                                </group>
+                            </group>
+                        </sheet>
+                    <div class="oe_chatter">
+                        <field name="message_follower_ids" groups="base.group_user"/>
+                        <field name="activity_ids"/>
+                        <field name="message_ids"/>
+                    </div>
+                </form>
+            </field>
+    </record>
+
+
+
+    <record id="action_new_ot" model="ir.actions.act_window">
+            <field name="name">orden de trabajo</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">db.ots</field>
+            <field name="view_mode">tree,form,kanban</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    agregar ordenes de trabajo
+                </p>
+            </field>
+    </record>
+
+    <menuitem id="ordenes_trabajo"
+                      name="Nueva OT"
+                      action="action_new_ot"
+                      parent="work_orders_root"
+                      sequence="0"
+    />
+
+    <menuitem id="RIC_new_generator"
+              name="Generar RIC"
+              action="action_new_ric"
+              parent="ordenes_trabajo"
+              sequence="1"
+    />
+
+
+
+</odoo>

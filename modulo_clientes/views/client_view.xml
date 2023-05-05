@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+        
+        <record id="client_tree_view" model="ir.ui.view">
+            <field name="name">client.view.tree</field>
+            <field name="model">clientes.inducom</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="client" string="cliente"  />
+                    <field name="client_type" string="clasificacion" />
+                    <field name="vendor" string="Vendedor" />
+                </tree>
+            </field>
+        </record>
+
+        <record id="client_form_view" model="ir.ui.view">
+            <field name="name">client.form.view</field>
+            <field name="model">clientes.inducom</field>
+            <field name="arch" type="xml">
+                
+                <form string="cliente">
+                    <sheet>
+                        <group name="cliente" string="datos del cliente">
+                                <field name="cod_client" />
+                                <field name="client" />
+                                <field name="client_type"/>
+                                <field name="vendor"/>
+                                <field name="vendor_email"/>
+                                <field name="contact"/>
+                        </group>
+                    </sheet>
+                
+                </form>
+            </field>
+        </record>
+
+       
+        
+        <record id="client_action" model="ir.actions.act_window">
+            <field name="name">clientes</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">clientes.inducom</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{}</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    agregar clientes porfavor
+                </p>
+            </field>
+        </record>
+
+         <menuitem id="clients_menu"
+            name="Nuevo Cliente"
+            action="client_action"
+            parent="client_menu_root"
+            sequence="1"/>
+
+</odoo>

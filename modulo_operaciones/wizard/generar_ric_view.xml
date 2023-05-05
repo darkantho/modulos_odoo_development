@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <!--form view-->
+        <record id="view_ric_inducom_wizard_form" model="ir.ui.view">
+            <field name="name">ric.inducom.wizard.form</field>
+            <field name="model">ric.inducom.wizard</field>
+            <field name="arch" type="xml">
+                <form>
+                    <group>
+                            <field name="ric_number"/>
+                            <field name="orden"/>
+                            <field name="fecha1"/>
+                            <field name="cliente"/>
+                            <field name="solicitante"/>
+                            <field name="fecha2"/>
+                            <field name="area"/>
+                            <field name="materiales"  >
+                                <tree editable="bottom">
+                                    <field name="cantidad"/>
+                                    <field name="descripcion"/>
+                                    <field name="observacion"/>
+                                </tree>
+                            </field>
+                    </group>
+                    <footer>
+                        <button special="cancel" data-hotkey="c" string="Cancelar" class="btn-secondary"/>
+                        <button name="action_send_ot" type="object" string="Enviar" data-hotkey="r" class="oe_highlight"/>
+                        <button name="action_download" type="object" string="Descargar RIC" class="oe_highlight"/>
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+
+
+        <record id="action_new_ric" model="ir.actions.act_window">
+            <field name="name">Generacion de RIC</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">ric.inducom.wizard</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+
+
+</odoo>

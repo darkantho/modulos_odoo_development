@@ -1,0 +1,3973 @@
+<?xml version="1.0" encoding="cp1251" ?>
+<odoo>
+<record id="cliente_1" model="clientes.inducom">
+      <field name="cod_client">C000796</field>
+      <field name="client">FESTA S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">compras@festa.com.ec</field>
+</record>
+
+<record id="cliente_2" model="clientes.inducom">
+      <field name="cod_client">C010179</field>
+      <field name="client">TINFLEX S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">coordinadormantenimiento@tinflex.com</field>
+</record>
+
+<record id="cliente_3" model="clientes.inducom">
+      <field name="cod_client"></field>
+      <field name="client"></field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">supervisormantenimiento@sigmaplast.com,pquilupangui@grupooro.com.ec,mantenimineto@banchis.com,-,-,,,,sdavila@isistem.com.ec,ingenieriahidraulica@grupotme.com,produccion@elecpost.com,manuel.armas@aguaquito.gob.ec,,laimacana@esmeraldafarms.com,jefe_compras@plasticsacks.com.ec,,,,,ventas@lesca.com.ec,jalomia@esmeraldafarms.com,,arturogarcia.lago@gmail.com,ventas@montgar.com.ec,,luis.mera@alpinaecuador.com,rebicar-rebobinajesindustriales@hotmail.com,carlos.garcia@ecuabarnices.com.ec,catherine.castro@semvra.com,dtoaquisa@agropesa.com.ec,eintriago@agropesa.com.ec,glarrea@agropesa.com.ec,JGranda@agropesa.com.ec,jzambrano@agropesa.com.ec,jarana@agropesa.com.ec,s/c,,jorge.ona@celec.gob.ec,jorge.mora@celec.gob.ec,mantenimiento@avesca.com.ec,mantenimiento@lacasadelesparadrapo-ec.com,jefeplanta@fruta-pasion.com',mcorrea@semgroup.la</field>
+</record>
+
+<record id="cliente_4" model="clientes.inducom">
+      <field name="cod_client">C001118</field>
+      <field name="client">SERVICIO INTEGRAL PARA LA INDUSTRIA ALIMENTICIA SIPIA S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-,-</field>
+</record>
+
+<record id="cliente_5" model="clientes.inducom">
+      <field name="cod_client">C000356</field>
+      <field name="client">PROCESADORA NACIONAL DE ALIMENTOS C.A. PRONACA</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">TMPuembo@pronaca.com,wortiz@pronaca.com,sespinosa@pronaca.com,emgomezs@pronaca.com,tmpuembo@pronaca.com,jovegav@pronaca.com,mrtupizag@pronaca.com,ecalahorrano@pronaca.com,-,mazavalag@pronaca.com</field>
+</record>
+
+<record id="cliente_6" model="clientes.inducom">
+      <field name="cod_client">C000418</field>
+      <field name="client">CERVECERIA NACIONAL CN S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">jorge.bolanos@ab-inbev.com,diego.ballesteros@ab-inbev.com,brayanmarlon.tituana@ab-inbev.com,Luz.Perez@ab-inbev.com</field>
+</record>
+
+<record id="cliente_7" model="clientes.inducom">
+      <field name="cod_client">C001258</field>
+      <field name="client">GASGUA S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-,msempertegui@fruitecuador.com</field>
+</record>
+
+<record id="cliente_8" model="clientes.inducom">
+      <field name="cod_client">C001177</field>
+      <field name="client">CHEMEQUIP INDUSTRIAS CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-,compras@chemequip.com.ec</field>
+</record>
+
+<record id="cliente_9" model="clientes.inducom">
+      <field name="cod_client">C001321</field>
+      <field name="client">FARMACID S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">frobles@farmacid.com.ec,jzapater@farmacid.com</field>
+</record>
+
+<record id="cliente_10" model="clientes.inducom">
+      <field name="cod_client">C019498</field>
+      <field name="client">LIRA LABORATORIOS INDUSTRIALES REPRESENTACIONES Y AGENCIAS S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">direccionproyectos@laboratorioslira.com</field>
+</record>
+
+<record id="cliente_11" model="clientes.inducom">
+      <field name="cod_client">C000038</field>
+      <field name="client">CHAIDE Y CHAIDE S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">asistente.mantenimiento@chaideychaide.com,rommel.chantera@chaideychaide.com</field>
+</record>
+
+<record id="cliente_12" model="clientes.inducom">
+      <field name="cod_client">C003039</field>
+      <field name="client">FABRICA DE PAPEL HIGIENICO DEL VALLE FAVALLE CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">jlopez@favalle.com.ec,</field>
+</record>
+
+<record id="cliente_13" model="clientes.inducom">
+      <field name="cod_client">C018798</field>
+      <field name="client">ROJAS VELASTEGUI JUAN SEBASTIAN</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_14" model="clientes.inducom">
+      <field name="cod_client">C000896</field>
+      <field name="client">DELCAMPO CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">otorres@laholandesa.ec,-</field>
+</record>
+
+<record id="cliente_15" model="clientes.inducom">
+      <field name="cod_client">C011774</field>
+      <field name="client">REYLACTEOS C.L.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">calomoto@favoritafc.com,huseche@favoritafc.com</field>
+</record>
+
+<record id="cliente_16" model="clientes.inducom">
+      <field name="cod_client">C000817</field>
+      <field name="client">ENKADOR S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">mantenimiento-pet@enkador.com,-</field>
+</record>
+
+<record id="cliente_17" model="clientes.inducom">
+      <field name="cod_client">C002074</field>
+      <field name="client">NOVOVASOS S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_18" model="clientes.inducom">
+      <field name="cod_client">C003974</field>
+      <field name="client">PROCESADORA CONTINENTAL DE ALIMENTOS S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">diana@proceconsa.com</field>
+</record>
+
+<record id="cliente_19" model="clientes.inducom">
+      <field name="cod_client">C002716</field>
+      <field name="client">JAMES BROWN PHARMA C.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">jidrovo@jamesbrownpharma.com</field>
+</record>
+
+<record id="cliente_20" model="clientes.inducom">
+      <field name="cod_client">C000131</field>
+      <field name="client">SIGMAPLAST S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">comprasmantenimiento@sigmaplast.com</field>
+</record>
+
+<record id="cliente_21" model="clientes.inducom">
+      <field name="cod_client">C001132</field>
+      <field name="client">CONVERSA CONVERTIDORA DE PAPEL S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">prubio@conversa.com.ec</field>
+</record>
+
+<record id="cliente_22" model="clientes.inducom">
+      <field name="cod_client">C019595</field>
+      <field name="client">TEJEC S A</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">mantenimiento@tejecsa.com.ec</field>
+</record>
+
+<record id="cliente_23" model="clientes.inducom">
+      <field name="cod_client">C000533</field>
+      <field name="client">NOVOPAN DEL ECUADOR S.A</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">frodriguez@pelikano.com,-</field>
+</record>
+
+<record id="cliente_24" model="clientes.inducom">
+      <field name="cod_client">C000845</field>
+      <field name="client">GRUPO SUPERIOR S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">patricio_yumbla@gruposuperior.com,-,-,consuelo_carvajal@gruposuperior.com</field>
+</record>
+
+<record id="cliente_25" model="clientes.inducom">
+      <field name="cod_client">C012219</field>
+      <field name="client">AUSTROFOOD CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_26" model="clientes.inducom">
+      <field name="cod_client">C001965</field>
+      <field name="client">CHOVA DEL ECUADOR S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">jmaldonado@imptek.com.ec</field>
+</record>
+
+<record id="cliente_27" model="clientes.inducom">
+      <field name="cod_client">C000857</field>
+      <field name="client">QUIMICA SUPERIOR UNICHEM S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_28" model="clientes.inducom">
+      <field name="cod_client">C019192</field>
+      <field name="client">INT FOOD SERVICES CORP S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-,victor.sarabia@kfc.com.ec</field>
+</record>
+
+<record id="cliente_29" model="clientes.inducom">
+      <field name="cod_client">C018331</field>
+      <field name="client">INDUSTRIA DE RECICLAJE RECICLAPET S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">mecanico_turno@enkador.com</field>
+</record>
+
+<record id="cliente_30" model="clientes.inducom">
+      <field name="cod_client">C002818</field>
+      <field name="client">NUTRIFORT S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_31" model="clientes.inducom">
+      <field name="cod_client">C000913</field>
+      <field name="client">FABRICA DE BATERIAS FABRIBAT CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-,dvasquez@bateriasecuador.com,-,-,santigo-olarte@bateriasecuador.com</field>
+</record>
+
+<record id="cliente_32" model="clientes.inducom">
+      <field name="cod_client">C000569</field>
+      <field name="client">EMPAQPLAST S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">jsuasnavas@empaqplast.com</field>
+</record>
+
+<record id="cliente_33" model="clientes.inducom">
+      <field name="cod_client">C002019</field>
+      <field name="client">INDUSTRIAS PERLA FOODS INPERFOODS CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_34" model="clientes.inducom">
+      <field name="cod_client">C000814</field>
+      <field name="client">CARLISNACKS CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">diana_carito95@hotmail.es</field>
+</record>
+
+<record id="cliente_35" model="clientes.inducom">
+      <field name="cod_client">C002974</field>
+      <field name="client">INTERMAQ S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">mreinoso@intermaq.com.ec</field>
+</record>
+
+<record id="cliente_36" model="clientes.inducom">
+      <field name="cod_client">C002095</field>
+      <field name="client">CRISTALES LAMINADOS Y TEMPERADOS CRILAMIT S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_37" model="clientes.inducom">
+      <field name="cod_client">C000233</field>
+      <field name="client">HILSEA INVESTMENT LIMITED</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">jpicho@esmeraldafarms.com,-</field>
+</record>
+
+<record id="cliente_38" model="clientes.inducom">
+      <field name="cod_client">C000500</field>
+      <field name="client">TEXTIL SAN PEDRO S.A.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_39" model="clientes.inducom">
+      <field name="cod_client">C019974</field>
+      <field name="client">ANDILAC S.A.S.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">contabilidad@andilac.com.ec,-</field>
+</record>
+
+<record id="cliente_40" model="clientes.inducom">
+      <field name="cod_client">C012425</field>
+      <field name="client">CIVIL ELECTRICA MECANICA CIELMEC CONSTRUCCIONES CIA. LTDA.</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">p.ontaneda@netlife.ec</field>
+</record>
+
+<record id="cliente_41" model="clientes.inducom">
+      <field name="cod_client">C019664</field>
+      <field name="client">PRODUCTOS SCHULLO S.A</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">cortega@schullo.com.ec</field>
+</record>
+
+<record id="cliente_42" model="clientes.inducom">
+      <field name="cod_client">C001658</field>
+      <field name="client">TERMOPACK GONZALEZ ESCOBAR COMPA?IA LIMITADA</field>
+      <field name="vendor">ALLEN WILCHEZ</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_43" model="clientes.inducom">
+      <field name="cod_client">C002189</field>
+      <field name="client">SUCESORES DE JACOBO PAREDES M. S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">caguilar@sucesores.ec,</field>
+</record>
+
+<record id="cliente_44" model="clientes.inducom">
+      <field name="cod_client">C020014</field>
+      <field name="client">HERRAMIENTAS AGRICOLAS NACIONALES HANSA CIA LTDA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">seguridad@hansa.com.ec</field>
+</record>
+
+<record id="cliente_45" model="clientes.inducom">
+      <field name="cod_client">C000580</field>
+      <field name="client">AVESCA AVICOLA ECUATORIANA C.A</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">mantenimiento_nutravan@avesca.com.ec,pcarvajal@avesca.com.ec</field>
+</record>
+
+<record id="cliente_46" model="clientes.inducom">
+      <field name="cod_client">C000413</field>
+      <field name="client">PRODUCTORA DE GELATINA ECUATORIANA S.A. PRODEGEL</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">edgar.medina@gelcointernational.com,freddy.toapanta@gelcointernational.com</field>
+</record>
+
+<record id="cliente_47" model="clientes.inducom">
+      <field name="cod_client">C000545</field>
+      <field name="client">C A ECUATORIANA DE CERAMICA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">edisonmoromenacho@cermosa.com.ec,manuelcuzco@cermosa.com.ec,joseorna@cermosa.com.ec</field>
+</record>
+
+<record id="cliente_48" model="clientes.inducom">
+      <field name="cod_client">C000381</field>
+      <field name="client">ETERNIT ECUATORIANA S.A</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">dsuarezr@elementia.com,ecurayc@elementia.com,csarabiah@elementia.com,evieraa@elementia.com</field>
+</record>
+
+<record id="cliente_49" model="clientes.inducom">
+      <field name="cod_client">C002685</field>
+      <field name="client">CEMENTO CHIMBORAZO CA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">jtumailli@ucem.com.ec,psantillan@ucem.com.ec,osantos@ucem.com.ec</field>
+</record>
+
+<record id="cliente_50" model="clientes.inducom">
+      <field name="cod_client">C001167</field>
+      <field name="client">TEXTILES INDUSTRIALES AMBATE?OS S.A. TEIMSA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_51" model="clientes.inducom">
+      <field name="cod_client">C000458</field>
+      <field name="client">PLASTICAUCHO INDUSTRIAL S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">elopez@plasticaucho.com,elopez@plasticaucho.com</field>
+</record>
+
+<record id="cliente_52" model="clientes.inducom">
+      <field name="cod_client">C003728</field>
+      <field name="client">YANAPI S. A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">mantenimiento1@yanapi.com</field>
+</record>
+
+<record id="cliente_53" model="clientes.inducom">
+      <field name="cod_client">C000861</field>
+      <field name="client">RUIZ GALLEGOS JUAN FERNANDO</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">jrservitech@andinanet.net</field>
+</record>
+
+<record id="cliente_54" model="clientes.inducom">
+      <field name="cod_client">C002247</field>
+      <field name="client">EMPRESA PASTEURIZADORA QUITO S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">aarregui@pqsa.ec,pcueva@pqsa.ec</field>
+</record>
+
+<record id="cliente_55" model="clientes.inducom">
+      <field name="cod_client">C001373</field>
+      <field name="client">INDUSTRIA DE CARAMELOS PEREZ BERMEO</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">b_repuestos@icapeb.com,b_repuestos@icapeb.com</field>
+</record>
+
+<record id="cliente_56" model="clientes.inducom">
+      <field name="cod_client">C000650</field>
+      <field name="client">BIOALIMENTAR CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">ivan.nu?ez@bioalimentar.com,luis.usuno@bioalimentar.com</field>
+</record>
+
+<record id="cliente_57" model="clientes.inducom">
+      <field name="cod_client">C002627</field>
+      <field name="client">CURTIDURIA TUNGURAHUA S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">dmorales@ctu.com.ec</field>
+</record>
+
+<record id="cliente_58" model="clientes.inducom">
+      <field name="cod_client">C020188</field>
+      <field name="client">OYMPIC JUICE ONLY JUICE</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">pbenitez@orangine.com.ec,oparedes@orangine.com.ec,oparedes@orangine.com.ec</field>
+</record>
+
+<record id="cliente_59" model="clientes.inducom">
+      <field name="cod_client">C011021</field>
+      <field name="client">IAF INDUSTRIAS INDUSTRIA DE AGUA Y FILTRACION CIA LTDA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">juandifalconi@yahoo.com,</field>
+</record>
+
+<record id="cliente_60" model="clientes.inducom">
+      <field name="cod_client">C001284</field>
+      <field name="client">IDEAL ALAMBREC S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">Jorge.Perez@bekaert.com</field>
+</record>
+
+<record id="cliente_61" model="clientes.inducom">
+      <field name="cod_client">C000394</field>
+      <field name="client">LABORATORIOS RENE CHARDON DEL ECUADOR CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">david.suarez@rchardon.com</field>
+</record>
+
+<record id="cliente_62" model="clientes.inducom">
+      <field name="cod_client">C002907</field>
+      <field name="client">AVIPAZ CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">adquisiciones@avipaz.ec</field>
+</record>
+
+<record id="cliente_63" model="clientes.inducom">
+      <field name="cod_client">C000374</field>
+      <field name="client">INDUACERO INDUSTRIA DE ACERO DEL ECUADOR CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">compras@induacero.com.ec,compras2@induacero.com.ec</field>
+</record>
+
+<record id="cliente_64" model="clientes.inducom">
+      <field name="cod_client">C019468</field>
+      <field name="client">SANCHEZ JACOME MARTHA SUSANA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_65" model="clientes.inducom">
+      <field name="cod_client">C003266</field>
+      <field name="client">INDUSTRIA ALIMENTICIA P?REZ VACA INALPEV CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_66" model="clientes.inducom">
+      <field name="cod_client">C000801</field>
+      <field name="client">FAIRIS C.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">cvillena@fairis.com</field>
+</record>
+
+<record id="cliente_67" model="clientes.inducom">
+      <field name="cod_client">C000702</field>
+      <field name="client">GUEVARA ROJAS TEOFILO GUILLERMO</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_68" model="clientes.inducom">
+      <field name="cod_client">C010121</field>
+      <field name="client">FPJ CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">,</field>
+</record>
+
+<record id="cliente_69" model="clientes.inducom">
+      <field name="cod_client">C000592</field>
+      <field name="client">AGLOMERADOS COTOPAXI S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">osalazar@cotopaxi.com.ec,lsuntaxi@cotopaxi.com.ec</field>
+</record>
+
+<record id="cliente_70" model="clientes.inducom">
+      <field name="cod_client">C020378</field>
+      <field name="client">Molinos Miraflores</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_71" model="clientes.inducom">
+      <field name="cod_client">C001165</field>
+      <field name="client">ECUATRAN SA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">,,</field>
+</record>
+
+<record id="cliente_72" model="clientes.inducom">
+      <field name="cod_client">C002625</field>
+      <field name="client">INDUSTRIAS CATEDRAL S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">mantenimiento@industriascatedral.ec</field>
+</record>
+
+<record id="cliente_73" model="clientes.inducom">
+      <field name="cod_client">C000759</field>
+      <field name="client">PINTURAS CONDOR S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">willian.valverde@pinturascondor.com,ivan.reina@pinturascondor.com</field>
+</record>
+
+<record id="cliente_74" model="clientes.inducom">
+      <field name="cod_client">C000118</field>
+      <field name="client">EDESA SA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">jquinga@edesa.com.ec,</field>
+</record>
+
+<record id="cliente_75" model="clientes.inducom">
+      <field name="cod_client">C010002</field>
+      <field name="client">INVEDELCA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">jsalazar@guipi.org,</field>
+</record>
+
+<record id="cliente_76" model="clientes.inducom">
+      <field name="cod_client">C019104</field>
+      <field name="client">ANDESFOODS CIA.LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_77" model="clientes.inducom">
+      <field name="cod_client">C003591</field>
+      <field name="client">PINTURAS PRODUTEKN CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_78" model="clientes.inducom">
+      <field name="cod_client">C002665</field>
+      <field name="client">DEPOHORMIGON CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_79" model="clientes.inducom">
+      <field name="cod_client">C002690</field>
+      <field name="client">ECUATORIANA DE MATRICERIA ECUAMATRIZ CIA LTDA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">daniel.poveda@ecuamatriz.com</field>
+</record>
+
+<record id="cliente_80" model="clientes.inducom">
+      <field name="cod_client">C000743</field>
+      <field name="client">UMCO S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_81" model="clientes.inducom">
+      <field name="cod_client">C011343</field>
+      <field name="client">FABRILACTEOS CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_82" model="clientes.inducom">
+      <field name="cod_client">C000839</field>
+      <field name="client">HOLVIPLAS S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">holviplassa@gmail.com</field>
+</record>
+
+<record id="cliente_83" model="clientes.inducom">
+      <field name="cod_client">C010574</field>
+      <field name="client">CUERPO DE INGENIEROS DEL EJERCITO</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">espinleonardo14@gmail.com,</field>
+</record>
+
+<record id="cliente_84" model="clientes.inducom">
+      <field name="cod_client">C001257</field>
+      <field name="client">HOLCIM ECUADOR S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">Darwin.bayas@holcim.com</field>
+</record>
+
+<record id="cliente_85" model="clientes.inducom">
+      <field name="cod_client">C002670</field>
+      <field name="client">PROMEPELL S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">compras@promepell.com</field>
+</record>
+
+<record id="cliente_86" model="clientes.inducom">
+      <field name="cod_client">C002686</field>
+      <field name="client">CHAVEZ ZU?IGA SALOMON IVAN</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">tecnicoelectromecanico@grupocasagrande.ec,tecnicoelectromecanico@grupocasagrande.ec,mcorrale@grupocasagrande.com</field>
+</record>
+
+<record id="cliente_87" model="clientes.inducom">
+      <field name="cod_client">C019735</field>
+      <field name="client">MILLPOLIMEROS S.A</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_88" model="clientes.inducom">
+      <field name="cod_client">C002662</field>
+      <field name="client">Ferreteria Dominguez Hermanos</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_89" model="clientes.inducom">
+      <field name="cod_client">C000431</field>
+      <field name="client">INDUSTRIAS LACTEAS CHIMBORAZO CIA. LTDA. INLECHE</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">,</field>
+</record>
+
+<record id="cliente_90" model="clientes.inducom">
+      <field name="cod_client">C020572</field>
+      <field name="client">TOSCANO ALULEMA JAVIER SANTIAGO</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">ascontrol.ec@gmail.com</field>
+</record>
+
+<record id="cliente_91" model="clientes.inducom">
+      <field name="cod_client">En proceso de creaci?n</field>
+      <field name="client">Moderna Alimentos S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">,,ogarces@andinanet.net, ogarcesmera@gmail.com,,,,</field>
+</record>
+
+<record id="cliente_92" model="clientes.inducom">
+      <field name="cod_client">C002604</field>
+      <field name="client">ARCOS MIRANDA LIDIA MARLENE</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_93" model="clientes.inducom">
+      <field name="cod_client">C012645</field>
+      <field name="client">AMPROVESOLUTIONS CIA.LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_94" model="clientes.inducom">
+      <field name="cod_client">C000043</field>
+      <field name="client">CONFITECA C.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">fherrera@confiteca.com.ec,fherrera@confiteca.com.ec</field>
+</record>
+
+<record id="cliente_95" model="clientes.inducom">
+      <field name="cod_client">C001019</field>
+      <field name="client">EMPRESA METROPOLITANA DE RASTRO</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_96" model="clientes.inducom">
+      <field name="cod_client">C018908</field>
+      <field name="client">PRODUCTOS MINERVA CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_97" model="clientes.inducom">
+      <field name="cod_client">C001150</field>
+      <field name="client">INDUSTRIA CARTONERA ASOCIADA S.A. INCASA</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_98" model="clientes.inducom">
+      <field name="cod_client">C011685</field>
+      <field name="client">HITEX CIA. LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_99" model="clientes.inducom">
+      <field name="cod_client">C000749</field>
+      <field name="client">CORPORACION ECUATORIANA DE CONGELADOS PROCONGELADOS S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">jefe_mantenimiento_prc@procongelados.com</field>
+</record>
+
+<record id="cliente_100" model="clientes.inducom">
+      <field name="cod_client">C001056</field>
+      <field name="client">LEVAPAN DEL ECUADOR S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_101" model="clientes.inducom">
+      <field name="cod_client">C002678</field>
+      <field name="client">INCUBADORA ANDINA INCUBANDINA SOCIEDAD ANONIMA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_102" model="clientes.inducom">
+      <field name="cod_client">C020376</field>
+      <field name="client">Femec</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">pmayorga@fairis.com</field>
+</record>
+
+<record id="cliente_103" model="clientes.inducom">
+      <field name="cod_client">C010208</field>
+      <field name="client">GUEVARA GARCES VICTOR ANIBAL</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_104" model="clientes.inducom">
+      <field name="cod_client">C002622</field>
+      <field name="client">ELECTROSIS</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">,gerencia@electrosis.com</field>
+</record>
+
+<record id="cliente_105" model="clientes.inducom">
+      <field name="cod_client">C019059</field>
+      <field name="client">FYM INPLASS CIA.LTDA.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">mauso1996@gmail.com</field>
+</record>
+
+<record id="cliente_106" model="clientes.inducom">
+      <field name="cod_client">C018635</field>
+      <field name="client">HIDALGO NARANJO INGENIEROS &amp; ARQUITECTOS S.A.</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_107" model="clientes.inducom">
+      <field name="cod_client">C000001</field>
+      <field name="client">Pablo O?ate</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">,NO TIENE,lflataa@pronaca,jefeplanta@fruta-pasion.com,ebrito@lfp.com.ec,costos@magrebsa.com,costos@magrebsa.com,Jose.Tafur@EC.nestle.com,Maria.Lopez@ec.nestle.com</field>
+</record>
+
+<record id="cliente_108" model="clientes.inducom">
+      <field name="cod_client">C020044</field>
+      <field name="client">ECOFROZ S.A</field>
+      <field name="vendor">ALEX BARRAGAN</field>
+      <field name="contact">adquisiciones@ecofroz.com</field>
+</record>
+
+<record id="cliente_109" model="clientes.inducom">
+      <field name="cod_client">C019887</field>
+      <field name="client">UNIDAD DE CUIDADOS INDUSTRIALES Y MUNICIPALES UCIM S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">juancarrerarecalde@gmail.com</field>
+</record>
+
+<record id="cliente_110" model="clientes.inducom">
+      <field name="cod_client">C000516</field>
+      <field name="client">BEBIDAS ARCACONTINENTAL ECUADOR ARCADOR S.A</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">marcos.medrano@arcacontal.com</field>
+</record>
+
+<record id="cliente_111" model="clientes.inducom">
+      <field name="cod_client">C000344</field>
+      <field name="client">PROCESADORA NACIONAL DE ALIMENTOS C.A. PRONACA</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">jdnavasg@pronaca.com,</field>
+</record>
+
+<record id="cliente_112" model="clientes.inducom">
+      <field name="cod_client">C001209</field>
+      <field name="client">SANDANIEL EXTRACTORA SAN DANIEL CIA. LTDA.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">luisomega15@gmail.com,cguijarro@molsando.com.ec</field>
+</record>
+
+<record id="cliente_113" model="clientes.inducom">
+      <field name="cod_client">C002085</field>
+      <field name="client">POLLO FAVORITO SA POFASA</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">rporras@pofasa.com,rporras@pofasa.com,dcarlozama@pofasa.com</field>
+</record>
+
+<record id="cliente_114" model="clientes.inducom">
+      <field name="cod_client">C010005</field>
+      <field name="client">SEGURA MARINO CARLOS EDUARDO</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">eduseg77@gmail.com</field>
+</record>
+
+<record id="cliente_115" model="clientes.inducom">
+      <field name="cod_client">C000750</field>
+      <field name="client">TECNANDINA S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">Rafael.Silva@grunenthal.com</field>
+</record>
+
+<record id="cliente_116" model="clientes.inducom">
+      <field name="cod_client">C011050</field>
+      <field name="client">ENPROCSOLUTIONS S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">jucavava1@hotmail.com</field>
+</record>
+
+<record id="cliente_117" model="clientes.inducom">
+      <field name="cod_client">C011918</field>
+      <field name="client">TAIMEC CIA.LTDA.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">taimec@equidagro.com</field>
+</record>
+
+<record id="cliente_118" model="clientes.inducom">
+      <field name="cod_client">C000456</field>
+      <field name="client">GENERAL MOTORS DEL ECUADOR S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">ermel.guamanllanga@gm.com</field>
+</record>
+
+<record id="cliente_119" model="clientes.inducom">
+      <field name="cod_client">C001193</field>
+      <field name="client">MARCSEAL S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">xpinos@marcseal.com.ec</field>
+</record>
+
+<record id="cliente_120" model="clientes.inducom">
+      <field name="cod_client">C001117</field>
+      <field name="client">LABORATORIOS INDUSTRIALES FARMACEUTICOS ECUATORIANOS LIFE C.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">ezurita@life.com.ec</field>
+</record>
+
+<record id="cliente_121" model="clientes.inducom">
+      <field name="cod_client">C000345</field>
+      <field name="client">PROCESADORA NACIONAL DE ALIMENTOS C.A.PRONACA</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">djchonia@pronaca.com,aggarcic@pronaca.com</field>
+</record>
+
+<record id="cliente_122" model="clientes.inducom">
+      <field name="cod_client">C019944</field>
+      <field name="client">GOBIERNO AUTONOMO DESCENTRALIZADO DE LA PROVINCIA DE PICHINCHA</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">mbahamontes@pichincha.gob.ec</field>
+</record>
+
+<record id="cliente_123" model="clientes.inducom">
+      <field name="cod_client">C019981</field>
+      <field name="client">CAIBE GAIBOR CHRISTIAN FERNANDO</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">christiancaibe@outlook.com</field>
+</record>
+
+<record id="cliente_124" model="clientes.inducom">
+      <field name="cod_client">C001128</field>
+      <field name="client">NILOTEX TELAS S.C.C.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">lrodriguez@nilotex.com</field>
+</record>
+
+<record id="cliente_125" model="clientes.inducom">
+      <field name="cod_client">C000707</field>
+      <field name="client">TEXTICOM CIA. LTDA.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">agonzalez@texticom.com</field>
+</record>
+
+<record id="cliente_126" model="clientes.inducom">
+      <field name="cod_client">C000339</field>
+      <field name="client">VICUNHA ECUADOR S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">fernanda.herrera@vicunha.com.ec</field>
+</record>
+
+<record id="cliente_127" model="clientes.inducom">
+      <field name="cod_client">C001925</field>
+      <field name="client">SIDERURGICA ECUATORIANA S. A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">supervisor.mantenimiento@sidec.com.ec</field>
+</record>
+
+<record id="cliente_128" model="clientes.inducom">
+      <field name="cod_client">C019833</field>
+      <field name="client">AQUIETA MASAPANTA HECTOR IVAN</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">aquaproyectosam@yahoo.es</field>
+</record>
+
+<record id="cliente_129" model="clientes.inducom">
+      <field name="cod_client">C020075</field>
+      <field name="client">CONSORCIO BENJADAN</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">edwinsigua@gmail.com</field>
+</record>
+
+<record id="cliente_130" model="clientes.inducom">
+      <field name="cod_client">C000879</field>
+      <field name="client">ENERGY &amp; PALMA ENERGYPALMA S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">compras@energypalma.com</field>
+</record>
+
+<record id="cliente_131" model="clientes.inducom">
+      <field name="cod_client">C011340</field>
+      <field name="client">FLEXIPLAST S.A.</field>
+      <field name="vendor">DANIEL VASQUEZ</field>
+      <field name="contact">avelez@flexiplast.com</field>
+</record>
+
+<record id="cliente_132" model="clientes.inducom">
+      <field name="cod_client">C000481</field>
+      <field name="client">YANBAL</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">Patricia.Viteri@yanbal.com,</field>
+</record>
+
+<record id="cliente_133" model="clientes.inducom">
+      <field name="cod_client">C001805</field>
+      <field name="client">EMULSIONES DEL ECUADOR EMULDEC CIA. LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">vcalderon@emuldec.com.ec</field>
+</record>
+
+<record id="cliente_134" model="clientes.inducom">
+      <field name="cod_client">C002297</field>
+      <field name="client">GARLANDSECUADOR S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">f_morocho@garlands-ec.com</field>
+</record>
+
+<record id="cliente_135" model="clientes.inducom">
+      <field name="cod_client">C000813</field>
+      <field name="client">ECUAJUGOS S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">maria.rivas@ec.nestle.com,gabriel.ona@ec.nestle.com,Jean.Gonzalez@ec.nestle.com</field>
+</record>
+
+<record id="cliente_136" model="clientes.inducom">
+      <field name="cod_client">C000906</field>
+      <field name="client">CORTINAS Y VISILLOS CORTYVIS CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">info@cortyvis.com.ec</field>
+</record>
+
+<record id="cliente_137" model="clientes.inducom">
+      <field name="cod_client">C016665</field>
+      <field name="client">TEXTIQUIM CIA LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">jnicolalde@textiquim.com</field>
+</record>
+
+<record id="cliente_138" model="clientes.inducom">
+      <field name="cod_client">C019777</field>
+      <field name="client">CERROAZUL S.A.S.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">dcalle@quasarex.com</field>
+</record>
+
+<record id="cliente_139" model="clientes.inducom">
+      <field name="cod_client">C000459</field>
+      <field name="client">FLORALP S.A</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">omar.tito@floralp-sa.com</field>
+</record>
+
+<record id="cliente_140" model="clientes.inducom">
+      <field name="cod_client">C002902</field>
+      <field name="client">VIBROPOSTE CIA LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">vibropostecialtda@gmail.com</field>
+</record>
+
+<record id="cliente_141" model="clientes.inducom">
+      <field name="cod_client">C020025</field>
+      <field name="client">AIGAJE LANCHIMBA SEGUNDO ARTURO</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">arturo17aigaje@gmail.com</field>
+</record>
+
+<record id="cliente_142" model="clientes.inducom">
+      <field name="cod_client">C010295</field>
+      <field name="client">CERVEZA ARTESANAL SR55 CIA LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">jose@cervezasantarosa.com</field>
+</record>
+
+<record id="cliente_143" model="clientes.inducom">
+      <field name="cod_client">C000362</field>
+      <field name="client">UNACEM ECUADOR S A</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">julio.villegas@unacem.com.ec,wilmer.valencia@unacem.com.ec,diego.bolanos@unacem.com.ec,jose.galiano@unacem.com.ec,andrea.arcos@unacem.com.ec</field>
+</record>
+
+<record id="cliente_144" model="clientes.inducom">
+      <field name="cod_client">C012834</field>
+      <field name="client">INDECAUCHO CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">cbonilla@indecaucho.com</field>
+</record>
+
+<record id="cliente_145" model="clientes.inducom">
+      <field name="cod_client">C010871</field>
+      <field name="client">SERMANT CIA.LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">proyectos.e.ial@gmail.com</field>
+</record>
+
+<record id="cliente_146" model="clientes.inducom">
+      <field name="cod_client">C010405</field>
+      <field name="client">PLASTICOS DALMAU S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">dbedoya@plasticosdalmau.com,carguello@industriasdalmau.com</field>
+</record>
+
+<record id="cliente_147" model="clientes.inducom">
+      <field name="cod_client">C000451</field>
+      <field name="client">EMPRESAS PINTO S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">hcevallos@pinto.com.ec,compras@pinto.com.ec</field>
+</record>
+
+<record id="cliente_148" model="clientes.inducom">
+      <field name="cod_client">C002584</field>
+      <field name="client">CHOCONO S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_149" model="clientes.inducom">
+      <field name="cod_client">C000935</field>
+      <field name="client">MODERNA ALIMENTOS S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">mtagle@moderna.com.ec,c.pastor@moderna.com.ec,secheverria@moderna.com.ec,</field>
+</record>
+
+<record id="cliente_150" model="clientes.inducom">
+      <field name="cod_client">C002988</field>
+      <field name="client">LICORES DE AMERICA S.A. LICORAM</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">mantenimiento@licoram.com</field>
+</record>
+
+<record id="cliente_151" model="clientes.inducom">
+      <field name="cod_client">C000867</field>
+      <field name="client">CONSTRUCTORA LA ROCA CLR S.A</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">mantenimiento@laroca.com.ec</field>
+</record>
+
+<record id="cliente_152" model="clientes.inducom">
+      <field name="cod_client">C020135</field>
+      <field name="client">RUIZ RAMIREZ NELSON MAURICIO</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">nruiz@licoram.com</field>
+</record>
+
+<record id="cliente_153" model="clientes.inducom">
+      <field name="cod_client">C018952</field>
+      <field name="client">OXFORD ECUADOR S.C.C</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_154" model="clientes.inducom">
+      <field name="cod_client">C000768</field>
+      <field name="client">INTELA CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">produccion@intela.com.ec</field>
+</record>
+
+<record id="cliente_155" model="clientes.inducom">
+      <field name="cod_client">C002880</field>
+      <field name="client">FABRINORTE CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">wil.pasq_78@hotmail.com,fvire@indutexma.com</field>
+</record>
+
+<record id="cliente_156" model="clientes.inducom">
+      <field name="cod_client">C001714</field>
+      <field name="client">QUALIPHARM LABORATORIO FARMACEUTICO S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">ulices.cedillo@qualipharmlab.com</field>
+</record>
+
+<record id="cliente_157" model="clientes.inducom">
+      <field name="cod_client">C011302</field>
+      <field name="client">MAQUIPHARMA S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">compras@maquipharma.com</field>
+</record>
+
+<record id="cliente_158" model="clientes.inducom">
+      <field name="cod_client">C001825</field>
+      <field name="client">DIMABRU CIA LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">jcarrasco@dimabru.com.ec</field>
+</record>
+
+<record id="cliente_159" model="clientes.inducom">
+      <field name="cod_client">C000876</field>
+      <field name="client">NOVACERO S.A</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">villacresa@novacero.com</field>
+</record>
+
+<record id="cliente_160" model="clientes.inducom">
+      <field name="cod_client">C002136</field>
+      <field name="client">QUIMPAC ECUADOR S.A QUIMPACSA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">supervisormttouio@quimpac.com.ec,qecgyeinscsd@quimpac.com.ec</field>
+</record>
+
+<record id="cliente_161" model="clientes.inducom">
+      <field name="cod_client">C018947</field>
+      <field name="client">INDUSTRIA RECICLADORA DE CAUCHO ECOCAUCHO S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_162" model="clientes.inducom">
+      <field name="cod_client">C001067</field>
+      <field name="client">CONFECCIONES RECREATIVAS FIBRAN CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">veronica.corral@fibran.com.ec,paul.quispe@fibran.com.ec</field>
+</record>
+
+<record id="cliente_163" model="clientes.inducom">
+      <field name="cod_client">C000824</field>
+      <field name="client">DECORTEXTILES</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">gerencia_produccion@mundodecor.ec</field>
+</record>
+
+<record id="cliente_164" model="clientes.inducom">
+      <field name="cod_client">C002109</field>
+      <field name="client">ROYALTEX S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">rjacome@royaltex.com.ec,jmguerra@royaltex.com.ec</field>
+</record>
+
+<record id="cliente_165" model="clientes.inducom">
+      <field name="cod_client">C000044</field>
+      <field name="client">ALIMENTOS ECUATORIANOS SA ALIMEC</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">jefmecanico@alimec.com.ec,bmantenimiento@alimec.com.ec</field>
+</record>
+
+<record id="cliente_166" model="clientes.inducom">
+      <field name="cod_client">C018298</field>
+      <field name="client">ECU-ITALCOL S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">jhonattanperalta@ecuitalcol.com</field>
+</record>
+
+<record id="cliente_167" model="clientes.inducom">
+      <field name="cod_client">C011303</field>
+      <field name="client">EMPRESA PUBLICA MUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE IBARRA EMAPA-</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">l.diaz@emapai.gob.ec,lbenavides@emapai.gob.ec</field>
+</record>
+
+<record id="cliente_168" model="clientes.inducom">
+      <field name="cod_client">C000937</field>
+      <field name="client">TERRAFERTIL S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_169" model="clientes.inducom">
+      <field name="cod_client">C018679</field>
+      <field name="client">EDIFICIO CRISTOBAL COLON B</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">hector-molinatm@hotmail.com</field>
+</record>
+
+<record id="cliente_170" model="clientes.inducom">
+      <field name="cod_client">C000908</field>
+      <field name="client">BOPP DEL ECUADOR S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">smontalvo@boppdelecuador.com</field>
+</record>
+
+<record id="cliente_171" model="clientes.inducom">
+      <field name="cod_client">C001114</field>
+      <field name="client">HOLCIM ECUADOR S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">milton.guerra@holcim.com</field>
+</record>
+
+<record id="cliente_172" model="clientes.inducom">
+      <field name="cod_client">C002511</field>
+      <field name="client">GOLDERIE TRADING CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">msanchez@envapress.com.ec</field>
+</record>
+
+<record id="cliente_173" model="clientes.inducom">
+      <field name="cod_client">C002174</field>
+      <field name="client">CORRUGADORA NACIONAL CRANSA S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">bryan.rocha@cartonesamerica.com</field>
+</record>
+
+<record id="cliente_174" model="clientes.inducom">
+      <field name="cod_client">C001650</field>
+      <field name="client">INDUSTRIAS IEPESA ECUATORIANA DE PRODUCTOS ELECTRONICOS SA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">mantenimiento@iepesaplasticos.com</field>
+</record>
+
+<record id="cliente_175" model="clientes.inducom">
+      <field name="cod_client">C001469</field>
+      <field name="client">INDUSTRIA LICORERA IBEROAMERICANA ILSA S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">hpedrera@ilsa.la</field>
+</record>
+
+<record id="cliente_176" model="clientes.inducom">
+      <field name="cod_client">C011249</field>
+      <field name="client">BETAPHARMA S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">mantenimiento@betapharma.org</field>
+</record>
+
+<record id="cliente_177" model="clientes.inducom">
+      <field name="cod_client">C019093</field>
+      <field name="client">VILCACUNDO VACA GUIDO EDUARDO</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">guiedu_13la@hotmail.com</field>
+</record>
+
+<record id="cliente_178" model="clientes.inducom">
+      <field name="cod_client">C019168</field>
+      <field name="client">UTOPIA FARMS UTF S.A.S.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">daestrada@esmeraldafarms.com,,linsuasti@esmeraldafarms.com.ec,jpicho@esmeraldafarms.com</field>
+</record>
+
+<record id="cliente_179" model="clientes.inducom">
+      <field name="cod_client">C018958</field>
+      <field name="client">AMCECUADOR COMPANIA LIMITADA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">rramos@amcecuador.com</field>
+</record>
+
+<record id="cliente_180" model="clientes.inducom">
+      <field name="cod_client">C002860</field>
+      <field name="client">ECUACROMUS ECUATORIANA DE CROMADOS S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">ecuacromus@ecuacromus.com</field>
+</record>
+
+<record id="cliente_181" model="clientes.inducom">
+      <field name="cod_client">C000546</field>
+      <field name="client">INGENIO AZUCARERO DEL NORTE COMPA?IA DE ECONOMIA MIXTA IANCEM</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">energia@tababuela.com,ingproyectos@tababuela.com,energia@tababuela.com,jefeadquisiciones@tababuela.com</field>
+</record>
+
+<record id="cliente_182" model="clientes.inducom">
+      <field name="cod_client">C000429</field>
+      <field name="client">LABORATORIO FARMACEUTICO LAMOSAN CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">juan.males@lamosan.com.ec</field>
+</record>
+
+<record id="cliente_183" model="clientes.inducom">
+      <field name="cod_client">C020071</field>
+      <field name="client">PLASTILENE AGROPLASTICOS</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">menciso@agro-plasticos.com</field>
+</record>
+
+<record id="cliente_184" model="clientes.inducom">
+      <field name="cod_client">C002246</field>
+      <field name="client">TEXTILES DEL PACIFICO TEXPAC CIA LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">mantenimiento@texpac.com.ec</field>
+</record>
+
+<record id="cliente_185" model="clientes.inducom">
+      <field name="cod_client">C018937</field>
+      <field name="client">BUESTAN CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">washoreyes73@gmail.com</field>
+</record>
+
+<record id="cliente_186" model="clientes.inducom">
+      <field name="cod_client">C000950</field>
+      <field name="client">TIGRE ECUADOR S.A. ECUATIGRE</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">david.martinez@tigre.com</field>
+</record>
+
+<record id="cliente_187" model="clientes.inducom">
+      <field name="cod_client">C018774</field>
+      <field name="client">VIDAL CONSTRUCCIONES CIA. LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">pbastidas@vicoarq.com</field>
+</record>
+
+<record id="cliente_188" model="clientes.inducom">
+      <field name="cod_client">C000420</field>
+      <field name="client">INDUSTRIA DE PRODUCTOS ALIMENTICIOS INPROLAC S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">apoyo.tecnico@inprolac.com.ec,tecnico@inprolac.com.ec</field>
+</record>
+
+<record id="cliente_189" model="clientes.inducom">
+      <field name="cod_client">C019862</field>
+      <field name="client">INCREMAR CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">produccion@incremar.com</field>
+</record>
+
+<record id="cliente_190" model="clientes.inducom">
+      <field name="cod_client">C002392</field>
+      <field name="client">GALVANORTE CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">contabilidad@galvanorte.ec</field>
+</record>
+
+<record id="cliente_191" model="clientes.inducom">
+      <field name="cod_client">C018944</field>
+      <field name="client">TENSORTEC ECUADOR S.A. EN LIQUIDACI?N</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">proyectos@tensortec.com.ec,proyectos@tensortec.com.ec</field>
+</record>
+
+<record id="cliente_192" model="clientes.inducom">
+      <field name="cod_client">C001921</field>
+      <field name="client">PLASTIFLAN CIA.LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">manuelamaya@plastiflan.com.ec</field>
+</record>
+
+<record id="cliente_193" model="clientes.inducom">
+      <field name="cod_client">C012114</field>
+      <field name="client">TONELLO</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">compras@tonello.ec,rjacome@tonello.com</field>
+</record>
+
+<record id="cliente_194" model="clientes.inducom">
+      <field name="cod_client">C001678</field>
+      <field name="client">ENVAPRESS CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">lubastidas@envapress.com.ec,cregalado@envapress.com.ec</field>
+</record>
+
+<record id="cliente_195" model="clientes.inducom">
+      <field name="cod_client">C003464</field>
+      <field name="client">ALVAREZ DEL HIERRO DIEGO RAFAEL</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">consultas@masagro.com</field>
+</record>
+
+<record id="cliente_196" model="clientes.inducom">
+      <field name="cod_client">C011038</field>
+      <field name="client">IMECANIC CIA. LTDA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">pvilatuna@imecanic.com</field>
+</record>
+
+<record id="cliente_197" model="clientes.inducom">
+      <field name="cod_client">C018832</field>
+      <field name="client">ROSADEX CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_198" model="clientes.inducom">
+      <field name="cod_client">C010414</field>
+      <field name="client">IGUAMBA CADENA VICTOR HUGO</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_199" model="clientes.inducom">
+      <field name="cod_client">C003748</field>
+      <field name="client">GUAYASAMIN REIMUNDO MARIA MAGDALENA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">industriasmaliza@hotmail.com</field>
+</record>
+
+<record id="cliente_200" model="clientes.inducom">
+      <field name="cod_client">C000449</field>
+      <field name="client">AYMESA S.A.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">jvillegas@aymesa.com.ec,cmeneses@aymesa.com.ec</field>
+</record>
+
+<record id="cliente_201" model="clientes.inducom">
+      <field name="cod_client">C012009</field>
+      <field name="client">HORTISHOP</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">al@hortishop.ec</field>
+</record>
+
+<record id="cliente_202" model="clientes.inducom">
+      <field name="cod_client">C001664</field>
+      <field name="client">NEYPLEX CIA. LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">info@neyplex.com</field>
+</record>
+
+<record id="cliente_203" model="clientes.inducom">
+      <field name="cod_client">C001598</field>
+      <field name="client">TEXTILES TEXSA SA</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">repuestos@textilestexsa.com</field>
+</record>
+
+<record id="cliente_204" model="clientes.inducom">
+      <field name="cod_client">C012687</field>
+      <field name="client">PRODUCTOS OLE DEL ECUADOR PRODUCTOSOLE CIA.LTDA.</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">cacosta@productosole.com</field>
+</record>
+
+<record id="cliente_205" model="clientes.inducom">
+      <field name="cod_client">C000333</field>
+      <field name="client">PROCESADORA NACIONAL DE ALIMENTOS C.A. PRONACA CONSERVAS</field>
+      <field name="vendor">DIEGO MALES</field>
+      <field name="contact">WOrtiz@pronaca.com</field>
+</record>
+
+<record id="cliente_206" model="clientes.inducom">
+      <field name="cod_client">C003596</field>
+      <field name="client">ACERIA DEL ECUADOR CA ADELCA.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">sofianorona@adelca.com</field>
+</record>
+
+<record id="cliente_207" model="clientes.inducom">
+      <field name="cod_client">C002329</field>
+      <field name="client">AGROAZUCAR ECUADOR S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">jroca@latroncal.com.ec</field>
+</record>
+
+<record id="cliente_208" model="clientes.inducom">
+      <field name="cod_client">C002587</field>
+      <field name="client">AGUILAR SANCHEZ CARLOS RUBEN</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">sistema1seguridad@yahoo.es</field>
+</record>
+
+<record id="cliente_209" model="clientes.inducom">
+      <field name="cod_client">C000002</field>
+      <field name="client">AJECUADOR S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">julio.vizueta.ec@ajegroup.com</field>
+</record>
+
+<record id="cliente_210" model="clientes.inducom">
+      <field name="cod_client">C001251</field>
+      <field name="client">ARIS ECUADOR ARISIN S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">lmoran@arisecuador.com</field>
+</record>
+
+<record id="cliente_211" model="clientes.inducom">
+      <field name="cod_client">C010796</field>
+      <field name="client">AVIANHALZER S.A</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">o.rodriguez@incubadoraavianahalzer</field>
+</record>
+
+<record id="cliente_212" model="clientes.inducom">
+      <field name="cod_client">C001053</field>
+      <field name="client">BEBIDAS ARCACONTINENTAL ECUADOR ARCADOR S.A</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">galo.duenas@arcacontal.com,diana.arango@arcacontal.com</field>
+</record>
+
+<record id="cliente_213" model="clientes.inducom">
+      <field name="cod_client">C018362</field>
+      <field name="client">BURGOS JURADO ANGEL BRAULIO</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">perfo_pozo@hotmail,com</field>
+</record>
+
+<record id="cliente_214" model="clientes.inducom">
+      <field name="cod_client">C000102</field>
+      <field name="client">CODANA S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">asoria@valdez.com.ec,vgil@codana.com</field>
+</record>
+
+<record id="cliente_215" model="clientes.inducom">
+      <field name="cod_client">C000237</field>
+      <field name="client">COMPANIA AZUCARERA VALDEZ S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">asoria@valdez.com.ec,evillao@valdez.com.ec,ajvillavicencio@codana.com</field>
+</record>
+
+<record id="cliente_216" model="clientes.inducom">
+      <field name="cod_client">C001691</field>
+      <field name="client">CORPETROLSA S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">albertobustos@servamain.com,lsanchez@servamain.com</field>
+</record>
+
+<record id="cliente_217" model="clientes.inducom">
+      <field name="cod_client">C019878</field>
+      <field name="client">CUENCA FERNANDEZ IRMA LEONOR</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">e.robayo@hidrotecnologiaecuador.com</field>
+</record>
+
+<record id="cliente_218" model="clientes.inducom">
+      <field name="cod_client">C002588</field>
+      <field name="client">CUNALATA CHICAIZA LEONILA IRENE</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">irenecunalata@hotmail.com</field>
+</record>
+
+<record id="cliente_219" model="clientes.inducom">
+      <field name="cod_client">C011943</field>
+      <field name="client">DLEN S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">lsanchez@servamain.com</field>
+</record>
+
+<record id="cliente_220" model="clientes.inducom">
+      <field name="cod_client">C012086</field>
+      <field name="client">EMPRESA MUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE SALITRE Y SUS SECTORE</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">emapasalitres@gmail.com</field>
+</record>
+
+<record id="cliente_221" model="clientes.inducom">
+      <field name="cod_client">C001285</field>
+      <field name="client">ENERGIAS DEL AGRO SAN JUAN S.A. ENERAGRO</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">c.jimenez@eneragro.com.ec,c.gomez@eneragro.com.ec</field>
+</record>
+
+<record id="cliente_222" model="clientes.inducom">
+      <field name="cod_client">C002681</field>
+      <field name="client">GARCES MERA HERNAN OSWALDO</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">ogarcesmera@gmail.com</field>
+</record>
+
+<record id="cliente_223" model="clientes.inducom">
+      <field name="cod_client">C001455</field>
+      <field name="client">INBALNOR S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">aochoa@nicovita.com.ec,jsuareza@inbalnor.com.ec</field>
+</record>
+
+<record id="cliente_224" model="clientes.inducom">
+      <field name="cod_client">C001458</field>
+      <field name="client">INDUSTRIAL PAPELERA ECUATORIANA S.A INPAECSA</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">w.orozco@familiasancela.com</field>
+</record>
+
+<record id="cliente_225" model="clientes.inducom">
+      <field name="cod_client">C010284</field>
+      <field name="client">INDUSTRIAL PESQUERA SANTA PRISCILA S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">ralvarez@tropack.com.ec</field>
+</record>
+
+<record id="cliente_226" model="clientes.inducom">
+      <field name="cod_client">C018526</field>
+      <field name="client">KERACISA S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">nickynolivos2205@gmail.com</field>
+</record>
+
+<record id="cliente_227" model="clientes.inducom">
+      <field name="cod_client">C019804</field>
+      <field name="client">LABORATORIO NEO FARMACO DEL ECUADOR NEOFARMACO CIA. LTDA.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">peniaw@neofarmaco.net</field>
+</record>
+
+<record id="cliente_228" model="clientes.inducom">
+      <field name="cod_client">C003588</field>
+      <field name="client">LABORATORIO VIDA (LABOVIDA) S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">marcos.d.moreno@gmail.com</field>
+</record>
+
+<record id="cliente_229" model="clientes.inducom">
+      <field name="cod_client">C010398</field>
+      <field name="client">LABORATORIOS OVALCOHOL CIA. LTDA.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">a.vallejo@ovalcohol.com</field>
+</record>
+
+<record id="cliente_230" model="clientes.inducom">
+      <field name="cod_client">C000437</field>
+      <field name="client">LABORATORIOS ROCNARF S.A</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">mantenimiento@rocnarf.com,ec</field>
+</record>
+
+<record id="cliente_231" model="clientes.inducom">
+      <field name="cod_client">C003568</field>
+      <field name="client">LAMI?A MAYGUA FABIAN ROLANDO</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">rubenlami?a@hotmail.com</field>
+</record>
+
+<record id="cliente_232" model="clientes.inducom">
+      <field name="cod_client">C000008</field>
+      <field name="client">NOVACERO S.A</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">guerraf@novacero.com,verajr@novacero.com</field>
+</record>
+
+<record id="cliente_233" model="clientes.inducom">
+      <field name="cod_client">C000266</field>
+      <field name="client">PAPELERA NACIONAL S.A</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">wtorres@panasa.com.ec,fmontano@panasa.com.ec,d.loaiza@panasa.com</field>
+</record>
+
+<record id="cliente_234" model="clientes.inducom">
+      <field name="cod_client">C001890</field>
+      <field name="client">PRODUCARGO S.A. PRODUCTORA DE ALCOHOLES</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">pmendieta@latroncal.com.ec</field>
+</record>
+
+<record id="cliente_235" model="clientes.inducom">
+      <field name="cod_client">C019657</field>
+      <field name="client">RIVERA ESPINOZA ANGEL PATRIC</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">ingpatrick22@hotmail.com</field>
+</record>
+
+<record id="cliente_236" model="clientes.inducom">
+      <field name="cod_client">C002703</field>
+      <field name="client">RODRIGUEZ CORREA ROSA AYDE</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">cchiluisa@grupoferreteroching.com</field>
+</record>
+
+<record id="cliente_237" model="clientes.inducom">
+      <field name="cod_client">C002704</field>
+      <field name="client">ROSERO GUERRA DIEGO PAUL</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">rodseros@yahoo.com</field>
+</record>
+
+<record id="cliente_238" model="clientes.inducom">
+      <field name="cod_client">C000909</field>
+      <field name="client">SERVAMAIN S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">albertobustos@servamain.com</field>
+</record>
+
+<record id="cliente_239" model="clientes.inducom">
+      <field name="cod_client">C000033</field>
+      <field name="client">SOCIEDAD AGRICOLA E INDUSTRIAL SAN CARLOS S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">g.aroca@isc.com,l.quille@isc.com</field>
+</record>
+
+<record id="cliente_240" model="clientes.inducom">
+      <field name="cod_client">C000784</field>
+      <field name="client">SONINO S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">jrodriguez@hotmail.com</field>
+</record>
+
+<record id="cliente_241" model="clientes.inducom">
+      <field name="cod_client">C003557</field>
+      <field name="client">THE TESALIA SPRINGS COMPANY S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">ffajardo@cbc.co,ffajardo@cbc.co</field>
+</record>
+
+<record id="cliente_242" model="clientes.inducom">
+      <field name="cod_client">C003545</field>
+      <field name="client">VECONSA S.A.</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">p.zamora@grupovilaseca.com</field>
+</record>
+
+<record id="cliente_243" model="clientes.inducom">
+      <field name="cod_client">C002692</field>
+      <field name="client">ZU?IGA MIRANDA BOLIVAR ABDON</field>
+      <field name="vendor">WALTER CASTA?EDA</field>
+      <field name="contact">bolivarzuniga@hotmail.com</field>
+</record>
+
+<record id="cliente_244" model="clientes.inducom">
+      <field name="cod_client">C011776</field>
+      <field name="client">AGRICOLA PALMEIRAS AGRIPAL S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">cemndoza@agripalsa.com</field>
+</record>
+
+<record id="cliente_245" model="clientes.inducom">
+      <field name="cod_client">C001104</field>
+      <field name="client">AGRICOMINSA AGRICOLA COMERCIAL INDUSTRIAL S.A. AGRICOMINSA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">gerente.mantenimiento@agricominsa.com</field>
+</record>
+
+<record id="cliente_246" model="clientes.inducom">
+      <field name="cod_client">C000113</field>
+      <field name="client">AGRIPAC S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">meceltec@agripac.com.ec</field>
+</record>
+
+<record id="cliente_247" model="clientes.inducom">
+      <field name="cod_client">C001674</field>
+      <field name="client">ALIMENTOS YUPI S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">e.mauriciovm@yupi.com.co</field>
+</record>
+
+<record id="cliente_248" model="clientes.inducom">
+      <field name="cod_client">C020607</field>
+      <field name="client">ALVARADO FARFAN ALFONSO BENITO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">marielitamero80@gmail.com</field>
+</record>
+
+<record id="cliente_249" model="clientes.inducom">
+      <field name="cod_client">C018423</field>
+      <field name="client">ANIPROTEIN PROTEINA ANIMAL CIA. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">fcastillo@aniprotein.com,ggarcia@aniprotein.com</field>
+</record>
+
+<record id="cliente_250" model="clientes.inducom">
+      <field name="cod_client">C011877</field>
+      <field name="client">ASENCIO RODRIGUEZ IVAN ADOLFO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ivan.asencio@hotmail.com</field>
+</record>
+
+<record id="cliente_251" model="clientes.inducom">
+      <field name="cod_client">C019113</field>
+      <field name="client">ASOCIACION ARTESANAL DE PRODUCTORES DE CAFE Y MANI DE MANABI ASOPROCAM</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">glendatoalaing31@hotmail.com</field>
+</record>
+
+<record id="cliente_252" model="clientes.inducom">
+      <field name="cod_client">C001902</field>
+      <field name="client">ASUNCORP S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_253" model="clientes.inducom">
+      <field name="cod_client">C000797</field>
+      <field name="client">AVICOLA SAN ISIDRO S.A. AVISID</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">mantenimiento@avisid.com.ec,jonathan.delgado@avisid.com,oswaldo.rodriguez@avisid.com.ec,antenimiento@avisid.com.ec,gabriel.anhalzer@avisid.com.ec</field>
+</record>
+
+<record id="cliente_254" model="clientes.inducom">
+      <field name="cod_client">C010547</field>
+      <field name="client">BRIONES MONTERO EUDE ESNALDO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">eudes.briones@hotmail.com</field>
+</record>
+
+<record id="cliente_255" model="clientes.inducom">
+      <field name="cod_client">C000114</field>
+      <field name="client">CALDEROS &amp; AFINES S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">daguilera@equaboiler.com.ec,calidad@equaboiler.com.ec,ewanga@ekuaboiler.com,ventas@equaboiler.com.ec</field>
+</record>
+
+<record id="cliente_256" model="clientes.inducom">
+      <field name="cod_client">C018567</field>
+      <field name="client">CASTRO HOLGUIN ERIKA SANDY</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">N/A</field>
+</record>
+
+<record id="cliente_257" model="clientes.inducom">
+      <field name="cod_client">C011702</field>
+      <field name="client">CEDE?O LUQUE CRISTIAN RUMUALDO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">daguilera@equaboiler.com.ec</field>
+</record>
+
+<record id="cliente_258" model="clientes.inducom">
+      <field name="cod_client">C000020</field>
+      <field name="client">CERVECERIA NACIONAL CN S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">,boris.lopez@ab-inbev.com,angel.ayalalopez@ab-inbev.com,boros.parrales@ab-inbev.com,oscar.bastidas2@ec.ab-inbev.com,fausto.leon@ec.ab-inbev.com</field>
+</record>
+
+<record id="cliente_259" model="clientes.inducom">
+      <field name="cod_client">C000157</field>
+      <field name="client">CHIVERIA S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">rsolorzano@semvra.com,tpenafiel@semvra.com,kjbanchon@semvra.com</field>
+</record>
+
+<record id="cliente_260" model="clientes.inducom">
+      <field name="cod_client">C018268</field>
+      <field name="client">CITERA S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">compras@fortex.com.ec</field>
+</record>
+
+<record id="cliente_261" model="clientes.inducom">
+      <field name="cod_client">C018396</field>
+      <field name="client">CLUB SPORT EMELEC</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">malban@electrocables.com.ec</field>
+</record>
+
+<record id="cliente_262" model="clientes.inducom">
+      <field name="cod_client">C001898</field>
+      <field name="client">COMPANIA AGRICOLA E INDUSTRIAL ALFADOMUS CIA. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">marcelo.rosas@lafadomus.com</field>
+</record>
+
+<record id="cliente_263" model="clientes.inducom">
+      <field name="cod_client">C018442</field>
+      <field name="client">CONSTRUCCION DISE?O Y MONTAJE S.A. CDMSA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">contabilidad@cdmecuador.com</field>
+</record>
+
+<record id="cliente_264" model="clientes.inducom">
+      <field name="cod_client">C000967</field>
+      <field name="client">CUBIERTAS DEL ECUADOR KU-BIEC S. A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">cristian.galeano@kubiec.com,eliger@kubiec.com.ec</field>
+</record>
+
+<record id="cliente_265" model="clientes.inducom">
+      <field name="cod_client">C000391</field>
+      <field name="client">DIVERSQUIM S.A. DWE</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">gerencia.operaciones@diversquim.com,compras1@diversquim.com</field>
+</record>
+
+<record id="cliente_266" model="clientes.inducom">
+      <field name="cod_client">C000603</field>
+      <field name="client">DULCENAC S.A. DULCERIA NACIONAL</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">andresvinan@dulcenac.com.ec,compras@dulcenac.com.ec</field>
+</record>
+
+<record id="cliente_267" model="clientes.inducom">
+      <field name="cod_client">C010211</field>
+      <field name="client">ECUA INSTALACIONES S. A. ECUAINSTALSA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jtumbacogmail.com</field>
+</record>
+
+<record id="cliente_268" model="clientes.inducom">
+      <field name="cod_client">C000164</field>
+      <field name="client">ECUABARNICES S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">lchipamtiza@ecuabarnices.com.ec</field>
+</record>
+
+<record id="cliente_269" model="clientes.inducom">
+      <field name="cod_client">C018631</field>
+      <field name="client">ECU-ITALCOL S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jhonattanperalta@ecuitalcol.com</field>
+</record>
+
+<record id="cliente_270" model="clientes.inducom">
+      <field name="cod_client">C003184</field>
+      <field name="client">ELEMENTA ECUADOR ELECUEME S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ralban@elementa.com</field>
+</record>
+
+<record id="cliente_271" model="clientes.inducom">
+      <field name="cod_client">C010136</field>
+      <field name="client">ESCUELA SUPERIOR POLIT?CNICA DEL LITORAL ESPOL</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ivan.zerna@hotmail.com</field>
+</record>
+
+<record id="cliente_272" model="clientes.inducom">
+      <field name="cod_client">C003761</field>
+      <field name="client">EXPOPLAST S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">alapo@expoplast.com.ec,jurodriguez@favoritafe.com</field>
+</record>
+
+<record id="cliente_273" model="clientes.inducom">
+      <field name="cod_client">C000410</field>
+      <field name="client">EXPOTUNA S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ricardo.fierro@alimesa.com.ec</field>
+</record>
+
+<record id="cliente_274" model="clientes.inducom">
+      <field name="cod_client">C003779</field>
+      <field name="client">F &amp; A INGENIERIA FAINCA - GROUP C.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">nvizueta@fainca-group.com</field>
+</record>
+
+<record id="cliente_275" model="clientes.inducom">
+      <field name="cod_client">C000727</field>
+      <field name="client">FERRO TORRE S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">mantenimiento@ferrotorre.com.ec</field>
+</record>
+
+<record id="cliente_276" model="clientes.inducom">
+      <field name="cod_client">C019573</field>
+      <field name="client">FRANCO SOLORZANO JOE GUSTAVO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">fraso170@hotmail.com</field>
+</record>
+
+<record id="cliente_277" model="clientes.inducom">
+      <field name="cod_client">C001148</field>
+      <field name="client">FUNDAMETZ S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">mantenimiento@fundametz.com.ec</field>
+</record>
+
+<record id="cliente_278" model="clientes.inducom">
+      <field name="cod_client">C000504</field>
+      <field name="client">GADERE S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">oscar.calderon@veolia.com,mtto.mecanico@gadere.com</field>
+</record>
+
+<record id="cliente_279" model="clientes.inducom">
+      <field name="cod_client">C000557</field>
+      <field name="client">GALAPESCA S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">Gustavo.Arellano@StarKist.com,luis.ruiz@StarKist.com,Javier.Johnson@StarKist.com,willian.cantos@starkist.com,jasantana2007@gmail.com</field>
+</record>
+
+<record id="cliente_280" model="clientes.inducom">
+      <field name="cod_client">C010661</field>
+      <field name="client">GONZALEZ ABAD DAVID FERNANDO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">davidgonzalez_2000@yahoo.com</field>
+</record>
+
+<record id="cliente_281" model="clientes.inducom">
+      <field name="cod_client">C002206</field>
+      <field name="client">GRUPO AGRIPRODUCT S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">cmorejon@ccmangos.com</field>
+</record>
+
+<record id="cliente_282" model="clientes.inducom">
+      <field name="cod_client">C000282</field>
+      <field name="client">HEINEKEN ECUADOR S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ccrespo@bielaecuador.com,Geousseppy.Aragundy@Heineken.com,Freddy.Veloz@Heineken.com,luisadrian.saavedra@heineken.com,monofre@heineken.com</field>
+</record>
+
+<record id="cliente_283" model="clientes.inducom">
+      <field name="cod_client">C011760</field>
+      <field name="client">HIDALGO HERRERA JOSE JIMMY</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">N/A</field>
+</record>
+
+<record id="cliente_284" model="clientes.inducom">
+      <field name="cod_client">C011147</field>
+      <field name="client">HOTEL COLON GUAYAQUIL S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">wmurillo@hotelcolon.com</field>
+</record>
+
+<record id="cliente_285" model="clientes.inducom">
+      <field name="cod_client">C010754</field>
+      <field name="client">INASA INDUSTRIAL ACEITERA S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">N/A</field>
+</record>
+
+<record id="cliente_286" model="clientes.inducom">
+      <field name="cod_client">C000241</field>
+      <field name="client">INDURA ECUADOR S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jboza@indura.net,fveloso@indura.net,jbozar@indura.net</field>
+</record>
+
+<record id="cliente_287" model="clientes.inducom">
+      <field name="cod_client">C000621</field>
+      <field name="client">INDUSTRIA DACAR CIA. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">mcarrion,2bateriasdacar.com</field>
+</record>
+
+<record id="cliente_288" model="clientes.inducom">
+      <field name="cod_client">C018710</field>
+      <field name="client">INDUSTRIA T?CNICA VITERI G?MEZ INDUTECVIGO S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">cviteri@hotmail.com</field>
+</record>
+
+<record id="cliente_289" model="clientes.inducom">
+      <field name="cod_client">C000229</field>
+      <field name="client">INDUSTRIAS ALIMENTICIAS ECUATORIANAS S.A. INALECSA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">juan.rubio@inalecsa.com,angel.melgar@inalecsa.com</field>
+</record>
+
+<record id="cliente_290" model="clientes.inducom">
+      <field name="cod_client">C000060</field>
+      <field name="client">INDUSTRIAS LACTEAS S.A. INDULAC</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">friera@indulac.com.ec,ecavallos@indulac.com.ec</field>
+</record>
+
+<record id="cliente_291" model="clientes.inducom">
+      <field name="cod_client">C000169</field>
+      <field name="client">INTERAGUA C. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">rmolina@interagua.com.ec,germanmenesescucalon@gmail.com,luis.olivo@interagua.com</field>
+</record>
+
+<record id="cliente_292" model="clientes.inducom">
+      <field name="cod_client">C002433</field>
+      <field name="client">INTERCIA S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jmendez@intercia.com</field>
+</record>
+
+<record id="cliente_293" model="clientes.inducom">
+      <field name="cod_client">C000124</field>
+      <field name="client">MABE ECUADOR S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">mmaldonado@mabe.com.ec</field>
+</record>
+
+<record id="cliente_294" model="clientes.inducom">
+      <field name="cod_client">C018794</field>
+      <field name="client">MANGOLAND S. A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_295" model="clientes.inducom">
+      <field name="cod_client">C002976</field>
+      <field name="client">METALMECANICA METALCAR C.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">compras@metalcar.com.ec</field>
+</record>
+
+<record id="cliente_296" model="clientes.inducom">
+      <field name="cod_client">C010503</field>
+      <field name="client">MOREIRA MARQUEZ VALENTIN ALEJANDRO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">valentinm87@hotmail.com</field>
+</record>
+
+<record id="cliente_297" model="clientes.inducom">
+      <field name="cod_client">C000049</field>
+      <field name="client">PACIFIC BOTTLING COMPANY S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">francisco.arroyo@pbc.com.ec,respinoza@pbc.com.ec</field>
+</record>
+
+<record id="cliente_298" model="clientes.inducom">
+      <field name="cod_client">C020108</field>
+      <field name="client">PIGUAVE CRUZ EDGAR ANDRES</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">tallerpiguave@hotmail.com</field>
+</record>
+
+<record id="cliente_299" model="clientes.inducom">
+      <field name="cod_client">C012617</field>
+      <field name="client">PLAZA TIA UNO S.A. SOLIDASA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">admin4@adlimpsa.com.ec,jzambrano@jzconstructores.com</field>
+</record>
+
+<record id="cliente_300" model="clientes.inducom">
+      <field name="cod_client">C018578</field>
+      <field name="client">PORCINOS DEL ECUADOR ECUAPORK S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">esteban.cevallos@ecuapork.com.ec</field>
+</record>
+
+<record id="cliente_301" model="clientes.inducom">
+      <field name="cod_client">C000455</field>
+      <field name="client">PROCESADORA DE ALIMENTOS S.A. PRODAL</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">TECNICO DE PLANTA,esantos@invermabis.com,dbaja?a@invermabis.com,jrugel@invermabis.com</field>
+</record>
+
+<record id="cliente_302" model="clientes.inducom">
+      <field name="cod_client">C000415</field>
+      <field name="client">PRODUCTOS TISSUE DEL ECUADOR S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">carlos.bastardo@softys.com</field>
+</record>
+
+<record id="cliente_303" model="clientes.inducom">
+      <field name="cod_client">C000222</field>
+      <field name="client">QUIMPAC ECUADOR S.A QUIMPACSA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">oaguirre@quimpac.com.ec,mdesiderio@quimpac.com.ec,dvera@quimpac.com.ec,pgallegos@quimpac.com.ec,cperalta@quimpac.com.ec,jparedes@quimpac.com.ec,dvera@quimpac.com.ec</field>
+</record>
+
+<record id="cliente_304" model="clientes.inducom">
+      <field name="cod_client">C019697</field>
+      <field name="client">REDROBAN BECERRA DIEGO ALEJANDRO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">diego.redroban@hotmail.com</field>
+</record>
+
+<record id="cliente_305" model="clientes.inducom">
+      <field name="cod_client">C001025</field>
+      <field name="client">TECNOPLAST DEL ECUADOR CIA LTDA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">rpilay@tecnoplast.com.ec,tallerelectrico@tecnoplast.com.ec</field>
+</record>
+
+<record id="cliente_306" model="clientes.inducom">
+      <field name="cod_client">C000327</field>
+      <field name="client">TECNOVA S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">yuris.macias@grupoberlin.com,jonathan.siguencia@grupoberlin.com,fidel.vera@grupoberlin.com</field>
+</record>
+
+<record id="cliente_307" model="clientes.inducom">
+      <field name="cod_client">C000821</field>
+      <field name="client">TRANSMAR ECUADOR S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">priscilla.rojas@ecuakao.com</field>
+</record>
+
+<record id="cliente_308" model="clientes.inducom">
+      <field name="cod_client">C000031</field>
+      <field name="client">UNILEVER ANDINA ECUADOR S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">Oscar.M.Mora@unilever.com,nicolas.torres@unilever.com,Nestor.Rosado@unilever.com,henry.pincay@unilever.com,gonzalo.sanchez@unilever.com,jorge.lozada@unilever.com,kelly.menendez@unilever.com,wellington.alvarado@unilever.com,felix.peralta@unilever.com</field>
+</record>
+
+<record id="cliente_309" model="clientes.inducom">
+      <field name="cod_client">C000135</field>
+      <field name="client">VECONSA S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">dlogrono@semvra.com,freddy.tumbaco@semvra.com,ricardo.soledispa@semvra.com,xbastidas@semvra.com</field>
+</record>
+
+<record id="cliente_310" model="clientes.inducom">
+      <field name="cod_client">C018397</field>
+      <field name="client">VEOLIA ECUADOR S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">rosa.farfan@veolia.com.ec</field>
+</record>
+
+<record id="cliente_311" model="clientes.inducom">
+      <field name="cod_client">C002150</field>
+      <field name="client">VEPAMIL S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">supervisores@vepamil.com</field>
+</record>
+
+<record id="cliente_312" model="clientes.inducom">
+      <field name="cod_client">C002062</field>
+      <field name="client">VITABAL S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ralmeida@vitabal.com.ec,cpena@vitabal.com.ec,contabilidad@vitabal.com.ec</field>
+</record>
+
+<record id="cliente_313" model="clientes.inducom">
+      <field name="cod_client">C000338</field>
+      <field name="client">AGUAS DEL LITORAL S.A. AGUALITSA</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">akayser@agualitsa.com.ec</field>
+</record>
+
+<record id="cliente_314" model="clientes.inducom">
+      <field name="cod_client">C003745</field>
+      <field name="client">ALEXER S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">andres.emen@gmail.com</field>
+</record>
+
+<record id="cliente_315" model="clientes.inducom">
+      <field name="cod_client">C003478</field>
+      <field name="client">DURALUM S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">administracion@duralum.com</field>
+</record>
+
+<record id="cliente_316" model="clientes.inducom">
+      <field name="cod_client">C002116</field>
+      <field name="client">ECUADPREMEX S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">aguijarro@premex.com</field>
+</record>
+
+<record id="cliente_317" model="clientes.inducom">
+      <field name="cod_client">C002993</field>
+      <field name="client">EMPACRECI S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">compras@empacreci.com.ec,mantenimiento@empacreci.com.ec</field>
+</record>
+
+<record id="cliente_318" model="clientes.inducom">
+      <field name="cod_client">C000075</field>
+      <field name="client">EXPALSA EXPORTADORA DE ALIMENTOS S.A</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">alexis_munoz@expalsa.com</field>
+</record>
+
+<record id="cliente_319" model="clientes.inducom">
+      <field name="cod_client">C000683</field>
+      <field name="client">EXTRACTORA AGRICOLA RIO MANSO EXA S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">s/c</field>
+</record>
+
+<record id="cliente_320" model="clientes.inducom">
+      <field name="cod_client">C001456</field>
+      <field name="client">FARMAYALA PHARMACEUTICAL COMPANY S.A. FPC</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">mtorres@farmayala.com</field>
+</record>
+
+<record id="cliente_321" model="clientes.inducom">
+      <field name="cod_client">C002072</field>
+      <field name="client">IMPORTADORA INDUSTRIAL AGRICOLA DEL MONTE SOCIEDAD ANONIMA INMONTE</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">apacheco@delmonte.ec</field>
+</record>
+
+<record id="cliente_322" model="clientes.inducom">
+      <field name="cod_client">C011762</field>
+      <field name="client">KINGAS S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">jefe.planta@kingas.com.ec</field>
+</record>
+
+<record id="cliente_323" model="clientes.inducom">
+      <field name="cod_client">C003742</field>
+      <field name="client">LATAMFIBERHOME CABLE C. LTDA</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">s/c</field>
+</record>
+
+<record id="cliente_324" model="clientes.inducom">
+      <field name="cod_client">C003654</field>
+      <field name="client">NOVARED-NEGOCIOS Y RECICLAJE S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">canor@novared.com.ec,syso@novared.com.ec,labquimica@novared.com.ec,mgodoy@espol.edu.ec</field>
+</record>
+
+<record id="cliente_325" model="clientes.inducom">
+      <field name="cod_client">C000798</field>
+      <field name="client">OLEODAVILA S.A</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">bodega@oleodavila.com</field>
+</record>
+
+<record id="cliente_326" model="clientes.inducom">
+      <field name="cod_client">C012836</field>
+      <field name="client">ORRALA FRANCO EDGAR DANILO</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">danielito.orrala@gmail.com</field>
+</record>
+
+<record id="cliente_327" model="clientes.inducom">
+      <field name="cod_client">C002738</field>
+      <field name="client">PLASTIEMPAQUES S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">egutierrez@plastiempaques.com.ec</field>
+</record>
+
+<record id="cliente_328" model="clientes.inducom">
+      <field name="cod_client">C001234</field>
+      <field name="client">PROCESADORA DEL RIO SA PRORIOSA</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">rmacias@proriosa.com,lperibonio@proriosa.com</field>
+</record>
+
+<record id="cliente_329" model="clientes.inducom">
+      <field name="cod_client">C011711</field>
+      <field name="client">REFRISTORE S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">w.alcivar@refristore.com</field>
+</record>
+
+<record id="cliente_330" model="clientes.inducom">
+      <field name="cod_client">C000486</field>
+      <field name="client">REYBANPAC, REY BANANO DEL PACIFICO C.L.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">rguaman@favoritafc.com</field>
+</record>
+
+<record id="cliente_331" model="clientes.inducom">
+      <field name="cod_client">C003399</field>
+      <field name="client">SCALPICOSMETICA S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">jgaibor@scalpi.com</field>
+</record>
+
+<record id="cliente_332" model="clientes.inducom">
+      <field name="cod_client">C001273</field>
+      <field name="client">SIKA ECUATORIANA S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">anton.gabriel@ec.sika.com</field>
+</record>
+
+<record id="cliente_333" model="clientes.inducom">
+      <field name="cod_client">C002179</field>
+      <field name="client">SPARTAN DEL ECUADOR PRODUCTOS QUIMICOS S.A.</field>
+      <field name="vendor">ANDRES COBE?A</field>
+      <field name="contact">jorgejs.suarez@spartanecuador.com</field>
+</record>
+
+<record id="cliente_334" model="clientes.inducom">
+      <field name="cod_client">C000641</field>
+      <field name="client">AGUAPEN EP</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">omeroleon1977@hotmail.com,-</field>
+</record>
+
+<record id="cliente_335" model="clientes.inducom">
+      <field name="cod_client">C019414</field>
+      <field name="client">AISLANTES TECNICOS S.A. AISLATEC</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_336" model="clientes.inducom">
+      <field name="cod_client">C012313</field>
+      <field name="client">ALAVA GUTIERREZ ANGEL RAFAEL</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">alava.angel@gmail.com</field>
+</record>
+
+<record id="cliente_337" model="clientes.inducom">
+      <field name="cod_client">C002928</field>
+      <field name="client">ALIMENTOS EL SABOR ALIMENSABOR C.LTDA.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mantenimientoaes@elsabor.com.ec</field>
+</record>
+
+<record id="cliente_338" model="clientes.inducom">
+      <field name="cod_client">C018694</field>
+      <field name="client">ANDRADE ZAMBRANO NEBARDO CHRISTOPHER</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">dumanyandrade@gmail.com</field>
+</record>
+
+<record id="cliente_339" model="clientes.inducom">
+      <field name="cod_client">C011725</field>
+      <field name="client">ANILISA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">gveloz@servigrup.com.ec</field>
+</record>
+
+<record id="cliente_340" model="clientes.inducom">
+      <field name="cod_client">C002845</field>
+      <field name="client">AQUACULTURA TROPICAL S.A. AQUATROPICAL</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">cpunina@aquatropicalsa.com,</field>
+</record>
+
+<record id="cliente_341" model="clientes.inducom">
+      <field name="cod_client">C019246</field>
+      <field name="client">ARREAGA GARCIA SERGIO GEOVANNY</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_342" model="clientes.inducom">
+      <field name="cod_client">C019225</field>
+      <field name="client">BAKER PETROLITE DEL ECUADOR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">juan.sempertegui@bakerhughes.com</field>
+</record>
+
+<record id="cliente_343" model="clientes.inducom">
+      <field name="cod_client">C003906</field>
+      <field name="client">BALANCEADOS NOVA S.A. BALNOVA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mbrito@balnova.com</field>
+</record>
+
+<record id="cliente_344" model="clientes.inducom">
+      <field name="cod_client">C011731</field>
+      <field name="client">BANAROYAL S. A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">Shirley.Fernandez@dole.com</field>
+</record>
+
+<record id="cliente_345" model="clientes.inducom">
+      <field name="cod_client">C000094</field>
+      <field name="client">BIMBO ECUADOR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">harry.josue@grupobimbo.com,victor.obregon@grupobimbo.com,gary.jordan@grupobimbo.com</field>
+</record>
+
+<record id="cliente_346" model="clientes.inducom">
+      <field name="cod_client">C010601</field>
+      <field name="client">BIOTECNOLOGIA &amp; GENETICA MARINA S.A. BIOGEMAR</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">karla.romero@limbomar.com.ec'</field>
+</record>
+
+<record id="cliente_347" model="clientes.inducom">
+      <field name="cod_client">C001136</field>
+      <field name="client">BORSEA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mvera@serigrup.com.ec</field>
+</record>
+
+<record id="cliente_348" model="clientes.inducom">
+      <field name="cod_client">C019968</field>
+      <field name="client">CALCAREOS DEL PACIFICO CALPACSA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">randmetalmecanica@gmail.com</field>
+</record>
+
+<record id="cliente_349" model="clientes.inducom">
+      <field name="cod_client">C000284</field>
+      <field name="client">CALIZAS HUAYCO S.A</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">bod02@chuayco.com</field>
+</record>
+
+<record id="cliente_350" model="clientes.inducom">
+      <field name="cod_client">C001229</field>
+      <field name="client">CALIZAS Y MINERALES CALMOSACORP CIA. LTDA.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">coordinador.administracion@calmosacorp.com</field>
+</record>
+
+<record id="cliente_351" model="clientes.inducom">
+      <field name="cod_client">C019124</field>
+      <field name="client">CAPTECSOL S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">captecsol@captecsol.com</field>
+</record>
+
+<record id="cliente_352" model="clientes.inducom">
+      <field name="cod_client">C000148</field>
+      <field name="client">CARVAGU S.A</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">angel.bajana@carvagu.com.ec,william.yagual@carvagu.com.ec</field>
+</record>
+
+<record id="cliente_353" model="clientes.inducom">
+      <field name="cod_client">C019516</field>
+      <field name="client">CCMANGOS S.A</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">cmorejon@ccmangos.com,sramirez@ccmangos.com</field>
+</record>
+
+<record id="cliente_354" model="clientes.inducom">
+      <field name="cod_client">C010047</field>
+      <field name="client">CENTRALCORP S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">pbiotech.sa@gmail.com</field>
+</record>
+
+<record id="cliente_355" model="clientes.inducom">
+      <field name="cod_client">C018280</field>
+      <field name="client">CEREALES DEL ECUADOR S.C.C.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">valentinm87@hotmail.com</field>
+</record>
+
+<record id="cliente_356" model="clientes.inducom">
+      <field name="cod_client">C011909</field>
+      <field name="client">CEVALLOS REVELO JAVIER OSWALDO</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jccompresor@hotmail.com</field>
+</record>
+
+<record id="cliente_357" model="clientes.inducom">
+      <field name="cod_client">C001225</field>
+      <field name="client">CHAIDE Y CHAIDE S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">eduardo.sinche@chaideychaide.com</field>
+</record>
+
+<record id="cliente_358" model="clientes.inducom">
+      <field name="cod_client">C018427</field>
+      <field name="client">CONSTRUCCIONES Y CUBIERTAS KLAERE CIA LTDA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">tklaere@estructurasklaere.com</field>
+</record>
+
+<record id="cliente_359" model="clientes.inducom">
+      <field name="cod_client">C003887</field>
+      <field name="client">CONSTRUCTORA MARTINEZ BEJAR MARBE S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">beltymauchi@constructoramarbe.com</field>
+</record>
+
+<record id="cliente_360" model="clientes.inducom">
+      <field name="cod_client">C012188</field>
+      <field name="client">CONSULTIMEC CIA.LTDA.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">miguelmolina12@hotmail.es,jchoez@espol.edu.ec</field>
+</record>
+
+<record id="cliente_361" model="clientes.inducom">
+      <field name="cod_client">C000710</field>
+      <field name="client">CORPORACION CONSERVERA MUNDO MARINO PENINSULAR COMUMAP S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">vbernardino@comumap.com</field>
+</record>
+
+<record id="cliente_362" model="clientes.inducom">
+      <field name="cod_client">C001080</field>
+      <field name="client">CORPORACION DE PROYECTOS MULTIPLES MULT.I. PROYECTOS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">fcardenas@santa-priscila.com</field>
+</record>
+
+<record id="cliente_363" model="clientes.inducom">
+      <field name="cod_client">C000530</field>
+      <field name="client">CORPORACION ELECTRICA DEL ECUADOR CELEC EP</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">elizabeth.campoverde@celec.gob.ec,cesar.zambrano@celec.gob.ec</field>
+</record>
+
+<record id="cliente_364" model="clientes.inducom">
+      <field name="cod_client">C018560</field>
+      <field name="client">CORPORACION FERNANDEZ CORPFERNANDEZ S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">lcaiza@corpfernandez.com</field>
+</record>
+
+<record id="cliente_365" model="clientes.inducom">
+      <field name="cod_client">C019484</field>
+      <field name="client">CORPORACION FUTURA Y PRODUCCIONES COFUYPRO CIA. LTDA.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_366" model="clientes.inducom">
+      <field name="cod_client">C000564</field>
+      <field name="client">CRISTALERIA DEL ECUADOR S.A. CRIDESA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">carlos.leon@o-i.com</field>
+</record>
+
+<record id="cliente_367" model="clientes.inducom">
+      <field name="cod_client">C002851</field>
+      <field name="client">DELTA - DELFINI &amp; CIA., S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">ymontoya@deltadelfini.com</field>
+</record>
+
+<record id="cliente_368" model="clientes.inducom">
+      <field name="cod_client">C019374</field>
+      <field name="client">DESTILERIA ACEITES DEL SUR DESTILSURSA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">cmoina@destilsursa.com</field>
+</record>
+
+<record id="cliente_369" model="clientes.inducom">
+      <field name="cod_client">C003326</field>
+      <field name="client">DIMOLFIN S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jsusa@dimolfinsa.com,rpalomino@dimolfinsa.com</field>
+</record>
+
+<record id="cliente_370" model="clientes.inducom">
+      <field name="cod_client">C018259</field>
+      <field name="client">DISCAREM S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">shidalgomantenimiento@outlook.com</field>
+</record>
+
+<record id="cliente_371" model="clientes.inducom">
+      <field name="cod_client">C000575</field>
+      <field name="client">DURAGAS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">AGVARGASP@duragas.com.ec'</field>
+</record>
+
+<record id="cliente_372" model="clientes.inducom">
+      <field name="cod_client">C018665</field>
+      <field name="client">ECUAFEED S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">luischacon1509@gmail.vom</field>
+</record>
+
+<record id="cliente_373" model="clientes.inducom">
+      <field name="cod_client">C002173</field>
+      <field name="client">ECUANAVE C.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">byuqui@transfuelgroup.com</field>
+</record>
+
+<record id="cliente_374" model="clientes.inducom">
+      <field name="cod_client">C000109</field>
+      <field name="client">ECUATORIANA DE SAL Y PRODUCTOS QUIMICOS C.A. ECUASAL</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">oalcivar@ecuasal.com</field>
+</record>
+
+<record id="cliente_375" model="clientes.inducom">
+      <field name="cod_client">C000153</field>
+      <field name="client">EMPACADORA GRUPO GRANMAR S.A. EMPAGRAN</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mantenimiento_aba@empagran.com,mantenimiento_aba@empagran.com</field>
+</record>
+
+<record id="cliente_376" model="clientes.inducom">
+      <field name="cod_client">C003128</field>
+      <field name="client">ENVASUR ENVASES SURAMERICANOS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">creyes@envasur.com.ec,vcarrillo@envasur.com.ec</field>
+</record>
+
+<record id="cliente_377" model="clientes.inducom">
+      <field name="cod_client">C000310</field>
+      <field name="client">EP PETROECUADOR</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_378" model="clientes.inducom">
+      <field name="cod_client">C012483</field>
+      <field name="client">ESCOBAR ZAMBRANO ELENA ROSANA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">giovanny.tomala@gmail.com</field>
+</record>
+
+<record id="cliente_379" model="clientes.inducom">
+      <field name="cod_client">C000010</field>
+      <field name="client">EXOFRUT S.A</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">dduque@exofrut.com</field>
+</record>
+
+<record id="cliente_380" model="clientes.inducom">
+      <field name="cod_client">C012660</field>
+      <field name="client">EXU S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">pedro.capunay@exu.com.ec,bodega@exu.com.ec</field>
+</record>
+
+<record id="cliente_381" model="clientes.inducom">
+      <field name="cod_client">C000844</field>
+      <field name="client">FORTIDEX S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">r.egas@fortidex.com</field>
+</record>
+
+<record id="cliente_382" model="clientes.inducom">
+      <field name="cod_client">C020309</field>
+      <field name="client">FOXTER</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">foxter.facturacion@gmail.com</field>
+</record>
+
+<record id="cliente_383" model="clientes.inducom">
+      <field name="cod_client">C000744</field>
+      <field name="client">GENERADORA ROCAFUERTE S.A. GENEROCA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">miguel.macias@generoca.com.ec,jinsop.betancourt@generoca.com.ec</field>
+</record>
+
+<record id="cliente_384" model="clientes.inducom">
+      <field name="cod_client">C001858</field>
+      <field name="client">GLOBALPESCA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">r.egas@fortidex.com,flota.muelle@fortidex.com</field>
+</record>
+
+<record id="cliente_385" model="clientes.inducom">
+      <field name="cod_client">C003183</field>
+      <field name="client">GONZAPESCA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">d_morocho:ajoy@hotimail.com</field>
+</record>
+
+<record id="cliente_386" model="clientes.inducom">
+      <field name="cod_client">C003020</field>
+      <field name="client">GRUNDENPLAST S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">administracion@grundenplast.com</field>
+</record>
+
+<record id="cliente_387" model="clientes.inducom">
+      <field name="cod_client">C002164</field>
+      <field name="client">HEALTH &amp; LIFE S.A. HELISA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">gerenciag@helisa.com.ec</field>
+</record>
+
+<record id="cliente_388" model="clientes.inducom">
+      <field name="cod_client">C019070</field>
+      <field name="client">HEALTHYDRINKS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">dexi.franco@healthydrinks.com</field>
+</record>
+
+<record id="cliente_389" model="clientes.inducom">
+      <field name="cod_client">C002038</field>
+      <field name="client">HOLCIM ECUADOR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">boris.carriel@holcim.com,ronald.bravo@holcim.com,miguel.ayala@holcim.com,byron.villamar@holcim.com,karen.carbo@holcim.com</field>
+</record>
+
+<record id="cliente_390" model="clientes.inducom">
+      <field name="cod_client">C011929</field>
+      <field name="client">IDENOVA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jorge.villamarin@idenova.com.ec</field>
+</record>
+
+<record id="cliente_391" model="clientes.inducom">
+      <field name="cod_client">C001530</field>
+      <field name="client">IMPORTACIONES PROYECTOS Y SUMINISTROS ELECTRICOS IMPROSELEC S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">comprastm2@improselec.com</field>
+</record>
+
+<record id="cliente_392" model="clientes.inducom">
+      <field name="cod_client">C000322</field>
+      <field name="client">INDUSTRIAS LACTEAS TONI SA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">daniela.sanchez@tonicorp.com,david.zapata@arcacontal.com,carlos.choez@tonicorp.com,leopoldo.loor@tonicorp.com</field>
+</record>
+
+<record id="cliente_393" model="clientes.inducom">
+      <field name="cod_client">C010029</field>
+      <field name="client">INDUSTRIAS Y FRIGORIFICOS PESQUEROS INFRIPESCA C. A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">gveloz@servigrup.com.ec</field>
+</record>
+
+<record id="cliente_394" model="clientes.inducom">
+      <field name="cod_client">C010287</field>
+      <field name="client">INFORMAPORT S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mantenimiento@hotmail.com</field>
+</record>
+
+<record id="cliente_395" model="clientes.inducom">
+      <field name="cod_client">C018426</field>
+      <field name="client">INGENIERIA ELECTRONICA Y MECANICA INELAM S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">gustavoestrella@inelamconstrucciones.com</field>
+</record>
+
+<record id="cliente_396" model="clientes.inducom">
+      <field name="cod_client">C010537</field>
+      <field name="client">JANEC S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">gveloz@servigrup.com.ec,wcastro@servigrup.com.ec</field>
+</record>
+
+<record id="cliente_397" model="clientes.inducom">
+      <field name="cod_client">C001964</field>
+      <field name="client">LIFE FOOD PRODUCT ECUADOR LIFPRODEC S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">pestupinan@lfp.com.ec</field>
+</record>
+
+<record id="cliente_398" model="clientes.inducom">
+      <field name="cod_client">C012748</field>
+      <field name="client">LIRIS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">fbarcos@liris.com.ec,jmacias@liris.com.ec</field>
+</record>
+
+<record id="cliente_399" model="clientes.inducom">
+      <field name="cod_client">C010745</field>
+      <field name="client">LOPEZ VARGAS JORGE ERNESTO</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">joelingenieria60@gmail.com</field>
+</record>
+
+<record id="cliente_400" model="clientes.inducom">
+      <field name="cod_client">C012282</field>
+      <field name="client">MACHUCA ZAMBRANO BERMAN MOISES</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">upug_18@hotmail.com</field>
+</record>
+
+<record id="cliente_401" model="clientes.inducom">
+      <field name="cod_client">C019592</field>
+      <field name="client">MANTELECIN S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mantelecinsa@hotmail.com</field>
+</record>
+
+<record id="cliente_402" model="clientes.inducom">
+      <field name="cod_client">C019140</field>
+      <field name="client">MAQUINARIAS Y SOLUCIONES INDUSTRIALES WILPACMSI S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_403" model="clientes.inducom">
+      <field name="cod_client">C001683</field>
+      <field name="client">MAYEKAWA ECUADOR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">leonardo.medina@mayekawa.com.ec'</field>
+</record>
+
+<record id="cliente_404" model="clientes.inducom">
+      <field name="cod_client">C000371</field>
+      <field name="client">MAZZINI MENDEZ JOSE ANTONIO</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">soldemanta@hotmail.com</field>
+</record>
+
+<record id="cliente_405" model="clientes.inducom">
+      <field name="cod_client">C010105</field>
+      <field name="client">MEGABANANA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">Shirley.Fernandez@dole.com,Joe.Parrales@dole.com</field>
+</record>
+
+<record id="cliente_406" model="clientes.inducom">
+      <field name="cod_client">C010457</field>
+      <field name="client">MINAS SAN ANTONIO S.A. MISANSA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jorzambrano3@hotmail.com</field>
+</record>
+
+<record id="cliente_407" model="clientes.inducom">
+      <field name="cod_client">C019906</field>
+      <field name="client">MORENO ZEREGA JOSE LUIS</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">moreno.zerega@gmail.com</field>
+</record>
+
+<record id="cliente_408" model="clientes.inducom">
+      <field name="cod_client">C001801</field>
+      <field name="client">NAVISERVICIOS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">byuqui@transfuelgroup.com</field>
+</record>
+
+<record id="cliente_409" model="clientes.inducom">
+      <field name="cod_client">C012852</field>
+      <field name="client">NECCACAO S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jonathan.campana@neccacao.com'</field>
+</record>
+
+<record id="cliente_410" model="clientes.inducom">
+      <field name="cod_client">C000308</field>
+      <field name="client">NEGOCIOS INDUSTRIALES REAL N.I.R.S.A. S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">iserrano@nirsa.com,hespinoza@nirsa.com</field>
+</record>
+
+<record id="cliente_411" model="clientes.inducom">
+      <field name="cod_client">C001935</field>
+      <field name="client">NEGOCIOS NAVIEROS Y DE TRANSPORTE TRANSNEG S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">byuqui@transfuelgroup.com,eescobar@transfuelgroup.com</field>
+</record>
+
+<record id="cliente_412" model="clientes.inducom">
+      <field name="cod_client">C000326</field>
+      <field name="client">NESTLE ECUADOR S.A</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">Edda.Almeida@ec.nestle.com,Andres.Moncayo@EC.nestle.com</field>
+</record>
+
+<record id="cliente_413" model="clientes.inducom">
+      <field name="cod_client">C001101</field>
+      <field name="client">OCEANBAT S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">tecnico2@oceanbat.com</field>
+</record>
+
+<record id="cliente_414" model="clientes.inducom">
+      <field name="cod_client">C019526</field>
+      <field name="client">PANAMERICANA DE SEGURIDAD INDUSTRIAL PDSI S.A</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">wilson.ayala@pdsi.com.ec</field>
+</record>
+
+<record id="cliente_415" model="clientes.inducom">
+      <field name="cod_client">C000597</field>
+      <field name="client">PESQUERA HERCO S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">xalvarez@pesqueraherco.com</field>
+</record>
+
+<record id="cliente_416" model="clientes.inducom">
+      <field name="cod_client">C011499</field>
+      <field name="client">PICHUCHO GRANJA JOSE GUILLERMO</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">e.naranjosiein@gmail.com</field>
+</record>
+
+<record id="cliente_417" model="clientes.inducom">
+      <field name="cod_client">C018853</field>
+      <field name="client">PLASTICOS RIVAL CIA LTDA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">repuestos@plasticosrival.com,mrugel@plasticosrival.com</field>
+</record>
+
+<record id="cliente_418" model="clientes.inducom">
+      <field name="cod_client">C003126</field>
+      <field name="client">PLASTIGOMEZ S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jefemantenimiento@plastigomez.com</field>
+</record>
+
+<record id="cliente_419" model="clientes.inducom">
+      <field name="cod_client">C020118</field>
+      <field name="client">PONCE CHANCAY CHRISTIAN</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">cpc@hivimar.com</field>
+</record>
+
+<record id="cliente_420" model="clientes.inducom">
+      <field name="cod_client">C001369</field>
+      <field name="client">PROEXPO, PROCESADORA Y EXPORTADORA DE MARISCOS S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">rlange@proexpo.com.ec</field>
+</record>
+
+<record id="cliente_421" model="clientes.inducom">
+      <field name="cod_client">C002218</field>
+      <field name="client">PROMAROSA PRODUCTOS DEL MAR SANTA ROSA COMPA?IA LIMITADA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">fvinueza@promarosa.com</field>
+</record>
+
+<record id="cliente_422" model="clientes.inducom">
+      <field name="cod_client">C001145</field>
+      <field name="client">PROTQUIM</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">pmontesdeoca@protquim.com</field>
+</record>
+
+<record id="cliente_423" model="clientes.inducom">
+      <field name="cod_client">C019743</field>
+      <field name="client">RAVELLO REYES JOSE GERMAN</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jose_ravello@hotmail.com</field>
+</record>
+
+<record id="cliente_424" model="clientes.inducom">
+      <field name="cod_client">C019067</field>
+      <field name="client">ROSMEI S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">rosmeisol2017@gmail.com,silviafriend@hotmail.com,ignacio.lopez@rosmei.com.ec</field>
+</record>
+
+<record id="cliente_425" model="clientes.inducom">
+      <field name="cod_client">C003839</field>
+      <field name="client">SABOGAL VARON JOSE FERNANDO</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jfsv1963@gmail.com</field>
+</record>
+
+<record id="cliente_426" model="clientes.inducom">
+      <field name="cod_client">C003481</field>
+      <field name="client">SACOS DURAN REYSAC S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">compras@reysac.com</field>
+</record>
+
+<record id="cliente_427" model="clientes.inducom">
+      <field name="cod_client">C000281</field>
+      <field name="client">SALICA DEL ECUADOR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">emuzzio@salicadelecuador.com.ec</field>
+</record>
+
+<record id="cliente_428" model="clientes.inducom">
+      <field name="cod_client">C000013</field>
+      <field name="client">SANTIAGO LEON</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mvillamar@hotmail.com</field>
+</record>
+
+<record id="cliente_429" model="clientes.inducom">
+      <field name="cod_client">C003119</field>
+      <field name="client">SEATEC S.A. SERVICIOS TECNOLOGICOS PARA ACUACULTURA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">logistica@seatecsa.com.ec</field>
+</record>
+
+<record id="cliente_430" model="clientes.inducom">
+      <field name="cod_client">C002381</field>
+      <field name="client">SEIMAR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">olopez@seimar.com.ec,lfbr1989@gmail.com</field>
+</record>
+
+<record id="cliente_431" model="clientes.inducom">
+      <field name="cod_client">C003981</field>
+      <field name="client">SOCIEDAD AGROPECUARIA PIMOCHA C.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">Shirley.Fernandez@dole.com</field>
+</record>
+
+<record id="cliente_432" model="clientes.inducom">
+      <field name="cod_client">C000278</field>
+      <field name="client">SOLUBLES INSTANTANEOS COMPA?IA ANONIMA S.I.C.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">mtoro@biafoods.com</field>
+</record>
+
+<record id="cliente_433" model="clientes.inducom">
+      <field name="cod_client">C020449</field>
+      <field name="client">SULARVA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_434" model="clientes.inducom">
+      <field name="cod_client">C000027</field>
+      <field name="client">TECHCONSTRUYE S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">rpulido@techconstruye.com</field>
+</record>
+
+<record id="cliente_435" model="clientes.inducom">
+      <field name="cod_client">C010058</field>
+      <field name="client">TEXCUMAR S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_436" model="clientes.inducom">
+      <field name="cod_client">C001058</field>
+      <field name="client">TUBERIAS PACIFICO S.A. TUPASA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">wilsonefrain_g@hotmail.com</field>
+</record>
+
+<record id="cliente_437" model="clientes.inducom">
+      <field name="cod_client">C019413</field>
+      <field name="client">UNION CEMENTERA NACIONAL UCEM S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">jmrodriguez@ucem.com.ec</field>
+</record>
+
+<record id="cliente_438" model="clientes.inducom">
+      <field name="cod_client">C002777</field>
+      <field name="client">VANON S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">industria@vanon-ec.com</field>
+</record>
+
+<record id="cliente_439" model="clientes.inducom">
+      <field name="cod_client">C019845</field>
+      <field name="client">VECONSA S.A.</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact">crosario@semvra.com,emontesdeoca@semvra.com</field>
+</record>
+
+<record id="cliente_440" model="clientes.inducom">
+      <field name="cod_client">C003585</field>
+      <field name="client">VINOS DOS HEMISFERIOS C.A. VIDOHECA</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_441" model="clientes.inducom">
+      <field name="cod_client">C003489</field>
+      <field name="client">YAGUAL LUNA JOSE CRISTOBAL</field>
+      <field name="vendor">EVELYN MORETA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_442" model="clientes.inducom">
+      <field name="cod_client">C001347</field>
+      <field name="client">AGRIPAC S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">ksantos@agripac.com.ec,anieto@agripac.com.ec,ocalero@agripac.com.ec,rzuniga@agripac.com.ec,electricosbalanfarina@gmail.com,hjativa@agripac.com.ec,,mcontreras@agripac.com.ec,,jchimbolema@agripac.com.ec,gfernadez@agripac.com.ec</field>
+</record>
+
+<record id="cliente_443" model="clientes.inducom">
+      <field name="cod_client">C003625</field>
+      <field name="client">AQUACARGILL DEL ECUADOR CIA.LTDA</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">dustin_cardenas@cargill.com,kimberly_corrales_gonzalez@cargill.com,jose_luengo_beltran@cargill.com,Raul_Ramos@cargill.com,Wilson_Huiracocha_Saenz@cargill.com,Consultas_Ecuador@cargill.com,Kristel_Alfaro@cargill.com,Eduardo_Leon_Suarez@cargill.com</field>
+</record>
+
+<record id="cliente_444" model="clientes.inducom">
+      <field name="cod_client">C000287</field>
+      <field name="client">BANANA LIGHT BANALIGHT C.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">marcos@banalight.com.ec,compras@banalight.com.ec,cmantenimiento@banalight.com.ec,</field>
+</record>
+
+<record id="cliente_445" model="clientes.inducom">
+      <field name="cod_client">C000579</field>
+      <field name="client">BIOFACTOR S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">jbaquerizo@biofactor.com.ec,cangulo@biofactor.com.ec,marze@biofactor.com.ec,asistentecompras@vepamil.com,</field>
+</record>
+
+<record id="cliente_446" model="clientes.inducom">
+      <field name="cod_client">C002104</field>
+      <field name="client">CEDAL DURAN S.A</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">pasante@corpesa.com,saguilera@corpesa.com,aplanta@corpesa.com,,,lrodriguez@corpesa.com</field>
+</record>
+
+<record id="cliente_447" model="clientes.inducom">
+      <field name="cod_client">C002186</field>
+      <field name="client">COFINA S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">automatizacion@cofinacacao.com,,,,</field>
+</record>
+
+<record id="cliente_448" model="clientes.inducom">
+      <field name="cod_client">C000243</field>
+      <field name="client">DUPOCSA PROTECTORES QUIMICOS PARA EL CAMPO S. A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">l.diaz@crystalchemical.com.ec,f.haro@crystalchemical.com.ec</field>
+</record>
+
+<record id="cliente_449" model="clientes.inducom">
+      <field name="cod_client">C000138</field>
+      <field name="client">GISIS S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">alberto.tejada@skretting.com,tamara.tomala@skretting.com,carlos.valarezo@skretting.com,manuel.espinoza@skretting.com,carlos.yepez@skretting.com,cesar.molina@skretting.com - cesar.molina@nutreco.com,juan.peralta@skretting.com,josue.gavilanes@skretting.com,julio.jara@skretting.com,maria.mariscal@skretting.com,gregorio.farias@skretting.com,manuel.g.meza@skretting.com,wilman.iglesias@skretting.com,german.soriano@skretting.com,calderista.galapagos@skretting.com,mantenimiento.ext@skretting.com,Ericka.Campana@skretting.com,luis.ortiz@skretting.com,facturaelectronica.proveedores@skretting.com,tmecanico.ext@skretting.com,,,fabian.bermeo@skretting.com</field>
+</record>
+
+<record id="cliente_450" model="clientes.inducom">
+      <field name="cod_client">C000145</field>
+      <field name="client">LIRIS S.A</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">wfeican@liris.com.ec,yyepez@liris.com.ec,jduran@liris.com.ec,knaranjo@liris.com.ec,mttogranjas@liris.com.ec,xsalas@liris.com.ec,,</field>
+</record>
+
+<record id="cliente_451" model="clientes.inducom">
+      <field name="cod_client">C000561</field>
+      <field name="client">MEXICHEM ECUADOR S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">eddy.sarango@wavin.com,jonathan.rodriguez@wavin.com,nelson.arevalo@wavin.com,lisbeth.menendez@wavin.com,jonathan.freire@wavin.com,luis.edison.guevara@wavin.com,holguer.mejia@wavin.com,enrique.soriano@wavin.com,richard.villon@wavin.com,walter.santos@wavin.com,freddy.canarte@wavin.com,juan.vanegas@mexichem.com,axel.alava@mexichem.com,,,,,,,xavier.alvarado@mexichem.com,</field>
+</record>
+
+<record id="cliente_452" model="clientes.inducom">
+      <field name="cod_client">C000358</field>
+      <field name="client">OMARSA S.A</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">cmoreira@omarsa.com.ec,jlema@omarsa.com.ec,higienista@omarsa.com.ec,dmateo@omarsa.com.ec,cecilia@omarsa.com.ec,cbarros@omarsa.com.ec,ccarvajal@omarsa.com.ec,,,jcruz@omarsa.com.ec,jparrales@omarsa.com.ec</field>
+</record>
+
+<record id="cliente_453" model="clientes.inducom">
+      <field name="cod_client">C000501</field>
+      <field name="client">PROCESADORA NACIONAL DE ALIMENTOS C.A. PRONACA</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">,,,,,,,lmorales@pronaca.com,,hibonillac@pronaca.com,,foyagualc@pronaca.com, fomaryagual@gmail.com,,,,Jfvillalobost@pronaca.com</field>
+</record>
+
+<record id="cliente_454" model="clientes.inducom">
+      <field name="cod_client">C000231</field>
+      <field name="client">PROMARISCO S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">rllanos@promarisco.com,ebustamante@promarisco.com,achevez@promarisco.com,caja@promarisco.com,cgarcia@promarisco.com,lbanchon@promarisco.com,ffranco@promarisco.com,rdelgadoa@promarisco.com,jtorres@promarisco.com</field>
+</record>
+
+<record id="cliente_455" model="clientes.inducom">
+      <field name="cod_client">C000508</field>
+      <field name="client">PROTEINAS DEL ECUADOR ECUAPROTEIN S.A.</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">,jbarreno@diana-aqua.com,marevalo@diana-aqua.com,eacosta@diana-aqua.com,vortega@diana-aqua.com,jchancay@diana-aqua.com,rsanchez@diana-aqua.com,mpaniagua@diana-aqua.com,hgrijalva@diana-aqua.com,,,,,</field>
+</record>
+
+<record id="cliente_456" model="clientes.inducom">
+      <field name="cod_client">C000715</field>
+      <field name="client">TECNICA, MONTAJE Y MANTENIMIENTO CRUZ S.A. TECMOCRUZ</field>
+      <field name="vendor">JUAN PALOMEQUE</field>
+      <field name="contact">proyectos2@tecmocruz.com,ccruz@tecmocruz.com,proyectos@tecmocruz.com</field>
+</record>
+
+<record id="cliente_457" model="clientes.inducom">
+      <field name="cod_client">C000245</field>
+      <field name="client">ACERIAS NACIONALES DEL ECUADOR SOCIEDAD ANONIMA A.N.D.E.C.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">nquimi@andec.com.ec',hnunez@andec.com.ec',dmino@andec.com.ec,jorrala@andec.com.ec</field>
+</record>
+
+<record id="cliente_458" model="clientes.inducom">
+      <field name="cod_client">C002143</field>
+      <field name="client">ADITIVOS Y ALIMENTOS S.A. ADILISA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jlucio@adilisa.com,rsarmiento@adilisa.com',jlucio@adilisa.com</field>
+</record>
+
+<record id="cliente_459" model="clientes.inducom">
+      <field name="cod_client">C000057</field>
+      <field name="client">AGROINDUSTRIAL FRUTA DE LA PASION CIA. LTDA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jefeplanta@fruta-pasion.com</field>
+</record>
+
+<record id="cliente_460" model="clientes.inducom">
+      <field name="cod_client">C010283</field>
+      <field name="client">AIRPROTEK S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">proyectos@airprotek.com.ec</field>
+</record>
+
+<record id="cliente_461" model="clientes.inducom">
+      <field name="cod_client">C019352</field>
+      <field name="client">AMBIENPAC S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">sgomez@ambienpac.com</field>
+</record>
+
+<record id="cliente_462" model="clientes.inducom">
+      <field name="cod_client">C000247</field>
+      <field name="client">ASTINAVE EP</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">lcabrera@astinave.com.ec,cagila@astinave.com.ec',bandramuno@astinave.com.ec,iholguin@astinave.com',nramirez@astinave.com',eduardo-fernando-cornejo@hotmail.com,vcardenas@astinave.com.ec,vcardenas@astinave.com.ec,cvillalta@astinave.com.ec,lgonzales@astinave.com.ec,cmorales@astinave.com.ec,asanchez@astinave.com.ec,ecajamarca@astinave.com.ec,bonimoran@hotmail.com</field>
+</record>
+
+<record id="cliente_463" model="clientes.inducom">
+      <field name="cod_client">C003195</field>
+      <field name="client">BALZO S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">balzo07@maquinariasbalzo.com,compras@maquinasbalzo.com',balzo_sa@yahoo.com</field>
+</record>
+
+<record id="cliente_464" model="clientes.inducom">
+      <field name="cod_client">C012593</field>
+      <field name="client">BAXTER</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">karen_nacisa_almeida@baxter.com</field>
+</record>
+
+<record id="cliente_465" model="clientes.inducom">
+      <field name="cod_client">C003609</field>
+      <field name="client">BOFLEX S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">j.ricardo_bowen.m@hotmail.com',anieto@boflex.com.ec,ventas@flexman.com.ec,j.ricardo_bowen.m@hotmail.com'</field>
+</record>
+
+<record id="cliente_466" model="clientes.inducom">
+      <field name="cod_client">C000318</field>
+      <field name="client">CARTONES NACIONALES S.A. I CARTOPEL</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">angell1@cartopel1.com</field>
+</record>
+
+<record id="cliente_467" model="clientes.inducom">
+      <field name="cod_client">C019466</field>
+      <field name="client">CASTRO MAGALLANES LISSETH MARIA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">lisetc052@gmail.com</field>
+</record>
+
+<record id="cliente_468" model="clientes.inducom">
+      <field name="cod_client">C018566</field>
+      <field name="client">CIATEITE S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_469" model="clientes.inducom">
+      <field name="cod_client">C003306</field>
+      <field name="client">COFIMAR S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jgarnica@cofimar.com.ec',dalcivarl@cofimar.com.ec',ychavezm@cofimar.com.ec,rmirandaq@cofimara.com.ec,dalcivarl@cofimar.com.ec</field>
+</record>
+
+<record id="cliente_470" model="clientes.inducom">
+      <field name="cod_client">C000273</field>
+      <field name="client">COMPA?IA ANONIMA EL UNIVERSO</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jbustmanate@eluniverso.com</field>
+</record>
+
+<record id="cliente_471" model="clientes.inducom">
+      <field name="cod_client">C019025</field>
+      <field name="client">CONSORCIO ANILLO MACHALA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">compras@anillomahcala.com</field>
+</record>
+
+<record id="cliente_472" model="clientes.inducom">
+      <field name="cod_client">C000120</field>
+      <field name="client">CONSORCIO INTERANDINO, INTERCONSORCIO S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">andres_pluas@hotmail.com</field>
+</record>
+
+<record id="cliente_473" model="clientes.inducom">
+      <field name="cod_client">C010306</field>
+      <field name="client">CORPORACION ELECTRICA DEL ECUADOR CELEC EP</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">freddy.perez@celec.gob.ec</field>
+</record>
+
+<record id="cliente_474" model="clientes.inducom">
+      <field name="cod_client">C003286</field>
+      <field name="client">DAVMERCORP S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mantenimiento@davmecorp.com</field>
+</record>
+
+<record id="cliente_475" model="clientes.inducom">
+      <field name="cod_client">C000080</field>
+      <field name="client">DEGEREMCIA S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">henry.sanchez@degeremcia.com',dario.zuniga@degeremcia.com'</field>
+</record>
+
+<record id="cliente_476" model="clientes.inducom">
+      <field name="cod_client">C000818</field>
+      <field name="client">ELECTROCABLES C.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">malban@electrocable.com</field>
+</record>
+
+<record id="cliente_477" model="clientes.inducom">
+      <field name="cod_client">C019077</field>
+      <field name="client">EMPRESA COMERCIAL VELA LEIVA EMCOVELE S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">pyucta@emcovele.com</field>
+</record>
+
+<record id="cliente_478" model="clientes.inducom">
+      <field name="cod_client">C019324</field>
+      <field name="client">EMPRESA PUBLICA MUNICIPAL DE AGUA POTABLE Y ALCANTARILLADO DE DAULE EMAPA E</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">vmacias@emapadaule.gob.ec</field>
+</record>
+
+<record id="cliente_479" model="clientes.inducom">
+      <field name="cod_client">C000092</field>
+      <field name="client">ENVASES DEL LITORAL S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">facturacioncompras@enlit.com.ec</field>
+</record>
+
+<record id="cliente_480" model="clientes.inducom">
+      <field name="cod_client">C010873</field>
+      <field name="client">FABMER S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jefemantenimiento@fabmersa.com,jefemantenimiento@fabmersa.com</field>
+</record>
+
+<record id="cliente_481" model="clientes.inducom">
+      <field name="cod_client">C000127</field>
+      <field name="client">FABRICA DE ENVASES S. A. FADESA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">pzambrano@grupovilaseca.com',jchiquito@fadesa.com,mgarcia@fadesa.com,fcaicedo@fadesa.com</field>
+</record>
+
+<record id="cliente_482" model="clientes.inducom">
+      <field name="cod_client">C002210</field>
+      <field name="client">FAENADORA INTERNACIONAL DE AVES S.A. FAINASA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">asistentedeproduccion@fainaecuador.com,asistentedeproduccion@fainaecuador.com,jairovilchez2907@gmail.com</field>
+</record>
+
+<record id="cliente_483" model="clientes.inducom">
+      <field name="cod_client">C000274</field>
+      <field name="client">FERTISA , FERTILIZANTES , TERMINALES I SERVICIOS S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">alemartine@favoritafc.com</field>
+</record>
+
+<record id="cliente_484" model="clientes.inducom">
+      <field name="cod_client">C019317</field>
+      <field name="client">FERTISA AGIF C.L.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">gamoroso@favoritafc.com</field>
+</record>
+
+<record id="cliente_485" model="clientes.inducom">
+      <field name="cod_client">C003256</field>
+      <field name="client">FISA FUNDICIONES INDUSTRIALES S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mantenimiento@fisa.com.ec',compras@fisa.com.ec</field>
+</record>
+
+<record id="cliente_486" model="clientes.inducom">
+      <field name="cod_client">C001896</field>
+      <field name="client">FRIGOPESCA C.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mantenimiento@frigopesca.com</field>
+</record>
+
+<record id="cliente_487" model="clientes.inducom">
+      <field name="cod_client">C000006</field>
+      <field name="client">FUTURCORP S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">compras@futurcorp.com,asistente.compras@futurcorp.com,mantenimiento@futurcorp.com,mantenimiento@futurcorp.com</field>
+</record>
+
+<record id="cliente_488" model="clientes.inducom">
+      <field name="cod_client">C003983</field>
+      <field name="client">GENERSA S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">ventas4@genersa.net</field>
+</record>
+
+<record id="cliente_489" model="clientes.inducom">
+      <field name="cod_client">C000123</field>
+      <field name="client">GINSBERG ECUADOR S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mantenimiento@sng.com.ec</field>
+</record>
+
+<record id="cliente_490" model="clientes.inducom">
+      <field name="cod_client">C001256</field>
+      <field name="client">GRUPASA GRUPO PAPELERO CIA. LTDA.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">lguevara@grupasa.com,icarmona@grupasa.com',gmerizalde@grupasa.com,jfleon@grupasa.com,epalacios@grupasa.com,amayaguari@grupasa.com,bcabrera@grupasa.com</field>
+</record>
+
+<record id="cliente_491" model="clientes.inducom">
+      <field name="cod_client">C003023</field>
+      <field name="client">HIDALGO E HIDALGO S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">julio24681@hotmail.com,tsanchez@heh.com.ec</field>
+</record>
+
+<record id="cliente_492" model="clientes.inducom">
+      <field name="cod_client">C018787</field>
+      <field name="client">INDUCEPSA S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">veronica-mora@cepsa.com.ec,veronica.mora@cepsa-com.ec'</field>
+</record>
+
+<record id="cliente_493" model="clientes.inducom">
+      <field name="cod_client">C000543</field>
+      <field name="client">INDUSTRIA ANDINA DE TRANSFORMADORES S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">compras@inatra.com</field>
+</record>
+
+<record id="cliente_494" model="clientes.inducom">
+      <field name="cod_client">C000733</field>
+      <field name="client">INDUSTRIA ECUATORIANA DE CABLES INCABLE S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">tomas.fernandez@incable.com</field>
+</record>
+
+<record id="cliente_495" model="clientes.inducom">
+      <field name="cod_client">C000251</field>
+      <field name="client">INDUSTRIA MOLINERA DE PRODUCTOS ALIMENTICIOS S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jsantana@gnoboa.com</field>
+</record>
+
+<record id="cliente_496" model="clientes.inducom">
+      <field name="cod_client">C000601</field>
+      <field name="client">INDUSTRIAL MOLINERA CA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jsantana@industrialmolinera.com,aabad@industrial,olinera.com</field>
+</record>
+
+<record id="cliente_497" model="clientes.inducom">
+      <field name="cod_client">C000388</field>
+      <field name="client">INDUSTRIAL PESQUERA SANTA PRISCILA S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">cpin@santa-priscila.com',wcruz@santa-priscila.com',kzuniga@santa-priscila.com,cpin@santa-priscila.com',jhorna@santa-priscila.com,esanchez@santa-priscila.com'</field>
+</record>
+
+<record id="cliente_498" model="clientes.inducom">
+      <field name="cod_client">C000654</field>
+      <field name="client">INDUSTRIAL SURINDU S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">carlos.parraga2@ec.nestle.com,Uldarico.Wiesner@EC.nestle.com,Arturo.Cunalata@ec.nestle.com',jorge.salas@ec.nestle.com,Maria.Rivas@ec.nestle.com</field>
+</record>
+
+<record id="cliente_499" model="clientes.inducom">
+      <field name="cod_client">C000701</field>
+      <field name="client">INDUSTRIAL Y COMERCIAL TRILEX C.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">-</field>
+</record>
+
+<record id="cliente_500" model="clientes.inducom">
+      <field name="cod_client">C003866</field>
+      <field name="client">INGENIERIA Y MANTENIMIENTO TOTAL INMATOSA S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">ivloc@hotmail.com,alex.lopezelectrico@gmail.com,gustavobyr@gmail.com</field>
+</record>
+
+<record id="cliente_501" model="clientes.inducom">
+      <field name="cod_client">C001711</field>
+      <field name="client">INT FOOD SERVICES CORP SA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">alvaro.vega@kfc.com.ec'</field>
+</record>
+
+<record id="cliente_502" model="clientes.inducom">
+      <field name="cod_client">C000968</field>
+      <field name="client">IPAC S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">gmartinez@ipac-acero.com',bjara@ipac-acero.com,psanchez@ipac-acero.com',jromero@ipac-acero.com,csuarez@ipac-acero.com,celizalde@ipac-aceto.com,jsandoval@ipac-acero.com</field>
+</record>
+
+<record id="cliente_503" model="clientes.inducom">
+      <field name="cod_client">C000179</field>
+      <field name="client">KIMBERLY CLARK DEL ECUADOR</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jorge.e.villacres@kcc.com,kristel.j.farfan@kcc.com</field>
+</record>
+
+<record id="cliente_504" model="clientes.inducom">
+      <field name="cod_client">C000046</field>
+      <field name="client">KRONOS LABORATORIOS CIA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mantenimiento@kronoslaboratorios.com,mantenimiento@kronoslaboratorios.com</field>
+</record>
+
+<record id="cliente_505" model="clientes.inducom">
+      <field name="cod_client">C000017</field>
+      <field name="client">LA FABRIL S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">ctorres@lafabril.com.ec,asolorzano@lafabril.com.ec,rmorales@lafabril.com.ec,bvega@lafabril.com.ec,jasalas@lafabril.com.ec,rterreros@lafabril.com.ec</field>
+</record>
+
+<record id="cliente_506" model="clientes.inducom">
+      <field name="cod_client">C003170</field>
+      <field name="client">LABORATORIO FARMACEUTICO WEIR S.A. LABFARMAWEIR</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mantenimiento@weir.ec</field>
+</record>
+
+<record id="cliente_507" model="clientes.inducom">
+      <field name="cod_client">C010275</field>
+      <field name="client">LINDE ECUADOR S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">joffre.aro@linde.com</field>
+</record>
+
+<record id="cliente_508" model="clientes.inducom">
+      <field name="cod_client">C018819</field>
+      <field name="client">METROCENTRO S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">aquiroz@santa-priscila.com</field>
+</record>
+
+<record id="cliente_509" model="clientes.inducom">
+      <field name="cod_client">C020058</field>
+      <field name="client">MOLINOS CHAMPION MOCHASA S.A.S.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mquizhpe@mochasa.com.ec,aalmeida@mochasa.com.ec</field>
+</record>
+
+<record id="cliente_510" model="clientes.inducom">
+      <field name="cod_client">C001164</field>
+      <field name="client">MOLINOS CHAMPION S.A. MOCHASA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jlayana@mochasa.com.ec',hjaen@mochasa.com.ec</field>
+</record>
+
+<record id="cliente_511" model="clientes.inducom">
+      <field name="cod_client">C018835</field>
+      <field name="client">MORAN CALDERON JULY ELIZABETH</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">hmdepcomercial@hotmail.com</field>
+</record>
+
+<record id="cliente_512" model="clientes.inducom">
+      <field name="cod_client">9.92385E+11</field>
+      <field name="client">MORENO EDISON CALDERON</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">edisonmoreno_3@yahoo.com</field>
+</record>
+
+<record id="cliente_513" model="clientes.inducom">
+      <field name="cod_client">C011607</field>
+      <field name="client">NEW BEVERAGES DE ECUADOR S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">enrique.mendoza@arcacontal.co</field>
+</record>
+
+<record id="cliente_514" model="clientes.inducom">
+      <field name="cod_client">C003949</field>
+      <field name="client">NOWSERVICE S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">eleanacedeno@nowservice.net',tecnico@nowservice.net</field>
+</record>
+
+<record id="cliente_515" model="clientes.inducom">
+      <field name="cod_client">C000682</field>
+      <field name="client">PDV ECUADOR S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">pinmc@pdvsaecuador.com.ec'</field>
+</record>
+
+<record id="cliente_516" model="clientes.inducom">
+      <field name="cod_client">C000321</field>
+      <field name="client">PICA PLASTICOS INDUSTRIALES C.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">mponce@pika.com.ec,ofic_tecnicoskm7@pika.com.ec,ofic_tecnicoskm7@pika.com.ec',jpico@pika.com.ec'</field>
+</record>
+
+<record id="cliente_517" model="clientes.inducom">
+      <field name="cod_client">C003747</field>
+      <field name="client">PISCO LOPEZ JULIO CESAR</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jpisco2568@gmail.com,msilva@hotmail.com</field>
+</record>
+
+<record id="cliente_518" model="clientes.inducom">
+      <field name="cod_client">C000285</field>
+      <field name="client">PLASTICOS DEL LITORAL PLASTLIT S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">ffalconi@plastlit.com',rmiranda@plastlit.com</field>
+</record>
+
+<record id="cliente_519" model="clientes.inducom">
+      <field name="cod_client">C000096</field>
+      <field name="client">PLASTICOS ECUATORIANOS S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">angel.lecaro@tonicorp.com,alan.cooperf@tonicorp.com,ronny.lopez@tonicorp.com',balzo07@maquinariasbalzo.com</field>
+</record>
+
+<record id="cliente_520" model="clientes.inducom">
+      <field name="cod_client">C000566</field>
+      <field name="client">PLASTIMET S.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">por whatsapp</field>
+</record>
+
+<record id="cliente_521" model="clientes.inducom">
+      <field name="cod_client">C003365</field>
+      <field name="client">PLASTIUNIVERSAL SA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jcedeno@platiuniversal.com'</field>
+</record>
+
+<record id="cliente_522" model="clientes.inducom">
+      <field name="cod_client">C001183</field>
+      <field name="client">PLASTRO S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">epalaez@plastroec.com,jnavarrete@plastroec.com</field>
+</record>
+
+<record id="cliente_523" model="clientes.inducom">
+      <field name="cod_client">C003684</field>
+      <field name="client">POLIQUIM, POLIMEROS Y QUIMICOS C.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">juan.lopez@grupo-orbis.com</field>
+</record>
+
+<record id="cliente_524" model="clientes.inducom">
+      <field name="cod_client">C000986</field>
+      <field name="client">PROCESADORA DE FRUTAS NATURALES PROFRUTAS CIA. LTDA.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">operaciones@pro-frutas.com'</field>
+</record>
+
+<record id="cliente_525" model="clientes.inducom">
+      <field name="cod_client">C001143</field>
+      <field name="client">PROCESADORA DE PLASTICOS PROCEPLAS S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">compras@proceplas.com</field>
+</record>
+
+<record id="cliente_526" model="clientes.inducom">
+      <field name="cod_client">C000064</field>
+      <field name="client">PROCESADORA NACIONAL DE ALIMENTOS C.A. PRONACA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">sbrito@pronaca.com',sfcajoy@pronaca.com',agsalazarv@pronaca.com,ccruz@pronaca.com,sdiaz@pronaca.com</field>
+</record>
+
+<record id="cliente_527" model="clientes.inducom">
+      <field name="cod_client">C001666</field>
+      <field name="client">PROMAPLAST S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">christian.rodriguez@grupohg.com.ec,walter.troya@grupohg.com.ec,karem.mereci@grupohg.com.ec,fausto.jama@grupohg.com</field>
+</record>
+
+<record id="cliente_528" model="clientes.inducom">
+      <field name="cod_client">C000009</field>
+      <field name="client">QUICORNAC S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">vsolis@vinces.quicornac.com,jcastro@quicornac.com,dvelasco@quicornac.com</field>
+</record>
+
+<record id="cliente_529" model="clientes.inducom">
+      <field name="cod_client">C002199</field>
+      <field name="client">QUIMICAMP DEL ECUADOR S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">kortega@quimicamp.com</field>
+</record>
+
+<record id="cliente_530" model="clientes.inducom">
+      <field name="cod_client">C003038</field>
+      <field name="client">RECICLADORA DE PLASTICOS RECIPLASTICOS S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">myubi@recimetal.com,albertocalero_ec@hotmail.com</field>
+</record>
+
+<record id="cliente_531" model="clientes.inducom">
+      <field name="cod_client">C000051</field>
+      <field name="client">REFRESCOS SIN GAS S.A. RE.S.GA.SA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">contador.costo@resgasa.com.ec</field>
+</record>
+
+<record id="cliente_532" model="clientes.inducom">
+      <field name="cod_client">C020059</field>
+      <field name="client">SANCHEZ PAZMI?O ALEXANDRA ESTEFANIA</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">Asanchezp4@est.ups.edu.ec</field>
+</record>
+
+<record id="cliente_533" model="clientes.inducom">
+      <field name="cod_client">C000586</field>
+      <field name="client">SOCIEDAD NACIONAL DE GALAPAGOS C.A</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">dguerrero@songa.com,elopez@songa.com,ccastellanos@songa.com,elucin@songa.com,fortega@songa.com,silvia.duchi@songa.com</field>
+</record>
+
+<record id="cliente_534" model="clientes.inducom">
+      <field name="cod_client">C000279</field>
+      <field name="client">SUMESA S. A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">apluas@sumesa.com.ec,jlzambrano@sumesa.com.ec'</field>
+</record>
+
+<record id="cliente_535" model="clientes.inducom">
+      <field name="cod_client">C002052</field>
+      <field name="client">SWISSOIL DEL ECUADOR S.A. SWISSOIL</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">gomezjl@swissoil.com.ec,valdebe@swissoil.com.ec</field>
+</record>
+
+<record id="cliente_536" model="clientes.inducom">
+      <field name="cod_client">C001741</field>
+      <field name="client">THE TESALIA SPRINGS COMPANY S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jmrivera@cbc.co',mantenimiento.industrial@resgasa.com.ec,fcaicedo@cbc.co,lquisnancela@cbc.co,ljimenez@cbc.co,lgarcia@cbc.co,avalarezo@grupasa.com</field>
+</record>
+
+<record id="cliente_537" model="clientes.inducom">
+      <field name="cod_client">C002438</field>
+      <field name="client">UNION VINICOLA INTERNACIONAL S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">fernando@unionvinicola.com</field>
+</record>
+
+<record id="cliente_538" model="clientes.inducom">
+      <field name="cod_client">C000275</field>
+      <field name="client">UNIVERSAL SWEET INDUSTRIES S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">gzambrano@usi.com.ec,jmarmol@usi.com.ec,ofic_tecnicoskm7@pika.com.ec',ytoro@usi.com.ec,jsantana@industrialmolinera.com,obravo@usi.com.ec,abalon@usi.com.ec,eortega@usi.com.ec,jcanarte@usi.com.ec</field>
+</record>
+
+<record id="cliente_539" model="clientes.inducom">
+      <field name="cod_client">9.09663E+11</field>
+      <field name="client">VILLACIS SUAREZ JAVIER ORLANDO</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">jovmetalmechanic_64@hotmail.com</field>
+</record>
+
+<record id="cliente_540" model="clientes.inducom">
+      <field name="cod_client">C019167</field>
+      <field name="client">XL MAQUINARIAS S.A.</field>
+      <field name="vendor">FRANKLIN MAJI</field>
+      <field name="contact">pablo@ixlmaquinarias.com</field>
+</record>
+
+<record id="cliente_541" model="clientes.inducom">
+      <field name="cod_client">C010949</field>
+      <field name="client">AGRO - SISTEMRIEGO CIA. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">agrosistemriego@hotmail.com,agrosistemriego@hotmail.com</field>
+</record>
+
+<record id="cliente_542" model="clientes.inducom">
+      <field name="cod_client">C003577</field>
+      <field name="client">AGUAS DEL ECUADOR ADE CIA.LTDA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">laboratorioade1@gmail.com</field>
+</record>
+
+<record id="cliente_543" model="clientes.inducom">
+      <field name="cod_client">C001601</field>
+      <field name="client">ARTESA C LTDA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">comprasartesa@cermosa.com.ec</field>
+</record>
+
+<record id="cliente_544" model="clientes.inducom">
+      <field name="cod_client">C012795</field>
+      <field name="client">BERMEO VALLEJO JOSE</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact"></field>
+</record>
+
+<record id="cliente_545" model="clientes.inducom">
+      <field name="cod_client">C012323</field>
+      <field name="client">CAJAS CARANQUI JORGE (INGEMET)</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">ingemet.conta@gmail.com</field>
+</record>
+
+<record id="cliente_546" model="clientes.inducom">
+      <field name="cod_client">C019852</field>
+      <field name="client">CHUNGATA JUCA KLEBER VINICIO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">Klevech@yahoo.com</field>
+</record>
+
+<record id="cliente_547" model="clientes.inducom">
+      <field name="cod_client">C003350</field>
+      <field name="client">COMPANIA DE ECONOMIA MIXTA AUSTROGAS</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">yvillacis@austrogas.com.ec,sguaman@austrogas.com.ec</field>
+</record>
+
+<record id="cliente_548" model="clientes.inducom">
+      <field name="cod_client">C019739</field>
+      <field name="client">CONSTRUCTORAGUABISAY CIA.LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">gerenciaguabisay@gmail.com,juan_andino@hotmail.com</field>
+</record>
+
+<record id="cliente_549" model="clientes.inducom">
+      <field name="cod_client">C000498</field>
+      <field name="client">CORPORACION AZENDE S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">juan.garay@azende.com,,pablo.mendez@azende.com</field>
+</record>
+
+<record id="cliente_550" model="clientes.inducom">
+      <field name="cod_client">C020172</field>
+      <field name="client">EMPRESA PUBLICA MUNICIPAL DE AGUA POTABLE Y SANEAMINETO DE PORTOVIEJO PORTOAGUAS E.P,</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">julio_guillen@portoaguas.gob.ec</field>
+</record>
+
+<record id="cliente_551" model="clientes.inducom">
+      <field name="cod_client">C010904</field>
+      <field name="client">HOSPITAL GENERAL HOMERO CASTANIER</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jorgevillareal89@hotmail.com</field>
+</record>
+
+<record id="cliente_552" model="clientes.inducom">
+      <field name="cod_client">C003842</field>
+      <field name="client">HUASIPUNGO CIA LTDA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">huasipungocialtda@gmail.com</field>
+</record>
+
+<record id="cliente_553" model="clientes.inducom">
+      <field name="cod_client">C000126</field>
+      <field name="client">INDUATENAS S A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">epilatasig@graiman.com,aperez@graiman.com,miltonhcabrerav@hotmail.com</field>
+</record>
+
+<record id="cliente_554" model="clientes.inducom">
+      <field name="cod_client">C000106</field>
+      <field name="client">INDUGLOB S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">rarevalo@indurama.com,ptamayo@indurama.com,fcordero@indurama.com</field>
+</record>
+
+<record id="cliente_555" model="clientes.inducom">
+      <field name="cod_client">C012362</field>
+      <field name="client">INDUPLEXA S.A</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">luisbuele@gmail.com</field>
+</record>
+
+<record id="cliente_556" model="clientes.inducom">
+      <field name="cod_client">C010102</field>
+      <field name="client">INDUSTRIA DE ALIMENTOS LA EUROPEA CIA. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">aux.compras@laeuropea.com.ec,Mecanica@laeuropea.com.ec</field>
+</record>
+
+<record id="cliente_557" model="clientes.inducom">
+      <field name="cod_client">C020168</field>
+      <field name="client">INDUSTRIA DE LICORES</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">control.calidad@licorec.com,erika.lopez@licorec.com</field>
+</record>
+
+<record id="cliente_558" model="clientes.inducom">
+      <field name="cod_client">C000375</field>
+      <field name="client">INTAL CIA. LTDA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">bodega@aguaintal.com,ingenieriaintal@gmail.com,ingenieriaintal@gmail.com</field>
+</record>
+
+<record id="cliente_559" model="clientes.inducom">
+      <field name="cod_client">C002615</field>
+      <field name="client">ITALPISOS SA</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jefemntomec@italpisos.com.ec</field>
+</record>
+
+<record id="cliente_560" model="clientes.inducom">
+      <field name="cod_client">C020265</field>
+      <field name="client">LABORATORIOS INDUSTRIALES FARM</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">german.cadena@life.com.ec</field>
+</record>
+
+<record id="cliente_561" model="clientes.inducom">
+      <field name="cod_client">C002444</field>
+      <field name="client">LACTEOS SAN ANTONIO C.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">alfonso.zumba@nutri.com.ec,Marcos.Peralta@nutrileche.com.ec</field>
+</record>
+
+<record id="cliente_562" model="clientes.inducom">
+      <field name="cod_client">C020106</field>
+      <field name="client">MISE HERRERA DIEGO SEGUNDO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">diegomise_@hotmail.com</field>
+</record>
+
+<record id="cliente_563" model="clientes.inducom">
+      <field name="cod_client">C003362</field>
+      <field name="client">PASTIFICIO TOMEBAMBA CIA. LTDA.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">jn_carlosmaxi@hotmail.com,diany-1996@hotmail.com</field>
+</record>
+
+<record id="cliente_564" model="clientes.inducom">
+      <field name="cod_client">C003427</field>
+      <field name="client">SARMIENTO PESANTEZ RICHARD ALFONSO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">aquaquimicaec@gmail.com</field>
+</record>
+
+<record id="cliente_565" model="clientes.inducom">
+      <field name="cod_client">C003332</field>
+      <field name="client">UNION CEMENTERA NACIONAL UCEM S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">amendez@ucem.com.ec,krojas@ucem.com.ec,ptenezaca@ucem.com.ec,pfrojas@ucem.com.ec</field>
+</record>
+
+<record id="cliente_566" model="clientes.inducom">
+      <field name="cod_client">C011328</field>
+      <field name="client">VINTIMILLA LOPEZ MARLON ESTUARDO</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">montama73@gmail.com</field>
+</record>
+
+<record id="cliente_567" model="clientes.inducom">
+      <field name="cod_client">C019885</field>
+      <field name="client">ZADA INGENIERIA S.A.</field>
+      <field name="vendor">DANIEL SILVA</field>
+      <field name="contact">administraciontec@lojagas.com</field>
+</record>
+
+
+</odoo>

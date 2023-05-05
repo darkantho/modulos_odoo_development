@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<odoo>
+
+
+    <menuitem id="menu_marcaciones_root"
+              name="Marcaciones"
+              web_icon="modulo_operaciones,static/description/operaciones.png"
+              sequence="30"/>
+
+    <menuitem id="marcaciones_menu"
+            name="Nueva Marcacion"
+            action="action_marcacion"
+            parent="menu_marcaciones_root"
+            sequence="1"/>
+
+
+
+</odoo>
